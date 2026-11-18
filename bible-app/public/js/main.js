@@ -12,18 +12,19 @@ import { renderHighlights } from "./views/highlightsList.js";
 import { renderBackup } from "./views/backup.js";
 import { renderVocab, renderWord, renderStudy, renderSummary } from "./views/vocabulary.js";
 import * as vocab from "./data/vocab.js";
+import { createNav } from "./components/appNav.js";
 
 const app = document.getElementById("app");
 const header = h("header.masthead");
 const main = h("div#view");
-app.replaceChildren(header, main);
+const nav = createNav();
+app.replaceChildren(nav.el, h("div.appmain", header, main));
 
 function defaultHeader() {
   header.replaceChildren(
     h("div.masthead__side", h("a.wordmark", { href: "#home" }, h("span.wordmark__zh", "读经"), h("span.wordmark__en", "Scripture & Mandarin"))),
     h("div.masthead__title"),
     h("div.masthead__side.masthead__side--end",
-      h("a.btn.nav-vocab", { href: "#vocab" }, icon("notebook"), h("span.nav-vocab__label", "Vocabulary"), h("span.zh.nav-vocab__zh", "生词本")),
       h("a.btn.btn--icon", { href: "#search", "aria-label": "Search" }, icon("search")),
       h("a.btn.btn--icon", { href: "#about", "aria-label": "Sources and licensing" }, icon("info"))));
 }
@@ -31,6 +32,7 @@ function defaultHeader() {
 let seq = 0;
 async function onRoute(route) {
   const mine = ++seq;
+  nav.update(route);
   if (route.name !== "read") { leaveReader(); defaultHeader(); }
   try {
     switch (route.name) {
@@ -44,10 +46,8 @@ async function onRoute(route) {
       case "study-summary": renderSummary(main); break;
       case "backup": renderBackup(main); break;
       case "highlights": await renderHighlights(main); scrollTo(0, 0); break;
-      case "notebook": case "study":
-        main.replaceChildren(h("main.page", h("div.folio", h("h1.folio__title", "My Notebook"), h("a.folio__meta", { href: "#home" }, "Back to library")),
-          h("p.notice", "Bookmarks, highlights and personal notes are built in phase 4. Your saved words are in ", h("a", { href: "#vocab" }, "Vocabulary"), ".")));
-        break;
+      case "plans": await renderLibrary(main, "plans"); scrollTo(0, 0); break;
+      case "notebook": case "study": await renderLibrary(main, "notebook"); scrollTo(0, 0); break;
       default: await renderLibrary(main); scrollTo(0, 0);
     }
   } catch (e) {

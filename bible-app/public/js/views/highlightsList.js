@@ -9,7 +9,7 @@ export async function renderHighlights(root) {
   const list = h("div.hl-list");
   const filters = h("div.hl-filters");
   root.replaceChildren(h("main.page.hl-page",
-    h("div.folio", h("h1.folio__title", "Highlights", h("span.zh", "标记")), h("a.folio__meta", { href: "#home" }, "← Library")),
+    h("div.folio", h("h1.folio__title", "Highlights", h("span.zh", "标记")), h("a.folio__meta", { href: "#notebook" }, "← My Notebook")),
     filters, list));
 
   const paint = () => {

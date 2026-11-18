@@ -62,6 +62,7 @@ async def main():
         await page.goto(f"{BASE}#home"); await page.wait_for_selector(".booklist")
         avail = await page.evaluate("[...document.querySelectorAll('a.bookrow.is-available .bookrow__en')].map(e=>e.textContent)")
         check("John" in avail and "1 John" in avail, f"library lists John and 1 John as available ({avail})")
+        await page.goto(f"{BASE}#plans"); await page.wait_for_selector(".ledger")
         check("1 John in 5 days" in await page.inner_text("body"), "reading plan: 1 John in 5 days")
         # audio
         await page.goto(f"{BASE}#read-1JN-1"); await page.wait_for_selector(".verse")

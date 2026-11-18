@@ -9,7 +9,7 @@ export function parse(hash = location.hash) {
   if ((m = h.match(/^read-([0-9A-Z]{3})-(\d+)(?:-(\d+))?$/)))
     return { name: "read", book: m[1], chapter: +m[2], verse: m[3] ? +m[3] : null };
   if ((m = h.match(/^word-([0-9a-f-]+)$/))) return { name: "word", hex: m[1] };
-  if (/^(search|about|notebook|vocab|cards|study|study-session|study-summary|highlights|backup)$/.test(h)) return { name: h };
+  if (/^(search|about|plans|notebook|vocab|cards|study|study-session|study-summary|highlights|backup)$/.test(h)) return { name: h };
   return { name: "home" };
 }
 

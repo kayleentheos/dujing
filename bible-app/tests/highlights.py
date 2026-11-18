@@ -99,7 +99,7 @@ async def main():
         check(after == before and painted > 0, f"highlights survive reload and changing chapter ({len(after)} records, {painted} painted words)")
 
         # notebook list
-        await page.goto(f"{BASE}#home"); await page.wait_for_selector(".ledger")
+        await page.goto(f"{BASE}#notebook"); await page.wait_for_selector(".ledger")
         nb = await page.inner_text(".ledger >> nth=-1"); check("Highlights" in nb and f"{len(after)} passage" in nb.lower(), f"Library notebook counts highlights ({nb[-160:]!r})")
         await page.goto(f"{BASE}#highlights"); await page.wait_for_selector(".hl-row")
         rows = await page.locator(".hl-row").count()

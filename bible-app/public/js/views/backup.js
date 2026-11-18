@@ -39,7 +39,7 @@ export function renderBackup(root) {
   };
   const area = h("textarea.backup-text", { readonly: true, hidden: true, rows: 10 }, json);
   root.replaceChildren(h("main.page.backup-page",
-    h("div.folio", h("h1.folio__title", "Back up my data", h("span.zh", "备份")), h("a.folio__meta", { href: "#home" }, "← Library")),
+    h("div.folio", h("h1.folio__title", "Back up my data", h("span.zh", "备份")), h("a.folio__meta", { href: "#notebook" }, "← My Notebook")),
     h("p.lede-small", "A complete copy of everything you have saved in 读经, as one file. Keep it somewhere safe; the new version of the app will be able to import it."),
     h("ul.backup-list",
       h("li", h("b", String(b.collections.vocab.length)), " vocabulary words, with every verse they are linked to"),

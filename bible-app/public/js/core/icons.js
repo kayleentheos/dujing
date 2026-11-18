@@ -17,6 +17,9 @@ const P = {
   notebook: '<rect x="5" y="3.5" width="14" height="17" rx="1"/><path d="M9 3.5v17M12 8h4M12 11h4"/>',
   info: '<circle cx="12" cy="12" r="8"/><path d="M12 11v5M12 8v.01"/>',
   play: '<path d="M8 5l11 7-11 7z"/>',
+  plans: '<rect x="4" y="5" width="16" height="15" rx="1"/><path d="M4 9.5h16M8.5 3v4M15.5 3v4M8 14l2.5 2.5L16 12"/>',
+  bible: '<path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/>',
+  sidebar: '<rect x="4" y="5" width="16" height="14" rx="1"/><path d="M9.5 5v14"/>',
 };
 export function icon(name, label) {
   const span = document.createElement("span");

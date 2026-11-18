@@ -284,7 +284,7 @@ def test(code, all_suites=False):
     srv = subprocess.Popen([sys.executable, "-m", "http.server", "8765"], cwd=f"{ROOT}/public", stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     try:
         import time; time.sleep(1)
-        suites = [("book_generic.py", code)] + ([(s, None) for s in ("phase3.py", "audio.py", "srs_ui.py", "highlights.py", "backup.py")] if all_suites else [])
+        suites = [("book_generic.py", code)] + ([(s, None) for s in ("phase3.py", "audio.py", "srs_ui.py", "highlights.py", "backup.py", "nav.py", "book_1jn.py", "book_2_3jn.py", "book_mrk.py")] if all_suites else [])
         bad = 0
         for s, arg in suites:
             r = subprocess.run([sys.executable, f"tests/{s}"] + ([arg] if arg else []), cwd=ROOT, capture_output=True, text=True)

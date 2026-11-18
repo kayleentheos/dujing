@@ -17,10 +17,13 @@ const PLANS = [
   { id: "custom", title: "Custom plan", zh: "自订计划", desc: "Choose your own books and pace." },
 ];
 
-export async function renderLibrary(root) {
+// section: "bible" (home), "plans" or "notebook" — the three destinations of the app navigation
+export async function renderLibrary(root, section = "bible") {
   const [canon, cuvMeta, webMeta] = await Promise.all([repo.canon(), repo.translationMeta("cuv"), repo.translationMeta("web")]);
   const progress = store.get("progress");
   const page = h("main.page");
+  if (section === "plans") { root.replaceChildren(plansPage(page, canon, progress)); return; }
+  if (section === "notebook") { root.replaceChildren(notebookPage(page)); return; }
 
   // ---------- folio line
   page.append(h("div.folio",
@@ -83,7 +86,16 @@ export async function renderLibrary(root) {
   browse.append(cols);
   page.append(browse);
 
-  // ---------- 03 reading plans
+  // ---------- colophon (translation credits)
+  page.append(h("footer.colophon",
+    h("span", h("span.zh", cuvMeta.name.zh), " — ", cuvMeta.license.status, " · ", webMeta.name.en, " — ", webMeta.license.status),
+    h("a", { href: "#about" }, "Sources, licensing & editions")));
+
+  root.replaceChildren(page);
+}
+
+function plansPage(page, canon, progress) {
+  page.append(h("div.folio", h("h1.folio__title", "Reading Plans", h("span.zh", "读经计划")), h("span.folio__meta", "One chapter a day")));
   const plans = h("div.ledger");
   for (const p of PLANS) {
     if (p.book) {
@@ -101,23 +113,22 @@ export async function renderLibrary(root) {
         h("p.ledger__desc", h("span.zh", p.zh), " · ", p.desc)));
     }
   }
-  page.append(h("section.section", head("03", "Reading Plans", "读经计划"), plans));
 
-  // ---------- 04 notebook
+  page.append(plans);
+  return page;
+}
+
+function notebookPage(page) {
+  page.append(h("div.folio", h("h1.folio__title", "My Notebook", h("span.zh", "我的笔记本")), h("span.folio__meta", "Your words, highlights and data")));
   const nb = h("div.ledger",
     vocabItem(),
     nbItem("Bookmarked verses", "书签", "Verses you mark to return to.", "#study", "phase-4"),
     nbItem("Personal annotations", "笔记", "Reflections attached to verses, searchable by book.", "#study", "phase-4"),
     hlItem(),
     h("a.ledger__item", { href: "#backup" }, h("div.ledger__title", h("span", "Back up my data")), h("p.ledger__desc", h("span.zh", "备份"), " · Download a complete copy of your words, review history, highlights, settings and progress.")));
-  page.append(h("section.section", head("04", "My Notebook", "我的笔记本"), nb));
 
-  // ---------- colophon (translation credits)
-  page.append(h("footer.colophon",
-    h("span", h("span.zh", cuvMeta.name.zh), " — ", cuvMeta.license.status, " · ", webMeta.name.en, " — ", webMeta.license.status),
-    h("a", { href: "#about" }, "Sources, licensing & editions")));
-
-  root.replaceChildren(page);
+  page.append(nb);
+  return page;
 }
 
 function head(num, title, zh, aside) {

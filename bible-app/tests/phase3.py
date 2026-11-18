@@ -122,7 +122,7 @@ async def main():
         # 5 navigate away; 6 open vocabulary; 7 still there
         await page.goto(f"{BASE}#home"); await page.wait_for_selector(".continue__book")
         await page.reload(); await page.wait_for_selector(".continue__book")
-        await page.click(".nav-vocab"); await page.wait_for_selector(".vocab-entry")
+        await page.click('.appnav__item[data-id="notebook"]'); await page.click('a.ledger__item[href="#vocab"]'); await page.wait_for_selector(".vocab-entry")
         entries = await page.evaluate("[...document.querySelectorAll('.vocab-entry__word')].map(e=>e.textContent)")
         check(entries == ["生命"], f"Vocabulary lists the word after leaving and reloading: {entries}")
         txt = await page.inner_text(".vocab-entry")
