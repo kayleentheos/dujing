@@ -23,7 +23,8 @@ bible-app/          the live app (vanilla JS, published as a Claude artifact)
   published.json    hashes of public/ at the last publish
 dujing/             the future web app (Next.js + TypeScript, npm workspaces) — Phase 1 done, Phase 2 (accounts) not started
 ```
-Live artifact slug: `c0ef4150-c2f3-4cfa-8fbb-28a276ac63bf` (multi-file; publish with `publish_files`; last published version 1795020009-885b).
+Live website: **https://dujing-public.vercel.app** — Vercel project `dujing-public`, Root Directory `bible-app/public`, preset Other, no build; every push to `main` redeploys automatically (saves to the browser; no accounts yet).
+Claude artifact (private, synced to Kayleen's Claude account; updated only by hand) slug: `c0ef4150-c2f3-4cfa-8fbb-28a276ac63bf` (multi-file; publish with `publish_files`; last published version 1795020009-885b).
 
 ## Status (2026-11-18)
 | Book | Text + words + dictionary | Audio |
@@ -54,9 +55,9 @@ python3 tools/book.py prepare PHP      # import → align → verify → canon �
 python3 tools/book.py rebuild          # re-run words+dictionary for ALL books; shows changes vs last commit
 python3 tools/book.py audio PHP        # voice only; add --check for the speech-to-text check (costs STT time)
 python3 tools/book.py test PHP         # browser test (add --all for every suite)
-python3 tools/book.py publish-list     # JSON list of changed public/ files → publish_files to the slug above
+git add -A && git commit -m "Add Philippians" && git push   # → website updates in ~1 min
+python3 tools/book.py publish-list     # optional: JSON list of changed files → publish_files to the artifact
 python3 tools/book.py mark-published
-git add -A && git commit -m "Add Philippians" && git push
 ```
 Also: `redo BOOK CH` re-records chapters after fixing a reading. Library reading plans live in
 `public/js/views/library.js`. Book abbreviations for search come from `tools/build_canon.py` (`ZH_ABBR`).
