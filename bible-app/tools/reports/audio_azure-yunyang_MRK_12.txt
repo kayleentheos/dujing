@@ -1,0 +1,44 @@
+MRK.12.1: homophone only 园->原
+MRK.12.2: homophone only 园->圆 园->元
+MRK.12.3: homophone only 园->元
+MRK.12.4: exact
+MRK.12.5: exact
+MRK.12.6: FLAG replace: expected 末[mò] heard 幕[mù]
+MRK.12.7: homophone only 园->元
+MRK.12.8: exact
+MRK.12.9: homophone only 园->元
+MRK.12.10: homophone only 弃->砌 作->做
+MRK.12.11: homophone only 希->稀
+MRK.12.12: exact
+MRK.12.13: FLAG replace: expected 希律[xī lǜ] heard 新绿[xīn lǜ]
+MRK.12.14: FLAG replace: expected 徇[xùn] heard 信[xìn]
+MRK.12.15: exact
+MRK.12.16: homophone only 像->项
+MRK.12.17: homophone only 物->雾 物->雾 希->稀
+MRK.12.18: FLAG replace: expected 都该[dū gāi] heard 度甘[dù gān]
+MRK.12.19: homophone only 立->利
+MRK.12.20: exact
+MRK.12.21: exact
+MRK.12.22: exact
+MRK.12.23: homophone only 她->他
+MRK.12.24: exact
+MRK.12.25: homophone only 像->向
+MRK.12.26: exact
+MRK.12.27: exact
+MRK.12.28: homophone only 晓->小 得->的
+MRK.12.29: exact
+MRK.12.30: homophone only 性->兴
+MRK.12.31: FLAG replace: expected 诫[jiè] heard 贱[jiàn]
+MRK.12.32: exact
+MRK.12.33: homophone only 燔->凡 祭->忌 的->得
+MRK.12.34: exact
+MRK.12.35: FLAG replace: expected 殿里[diàn lǐ] heard 电力[diàn lì]
+MRK.12.36: homophone only 作->坐
+MRK.12.37: homophone only 既->继
+MRK.12.38: homophone only 长->肠
+MRK.12.39: FLAG replace: expected 筵[yán] heard 宴[yàn]
+MRK.12.40: homophone only 作->做
+MRK.12.41: exact
+MRK.12.42: exact
+MRK.12.43: exact
+MRK.12.44: exact

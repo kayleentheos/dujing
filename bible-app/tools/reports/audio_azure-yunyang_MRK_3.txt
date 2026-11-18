@@ -1,0 +1,35 @@
+MRK.3.1: homophone only 枯->哭
+MRK.3.2: exact
+MRK.3.3: homophone only 枯->哭
+MRK.3.4: exact
+MRK.3.5: homophone only 原->缘
+MRK.3.6: exact
+MRK.3.7: exact
+MRK.3.8: exact
+MRK.3.9: exact
+MRK.3.10: exact
+MRK.3.11: homophone only 污->乌
+MRK.3.12: homophone only 地->的 他->它
+MRK.3.13: exact
+MRK.3.14: exact
+MRK.3.15: exact
+MRK.3.16: exact
+MRK.3.17: homophone only 庇->必 太->泰 其->奇
+MRK.3.18: homophone only 得->德 腓->肥 太->泰 锐->瑞
+MRK.3.19: FLAG replace: expected 加略[jiā lüè] heard 家里[jiā lǐ]
+MRK.3.20: exact
+MRK.3.21: homophone only 就->救
+MRK.3.22: exact
+MRK.3.23: homophone only 但->旦 但->旦
+MRK.3.24: exact
+MRK.3.25: exact
+MRK.3.26: homophone only 但->旦
+MRK.3.27: exact
+MRK.3.28: homophone only 世->是
+MRK.3.29: exact
+MRK.3.30: homophone only 污->巫
+MRK.3.31: exact
+MRK.3.32: homophone only 哪->啊
+MRK.3.33: exact
+MRK.3.34: homophone only 哪->啊
+MRK.3.35: exact

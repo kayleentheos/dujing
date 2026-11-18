@@ -1,0 +1,50 @@
+JHN.12.1: FLAG replace: expected 撒[sā] heard 萨[sà]
+JHN.12.2: FLAG replace: expected 筵[yán] heard 宴[yàn]; replace: expected 撒[sā] heard 萨[sà]; replace: expected 同[tóng] heard 统[tǒng]
+JHN.12.3: FLAG replace: expected 哪哒[nǎ dá] heard 打搭[dǎ dā]
+JHN.12.4: FLAG replace: expected 加略[jiā lüè] heard 家里[jiā lǐ]
+JHN.12.5: homophone only 香->箱 膏->糕 济->寄
+JHN.12.6: homophone only 钱->潜
+JHN.12.7: homophone only 她->他 她->他
+JHN.12.8: exact
+JHN.12.9: exact
+JHN.12.10: homophone only 祭->季
+JHN.12.11: FLAG replace: expected 因[yīn] heard 一[yī]
+JHN.12.12: exact
+JHN.12.13: homophone only 奉->凤 是->室
+JHN.12.14: homophone only 驹->车
+JHN.12.15: FLAG replace: expected 驴驹[lǘ jū] heard 旅居[lǚ jū]
+JHN.12.16: homophone only 事->是 向->像
+JHN.12.17: homophone only 作->做
+JHN.12.18: exact
+JHN.12.19: homophone only 哪->啊
+JHN.12.20: exact
+JHN.12.21: homophone only 伯->博 赛->塞
+JHN.12.22: homophone only 得->德 得->德
+JHN.12.23: exact
+JHN.12.24: homophone only 地->的 结->接 子->籽
+JHN.12.25: exact
+JHN.12.26: homophone only 事->侍 事->侍 事->侍 父->复
+JHN.12.27: homophone only 救->就
+JHN.12.28: exact
+JHN.12.29: exact
+JHN.12.30: exact
+JHN.12.31: homophone only 要->耀
+JHN.12.32: exact
+JHN.12.33: exact
+JHN.12.34: FLAG replace: expected 子[zǐ] heard 字[zì]; replace: expected 子[zǐ] heard 字[zì]
+JHN.12.35: homophone only 临->淋
+JHN.12.36: exact
+JHN.12.37: exact
+JHN.12.38: homophone only 膀->绑 臂->壁
+JHN.12.39: exact
+JHN.12.40: homophone only 叫->教
+JHN.12.41: exact
+JHN.12.42: FLAG replace: expected 长[zhǎng] heard 场[chǎng]
+JHN.12.43: exact
+JHN.12.44: homophone only 差->拆
+JHN.12.45: homophone only 差->拆
+JHN.12.46: exact
+JHN.12.47: exact
+JHN.12.48: homophone only 弃->气
+JHN.12.49: homophone only 惟->唯 差->拆 父->富
+JHN.12.50: exact

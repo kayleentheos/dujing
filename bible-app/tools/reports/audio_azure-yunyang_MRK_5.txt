@@ -1,0 +1,43 @@
+MRK.5.1: exact
+MRK.5.2: homophone only 污->巫
+MRK.5.3: exact
+MRK.5.4: homophone only 伏->服
+MRK.5.5: exact
+MRK.5.6: exact
+MRK.5.7: exact
+MRK.5.8: homophone only 污->乌
+MRK.5.9: exact
+MRK.5.10: homophone only 地->的
+MRK.5.11: exact
+MRK.5.12: exact
+MRK.5.13: homophone only 污->巫 就->救 猪->珠
+MRK.5.14: exact
+MRK.5.15: exact
+MRK.5.16: homophone only 附->腹 遇->预
+MRK.5.17: exact
+MRK.5.18: exact
+MRK.5.19: homophone only 是->事
+MRK.5.20: homophone only 希->稀
+MRK.5.21: exact
+MRK.5.22: homophone only 睚->雅
+MRK.5.23: homophone only 地->的 她->他 她->他
+MRK.5.24: exact
+MRK.5.25: FLAG replace: expected 漏[lòu] heard 肉[ròu]
+MRK.5.26: homophone only 她->他 势->是
+MRK.5.27: homophone only 她->他 杂->砸
+MRK.5.28: exact
+MRK.5.29: FLAG replace: expected 漏[lòu] heard 肉[ròu]
+MRK.5.30: exact
+MRK.5.31: exact
+MRK.5.32: exact
+MRK.5.33: FLAG replace: expected 兢[jīng] heard 争[zhēng]
+MRK.5.34: homophone only 她->他 地->的
+MRK.5.35: exact
+MRK.5.36: exact
+MRK.5.37: exact
+MRK.5.38: homophone only 会->惠 地->的 号->嚎
+MRK.5.39: exact
+MRK.5.40: exact
+MRK.5.41: homophone only 她->他 古->谷
+MRK.5.42: homophone only 地->的
+MRK.5.43: homophone only 她->他

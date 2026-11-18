@@ -1,0 +1,25 @@
+JHN.21.1: homophone only 哩->里
+JHN.21.2: homophone only 和->合 土->图 迦->加 但->蛋 业->液 庇->必 太->泰
+JHN.21.3: exact
+JHN.21.4: exact
+JHN.21.5: exact
+JHN.21.6: homophone only 必->避
+JHN.21.7: homophone only 是->事 束->树
+JHN.21.8: FLAG replace: expected 肘[zhǒu] heard 种[zhǒng]
+JHN.21.9: exact
+JHN.21.10: exact
+JHN.21.11: FLAG replace: expected 了[le] heard 的[de]
+JHN.21.12: homophone only 是->事
+JHN.21.13: exact
+JHN.21.14: FLAG replace: expected 死里[sǐ lǐ] heard 私立[sī lì]
+JHN.21.15: exact
+JHN.21.16: homophone only 养->羊
+JHN.21.17: homophone only 喂->未
+JHN.21.18: homophone only 地->的 束->竖 带->袋 束->树
+JHN.21.19: exact
+JHN.21.20: homophone only 膛->堂 那->内
+JHN.21.21: exact
+JHN.21.22: exact
+JHN.21.23: exact
+JHN.21.24: homophone only 作->做 他->它
+JHN.21.25: homophone only 地->的

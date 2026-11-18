@@ -1,0 +1,29 @@
+1JN.2.1: FLAG replace: expected 义[yì] heard 一[yī]
+1JN.2.2: homophone only 作->做 祭->计
+1JN.2.3: homophone only 他->它 他->它
+1JN.2.4: exact
+1JN.2.5: exact
+1JN.2.6: exact
+1JN.2.7: homophone only 旧->就
+1JN.2.8: exact
+1JN.2.9: exact
+1JN.2.10: FLAG replace: expected 爱[ài] heard 挨[āi]
+1JN.2.11: homophone only 惟->唯
+1JN.2.12: homophone only 哪->啊
+1JN.2.13: homophone only 父->傅 哪->啊
+1JN.2.14: FLAG replace: expected 常[cháng] heard 长[zhǎng]
+1JN.2.15: homophone only 他->它
+1JN.2.16: homophone only 父->复
+1JN.2.17: homophone only 惟->唯 常->长
+1JN.2.18: homophone only 哪->啊 末->没
+1JN.2.19: FLAG delete: expected 必[bì] heard []
+1JN.2.20: homophone only 圣->胜 膏->高
+1JN.2.21: FLAG replace: expected 因[yīn] heard 以[yǐ]
+1JN.2.22: exact
+1JN.2.23: homophone only 父->富 父->富
+1JN.2.24: homophone only 务->勿 常->长
+1JN.2.25: exact
+1JN.2.26: exact
+1JN.2.27: FLAG replace: expected 恩膏常[ēn gāo cháng] heard 高长[gāo cháng]; replace: expected 恩膏[ēn gāo] heard 高[gāo]; replace: expected 恩膏[ēn gāo] heard 高[gāo]; replace: expected 恩膏[ēn gāo] heard 高[gāo]
+1JN.2.28: homophone only 哪->啊 主->竹
+1JN.2.29: homophone only 他->它 义->益 凡->繁 义->益 他->它

@@ -1,0 +1,37 @@
+MRK.13.1: homophone only 殿->店
+MRK.13.2: exact
+MRK.13.3: homophone only 得->德
+MRK.13.4: homophone only 事->是 将->江 成->澄
+MRK.13.5: exact
+MRK.13.6: exact
+MRK.13.7: exact
+MRK.13.8: exact
+MRK.13.9: homophone only 公->工 作->做
+MRK.13.10: exact
+MRK.13.11: FLAG replace: expected 交官[jiāo guān] heard 浇灌[jiāo guàn]
+MRK.13.12: exact
+MRK.13.13: homophone only 惟->唯
+MRK.13.14: homophone only 行->型 须->需 意->议
+MRK.13.15: exact
+MRK.13.16: exact
+MRK.13.17: FLAG replace: expected 和[hé] heard 喝[hē]
+MRK.13.18: homophone only 临->淋
+MRK.13.19: FLAG replace: expected 必[bì] heard 并[bìng]
+MRK.13.20: exact
+MRK.13.21: homophone only 哪->啊
+MRK.13.22: homophone only 迹->祭 奇->骑 事->士
+MRK.13.23: homophone only 哪->啊
+MRK.13.24: exact
+MRK.13.25: FLAG replace: expected 众星[zhòng xīng] heard 重心[zhòng xīn]
+MRK.13.26: homophone only 子->自
+MRK.13.27: homophone only 极->级
+MRK.13.28: exact
+MRK.13.29: FLAG replace: expected 子近[zǐ jìn] heard 自尽[zì jìn]
+MRK.13.30: exact
+MRK.13.31: exact
+MRK.13.32: homophone only 惟->唯
+MRK.13.33: exact
+MRK.13.34: homophone only 事->是 各->个
+MRK.13.35: exact
+MRK.13.36: exact
+MRK.13.37: exact

@@ -1,0 +1,40 @@
+JHN.18.1: homophone only 汲->吉 沦->伦 溪->西
+JHN.18.2: exact
+JHN.18.3: exact
+JHN.18.4: homophone only 就->救
+JHN.18.5: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+JHN.18.6: exact
+JHN.18.7: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+JHN.18.8: exact
+JHN.18.9: exact
+JHN.18.10: exact
+JHN.18.11: FLAG replace: expected 入鞘[rù qiào] heard 路翘[lù qiào]
+JHN.18.12: homophone only 队->对 兵->冰 和->河 并->病 役->异
+JHN.18.13: homophone only 那->纳 那->纳 作->做
+JHN.18.14: exact
+JHN.18.15: exact
+JHN.18.16: homophone only 使->石
+JHN.18.17: exact
+JHN.18.18: exact
+JHN.18.19: exact
+JHN.18.20: homophone only 地->的 殿->店
+JHN.18.21: exact
+JHN.18.22: exact
+JHN.18.23: exact
+JHN.18.24: exact
+JHN.18.25: exact
+JHN.18.26: FLAG replace: expected 那[nà] heard 内[nèi]
+JHN.18.27: homophone only 立->利 鸡->机
+JHN.18.28: FLAG replace: expected 该[gāi] heard 盖[gài]; replace: expected 解[jiě] heard 界[jiè]
+JHN.18.29: homophone only 彼->比 就->救
+JHN.18.30: exact
+JHN.18.31: homophone only 彼->比
+JHN.18.32: exact
+JHN.18.33: homophone only 彼->比
+JHN.18.34: exact
+JHN.18.35: homophone only 彼->比
+JHN.18.36: homophone only 不->部 属->署 臣->尘 争->征 不->部 属->署
+JHN.18.37: homophone only 彼->比 作->做
+JHN.18.38: homophone only 彼->比
+JHN.18.39: homophone only 逾->于 越->月
+JHN.18.40: exact

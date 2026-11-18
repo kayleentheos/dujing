@@ -1,0 +1,45 @@
+MRK.1.1: exact
+MRK.1.2: homophone only 哪->啊
+MRK.1.3: homophone only 主->煮
+MRK.1.4: FLAG replace: expected 使罪[shǐ zuì] heard 是最[shì zuì]
+MRK.1.5: exact
+MRK.1.6: exact
+MRK.1.7: exact
+MRK.1.8: exact
+MRK.1.9: homophone only 洗->喜
+MRK.1.10: exact
+MRK.1.11: exact
+MRK.1.12: exact
+MRK.1.13: homophone only 但->旦
+MRK.1.14: FLAG replace: expected 监[jiān] heard 舰[jiàn]
+MRK.1.15: homophone only 近->尽
+MRK.1.16: homophone only 得->德
+MRK.1.17: homophone only 得->的 得->德
+MRK.1.18: exact
+MRK.1.19: homophone only 庇->必 太->泰 补->捕
+MRK.1.20: homophone only 庇->必 太->泰 雇->故 工->宫
+MRK.1.21: homophone only 迦->加
+MRK.1.22: homophone only 希->稀
+MRK.1.23: homophone only 污->巫
+MRK.1.24: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+MRK.1.25: exact
+MRK.1.26: homophone only 污->乌
+MRK.1.27: homophone only 污->巫 污->巫
+MRK.1.28: exact
+MRK.1.29: homophone only 得->德
+MRK.1.30: FLAG replace: expected 害[hài] heard 嗨[hāi]
+MRK.1.31: homophone only 进->近 她->他 她->他 她->他 事->侍
+MRK.1.32: homophone only 附->父
+MRK.1.33: homophone only 城->成
+MRK.1.34: exact
+MRK.1.35: exact
+MRK.1.36: exact
+MRK.1.37: exact
+MRK.1.38: exact
+MRK.1.39: exact
+MRK.1.40: homophone only 洁->捷 净->径
+MRK.1.41: exact
+MRK.1.42: homophone only 即->及 他->它 他->它
+MRK.1.43: homophone only 地->的
+MRK.1.44: FLAG replace: expected 祭司察[jì sī chá] heard 基斯查[jī sī chá]
+MRK.1.45: homophone only 再->在 地->的 城->程 就->救

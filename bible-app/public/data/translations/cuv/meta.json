@@ -1,0 +1,38 @@
+{
+ "id": "cuv",
+ "language": "zh-Hans",
+ "script": "Simplified",
+ "name": {
+  "zh": "新标点和合本（神版）",
+  "en": "Chinese Union Version with New Punctuation (Simplified, “Shen” edition)"
+ },
+ "abbreviation": "CUVs",
+ "edition": "Wording of the 1919 Chinese Union Version (和合本), with the 1988 new punctuation (新标点). God is written 神, preceded by the traditional honorific full-width space (　神).",
+ "source": {
+  "publisher": "eBible.org",
+  "ebibleId": "cmn-cu89s",
+  "page": "https://ebible.org/find/details.php?id=cmn-cu89s",
+  "files": [
+   {
+    "name": "cmn-cu89s_usfm.zip",
+    "url": "https://ebible.org/Scriptures/cmn-cu89s_usfm.zip",
+    "sha256": "28a26d8503e9622d96260557eb77e4751de57f542098e4c2df0b20e5a96fd92f",
+    "sourceDated": "2026-11-10"
+   },
+   {
+    "name": "cmn-cu89s_vpl.zip",
+    "url": "https://ebible.org/Scriptures/cmn-cu89s_vpl.zip",
+    "sha256": "6c2c671da5d52dbdb16e9061aebb2b740256f1552006ce4603bee7a0b302cf64",
+    "use": "independent verification only"
+   }
+  ],
+  "retrieved": "2026-11-16"
+ },
+ "license": {
+  "status": "Public Domain",
+  "statement": "eBible.org lists 新标点和合本 Chinese Union Version (simplified) as Public Domain.",
+  "url": "https://ebible.org/find/details.php?id=cmn-cu89s"
+ },
+ "notExcluded": "This is not the Revised Chinese Union Version (和合本修订版, 2010), which is copyrighted.",
+ "modifications": "None to wording. USFM markup removed; footnotes moved to notes; translator-supplied words (\\add) and proper-name marks (\\pn) kept as styling."
+}

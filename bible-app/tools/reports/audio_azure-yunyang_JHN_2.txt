@@ -1,0 +1,25 @@
+JHN.2.1: homophone only 迦->加 有->由 筵->沿 席->袭
+JHN.2.2: homophone only 赴->复 席->习
+JHN.2.3: FLAG replace: expected 酒[jiǔ] heard 就[jiù]
+JHN.2.4: exact
+JHN.2.5: FLAG replace: expected 用[yòng] heard 佣[yōng]
+JHN.2.6: homophone only 洁->捷 净->径 缸->刚
+JHN.2.7: homophone only 缸->刚
+JHN.2.8: homophone only 舀->咬 筵->研 席->习
+JHN.2.9: homophone only 筵->研 席->习 变->边 筵->研 席->习
+JHN.2.10: FLAG replace: expected 次[cì] heard 子[zi]
+JHN.2.11: FLAG replace: expected 迹[jì] heard 器[qì]; replace: expected 显[xiǎn] heard 献[xiàn]
+JHN.2.12: homophone only 事->是 迦->加
+JHN.2.13: homophone only 逾->愉 越->悦 节->竭 近->尽
+JHN.2.14: homophone only 殿->店
+JHN.2.15: homophone only 殿->店
+JHN.2.16: homophone only 父->付 殿->店 作->做
+JHN.2.17: homophone only 着->者 殿->电
+JHN.2.18: exact
+JHN.2.19: FLAG replace: expected 殿[diàn] heard 点[diǎn]
+JHN.2.20: homophone only 殿->店 再->在
+JHN.2.21: homophone only 殿->垫
+JHN.2.22: exact
+JHN.2.23: homophone only 逾->于 越->月
+JHN.2.24: exact
+JHN.2.25: homophone only 里->理

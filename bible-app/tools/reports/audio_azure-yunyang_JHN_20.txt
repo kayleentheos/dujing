@@ -1,0 +1,31 @@
+JHN.20.1: FLAG replace: expected 抹[mǒ] heard 摩[mó]
+JHN.20.2: exact
+JHN.20.3: homophone only 就->救
+JHN.20.4: exact
+JHN.20.5: exact
+JHN.20.6: exact
+JHN.20.7: exact
+JHN.20.8: exact
+JHN.20.9: exact
+JHN.20.10: exact
+JHN.20.11: homophone only 马->玛
+JHN.20.12: exact
+JHN.20.13: homophone only 她->他 妇->富 她->他
+JHN.20.14: exact
+JHN.20.15: FLAG insert: expected [] heard 了[le]
+JHN.20.16: homophone only 马->玛 马->玛
+JHN.20.17: homophone only 父->腹
+JHN.20.18: FLAG replace: expected 抹大[mǒ dà] heard 摩达[mó dá]
+JHN.20.19: exact
+JHN.20.20: exact
+JHN.20.21: homophone only 父->付
+JHN.20.22: homophone only 向->像
+JHN.20.23: exact
+JHN.20.24: FLAG replace: expected 有[yǒu] heard 又[yòu]
+JHN.20.25: homophone only 马->玛
+JHN.20.26: homophone only 马->玛
+JHN.20.27: homophone only 马->玛
+JHN.20.28: homophone only 马->玛
+JHN.20.29: exact
+JHN.20.30: exact
+JHN.20.31: homophone only 名->明 得->德

@@ -1,0 +1,42 @@
+JHN.19.1: homophone only 彼->比
+JHN.19.2: homophone only 编->边
+JHN.19.3: exact
+JHN.19.4: homophone only 彼->比
+JHN.19.5: homophone only 戴->带 彼->比
+JHN.19.6: homophone only 钉->定 钉->定 彼->比 钉->定
+JHN.19.7: homophone only 那->捺
+JHN.19.8: homophone only 彼->比
+JHN.19.9: homophone only 又->右
+JHN.19.10: homophone only 彼->比 钉->定
+JHN.19.11: exact
+JHN.19.12: FLAG replace: expected 凡[fán] heard 反[fǎn]
+JHN.19.13: homophone only 彼->比 铺->瀑
+JHN.19.14: homophone only 逾->愉 越->悦 午->五 正->证 彼->比 哪->啊
+JHN.19.15: homophone only 钉->定 彼->比 钉->定 祭->季 司->思
+JHN.19.16: homophone only 彼->比 钉->订
+JHN.19.17: homophone only 髑->独 髅->楼 各->个
+JHN.19.18: homophone only 钉->定 钉->订
+JHN.19.19: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+JHN.19.20: homophone only 钉->定
+JHN.19.21: homophone only 彼->比
+JHN.19.22: homophone only 彼->比
+JHN.19.23: FLAG delete: expected 儿[r] heard []; replace: expected 织成[zhī chéng] heard 支撑[zhī chēng]
+JHN.19.24: FLAG replace: expected 拈阄[niān jiū] heard 研究[yán jiū]; replace: expected 里衣拈阄兵[lǐ yī niān jiū bīng] heard 礼仪研究丁[lǐ yí yán jiū dīng]
+JHN.19.25: FLAG replace: expected 罢[bà] heard 巴[bā]; replace: expected 抹[mǒ] heard 莫[mò]
+JHN.19.26: exact
+JHN.19.27: FLAG insert: expected [] heard 个[gè]
+JHN.19.28: FLAG replace: expected 话[huà] heard 花[huā]
+JHN.19.29: homophone only 绒->溶 他->它
+JHN.19.30: exact
+JHN.19.31: homophone only 彼->比 尸->失 首->手
+JHN.19.32: homophone only 钉->定
+JHN.19.33: exact
+JHN.19.34: homophone only 惟->唯
+JHN.19.35: homophone only 作->做
+JHN.19.36: FLAG replace: expected 应验经[yìng yàn jīng] heard 硬眼睛[yìng yǎn jīng]
+JHN.19.37: exact
+JHN.19.38: homophone only 利->历 太->泰 地->的 作->做 彼->比 彼->比
+JHN.19.39: homophone only 哥->歌 慕->牧 没->莫 药->要
+JHN.19.40: exact
+JHN.19.41: homophone only 钉->定
+JHN.19.42: homophone only 近->尽

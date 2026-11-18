@@ -1,0 +1,33 @@
+JHN.16.1: exact
+JHN.16.2: FLAG replace: expected 时候[shí hou] heard 事后[shì hòu]
+JHN.16.3: exact
+JHN.16.4: exact
+JHN.16.5: homophone only 今->金 差->拆 父->付
+JHN.16.6: exact
+JHN.16.7: homophone only 是->世
+JHN.16.8: homophone only 为->畏
+JHN.16.9: FLAG replace: expected 为罪[wèi zuì] heard 未遂[wèi suì]
+JHN.16.10: FLAG replace: expected 父[fù] heard 夫[fū]
+JHN.16.11: exact
+JHN.16.12: exact
+JHN.16.13: FLAG replace: expected 并[bìng] heard 必[bì]
+JHN.16.14: homophone only 受->授 于->予
+JHN.16.15: FLAG replace: expected 凡父[fán fù] heard 反复[fǎn fù]
+JHN.16.16: exact
+JHN.16.17: FLAG replace: expected 父[fù] heard 夫[fū]
+JHN.16.18: exact
+JHN.16.19: exact
+JHN.16.20: homophone only 地->的 号->嚎 世->是
+JHN.16.21: homophone only 妇->富 她->他 记->纪
+JHN.16.22: exact
+JHN.16.23: FLAG replace: expected 向父[xiàng fù] heard 想复[xiǎng fù]
+JHN.16.24: exact
+JHN.16.25: homophone only 将->江 到->道 地->的
+JHN.16.26: homophone only 父->富
+JHN.16.27: homophone only 父->负
+JHN.16.28: homophone only 父->复
+JHN.16.29: exact
+JHN.16.30: exact
+JHN.16.31: exact
+JHN.16.32: homophone only 哪->啊
+JHN.16.33: exact

@@ -1,0 +1,46 @@
+JHN.5.1: homophone only 事->是
+JHN.5.2: homophone only 羊->杨 作->做
+JHN.5.3: exact
+JHN.5.5: exact
+JHN.5.6: exact
+JHN.5.7: homophone only 动->冻
+JHN.5.8: exact
+JHN.5.9: exact
+JHN.5.10: exact
+JHN.5.11: homophone only 使->是
+JHN.5.12: exact
+JHN.5.13: exact
+JHN.5.14: homophone only 殿->店 利->厉
+JHN.5.15: FLAG replace: expected 使[shǐ] heard 是[shì]
+JHN.5.16: exact
+JHN.5.17: exact
+JHN.5.18: homophone only 作->做
+JHN.5.19: homophone only 地->的 惟->唯
+JHN.5.20: homophone only 事->是 希->稀
+JHN.5.21: FLAG replace: expected 子[zi] heard 死[sǐ]
+JHN.5.22: FLAG replace: expected 与[yǔ] heard 于[yú]
+JHN.5.23: homophone only 差->拆
+JHN.5.24: homophone only 地->的
+JHN.5.25: homophone only 地->的
+JHN.5.26: homophone only 父->傅
+JHN.5.27: FLAG replace: expected 子[zǐ] heard 字[zì]
+JHN.5.28: homophone only 希->稀 就->救
+JHN.5.29: homophone only 得->的
+JHN.5.30: homophone only 差->拆
+JHN.5.31: homophone only 作->做
+JHN.5.32: homophone only 作->做 作->做
+JHN.5.33: homophone only 作->做
+JHN.5.34: FLAG replace: expected 受[shòu] heard 说[shuō]
+JHN.5.35: exact
+JHN.5.36: FLAG replace: expected 便[biàn] heard 边[biān]
+JHN.5.37: homophone only 差->拆 父->富 作->做
+JHN.5.38: homophone only 道->到 里->理 差->拆
+JHN.5.39: homophone only 作->做
+JHN.5.40: homophone only 得->的
+JHN.5.41: exact
+JHN.5.42: exact
+JHN.5.43: exact
+JHN.5.44: exact
+JHN.5.45: homophone only 父->负
+JHN.5.46: exact
+JHN.5.47: exact

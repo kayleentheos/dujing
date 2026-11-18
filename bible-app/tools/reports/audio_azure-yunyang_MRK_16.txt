@@ -1,0 +1,20 @@
+MRK.16.1: FLAG replace: expected 抹大[mǒ dà] heard 摩达[mó dá]
+MRK.16.2: homophone only 她->他
+MRK.16.3: homophone only 墓->木
+MRK.16.4: homophone only 她->他
+MRK.16.5: homophone only 她->他
+MRK.16.6: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+MRK.16.7: homophone only 以->已
+MRK.16.8: homophone only 她->他 就->救 她->他
+MRK.16.9: FLAG replace: expected 抹[mǒ] heard 莫[mò]
+MRK.16.10: homophone only 她->他 恸->痛
+MRK.16.11: homophone only 马->玛
+MRK.16.12: homophone only 事->是
+MRK.16.13: exact
+MRK.16.14: exact
+MRK.16.15: homophone only 往->王
+MRK.16.16: exact
+MRK.16.17: FLAG replace: expected 名赶[míng gǎn] heard 敏感[mǐn gǎn]
+MRK.16.18: exact
+MRK.16.19: exact
+MRK.16.20: homophone only 迹->技

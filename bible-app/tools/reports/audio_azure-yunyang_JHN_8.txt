@@ -1,0 +1,59 @@
+JHN.8.1: homophone only 各->个
+JHN.8.2: homophone only 殿->店
+JHN.8.3: homophone only 淫->银
+JHN.8.4: homophone only 淫->银
+JHN.8.5: exact
+JHN.8.6: exact
+JHN.8.7: homophone only 地->的 她->他
+JHN.8.8: exact
+JHN.8.9: homophone only 到->道 地->的
+JHN.8.10: homophone only 她->他 妇->富
+JHN.8.11: homophone only 她->他
+JHN.8.12: exact
+JHN.8.13: homophone only 作->做
+JHN.8.14: FLAG insert: expected [] heard 为[wèi]
+JHN.8.15: exact
+JHN.8.16: homophone only 差->拆
+JHN.8.17: exact
+JHN.8.18: homophone only 作->做 差->拆 父->富 作->做
+JHN.8.19: homophone only 父->腹
+JHN.8.20: homophone only 殿->店
+JHN.8.21: homophone only 罪->最 中->终
+JHN.8.22: exact
+JHN.8.23: exact
+JHN.8.24: homophone only 罪->最 中->终 罪->最 中->终
+JHN.8.25: exact
+JHN.8.26: homophone only 事->是 差->拆
+JHN.8.27: exact
+JHN.8.28: homophone only 子->字 父->副
+JHN.8.29: homophone only 差->拆
+JHN.8.30: exact
+JHN.8.31: exact
+JHN.8.32: exact
+JHN.8.33: homophone only 作->做
+JHN.8.34: homophone only 地->的
+JHN.8.35: exact
+JHN.8.36: exact
+JHN.8.37: exact
+JHN.8.38: exact
+JHN.8.39: FLAG replace: expected 必行[bì xíng] heard 型[xíng]
+JHN.8.40: exact
+JHN.8.41: homophone only 父->负
+JHN.8.42: homophone only 差->拆
+JHN.8.43: FLAG replace: expected 因[yīn] heard 以[yǐ]
+JHN.8.44: homophone only 父->附 父->附
+JHN.8.45: exact
+JHN.8.46: exact
+JHN.8.47: exact
+JHN.8.48: homophone only 马->玛
+JHN.8.49: exact
+JHN.8.50: exact
+JHN.8.51: homophone only 地->的
+JHN.8.52: homophone only 尝->长 味->位
+JHN.8.53: homophone only 先->仙 知->之 作->做
+JHN.8.54: exact
+JHN.8.55: exact
+JHN.8.56: exact
+JHN.8.57: homophone only 岂->起
+JHN.8.58: homophone only 地->的
+JHN.8.59: homophone only 殿->店

@@ -1,0 +1,37 @@
+{
+ "id": "web",
+ "language": "en",
+ "script": "Latin",
+ "name": {
+  "en": "World English Bible",
+  "zh": "世界英文圣经"
+ },
+ "abbreviation": "WEB",
+ "edition": "World English Bible, 2020 stable text edition (eBible.org “eng-web”, Classic WEB). Uses “God” and “Yahweh”.",
+ "source": {
+  "publisher": "eBible.org",
+  "ebibleId": "eng-web",
+  "page": "https://ebible.org/eng-web/",
+  "files": [
+   {
+    "name": "eng-web_usfm.zip",
+    "url": "https://ebible.org/Scriptures/eng-web_usfm.zip",
+    "sha256": "107c0c220a67b9e43baa18e849e19076d41b8e169a0c71d4b9fd2d77db94c152",
+    "sourceDated": "2026-11-13"
+   },
+   {
+    "name": "eng-web_vpl.zip",
+    "url": "https://ebible.org/Scriptures/eng-web_vpl.zip",
+    "sha256": "3d3c2f4da95c2ed6e5e4dba54a46ab2875ca82c6e076d95d34372654540033c7",
+    "use": "independent verification only"
+   }
+  ],
+  "retrieved": "2026-11-16"
+ },
+ "license": {
+  "status": "Public Domain",
+  "statement": "The World English Bible is in the Public Domain. “World English Bible” is a trademark of eBible.org: if the text is changed, the result must not be called the World English Bible.",
+  "url": "https://ebible.org/eng-web/copyright.htm"
+ },
+ "modifications": "None to wording, so the name World English Bible is retained. USFM markup and Strong’s numbers removed; footnotes and cross-references moved to notes; words of Jesus (\\wj) kept as styling."
+}

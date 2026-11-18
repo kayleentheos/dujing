@@ -1,0 +1,738 @@
+{
+ "_about": "Reviewed pinyin corrections. 'words' apply to every occurrence of a segmented word. 'occurrences' fix one token, keyed VERSE_ID#tokenIndex and must repeat the word ('w') as a safety check. Readings are citation tones (no tone-sandhi marks), as in dictionaries.",
+ "words": {
+  "差": "chāi",
+  "差来": "chāi lái",
+  "差遣": "chāi qiǎn",
+  "差人": "chāi rén",
+  "差役": "chāi yì",
+  "和散那": "hé sǎn nà",
+  "千夫长": "qiān fū zhǎng",
+  "得不着": "dé bù zháo",
+  "得着": "dé zháo",
+  "找着": "zhǎo zháo",
+  "提比哩亚": "tí bǐ lǐ yà",
+  "提比哩亚海": "tí bǐ lǐ yà hǎi",
+  "四分": "sì fèn",
+  "一分": "yī fèn",
+  "圈": "juàn",
+  "缝儿": "fèng r",
+  "低下头": "dī xià tóu",
+  "肋": "lèi",
+  "肋旁": "lèi páng",
+  "钉": "dìng",
+  "钉十字架": "dìng shí zì jià",
+  "各各他": "gè gè tā",
+  "革罗罢": "gé luó bà",
+  "抹大拉": "mǒ dà lā",
+  "没药": "mò yào",
+  "拈阄": "niān jiū",
+  "该亚法": "gāi yà fǎ",
+  "何为": "hé wéi",
+  "的": "de",
+  "两只": "liǎng zhī",
+  "难为": "nán wéi",
+  "假冒为善": "jiǎ mào wéi shàn",
+  "大利大": "dà lì dà",
+  "古米": "gǔ mǐ",
+  "以法大": "yǐ fǎ dà",
+  "以罗伊": "yǐ luó yī",
+  "拉马撒巴各大尼": "lā mǎ sā bā gè dà ní",
+  "牢牢靠靠": "láo láo kào kào",
+  "重重": "zhòng zhòng",
+  "忧忧愁愁": "yōu yōu chóu chóu",
+  "撒种": "sǎ zhǒng",
+  "亚勒腓": "yà lè féi",
+  "革尼撒勒": "gé ní sā lè",
+  "腓立比": "féi lì bǐ",
+  "各耳板": "gè ěr bǎn",
+  "拿撒勒": "ná sǎ lè",
+  "行善": "xíng shàn",
+  "行恶": "xíng è",
+  "擘": "bāi",
+  "供献": "gōng xiàn",
+  "伯赛大": "bó sài dà",
+  "低加坡里": "dī jiā pō lǐ",
+  "祭司长": "jì sī zhǎng",
+  "嗳": "āi"
+ },
+ "occurrences": {
+  "JHN.7.12#1": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true
+  },
+  "JHN.7.32#3": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true
+  },
+  "JHN.10.11#5": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true
+  },
+  "JHN.16.8#8": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true
+  },
+  "JHN.2.21#8": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.4.46#13": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.5.18#19": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.10.30#4": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.10.36#3": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.14.18#4": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.15.15#5": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.15.15#22": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.17.19#8": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.19.7#23": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.19.12#30": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true
+  },
+  "JHN.20.30#5": {
+   "w": "行",
+   "py": "xíng",
+   "reviewed": true
+  },
+  "JHN.11.44#14": {
+   "w": "着",
+   "py": "zhe",
+   "reviewed": true
+  },
+  "JHN.20.4#10": {
+   "w": "得",
+   "py": "de",
+   "reviewed": true
+  },
+  "JHN.13.8#28": {
+   "w": "分",
+   "py": "fèn",
+   "reviewed": true
+  },
+  "JHN.8.9#8": {
+   "w": "少",
+   "py": "shào",
+   "reviewed": true
+  },
+  "JHN.16.8#11": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "JHN.16.8#14": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "JHN.16.9#0": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "JHN.16.10#0": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "JHN.16.11#0": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "JHN.19.13#16": {
+   "w": "铺",
+   "py": "pù",
+   "reviewed": true,
+   "note": "found by the audio check"
+  },
+  "1JN.1.10#13": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "以…为: regard as"
+  },
+  "1JN.2.22#12": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "认…为: acknowledge as"
+  },
+  "1JN.4.15#3": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "认…为: acknowledge as"
+  },
+  "1JN.3.2#36": {
+   "w": "得",
+   "py": "dé",
+   "reviewed": true,
+   "why": "得见: get to see"
+  },
+  "1JN.4.9#26": {
+   "w": "了",
+   "py": "le",
+   "reviewed": true,
+   "why": "sentence-final particle after 显明"
+  },
+  "1JN.1.7#5": {
+   "w": "行",
+   "py": "xíng",
+   "reviewed": true,
+   "why": "在光明中行: walk"
+  },
+  "1JN.2.1#25": {
+   "w": "父",
+   "py": "fù",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.10#0": {
+   "w": "爱",
+   "py": "ài",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.14#50": {
+   "w": "常",
+   "py": "cháng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.19#19": {
+   "w": "必",
+   "py": "bì",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.21#6": {
+   "w": "因",
+   "py": "yīn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.21#13": {
+   "w": "因",
+   "py": "yīn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.1#2": {
+   "w": "父",
+   "py": "fù",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.2#37": {
+   "w": "见",
+   "py": "jiàn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.2#40": {
+   "w": "真",
+   "py": "zhēn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.2#41": {
+   "w": "体",
+   "py": "tǐ",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.3#9": {
+   "w": "洁净",
+   "py": "jié jìng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.3#14": {
+   "w": "洁净",
+   "py": "jié jìng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.10#2": {
+   "w": "显出",
+   "py": "xiǎn chū",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.15#0": {
+   "w": "凡",
+   "py": "fán",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.15#12": {
+   "w": "凡",
+   "py": "fán",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.4.14#0": {
+   "w": "父",
+   "py": "fù",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.4.18#0": {
+   "w": "爱",
+   "py": "ài",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.4.18#5": {
+   "w": "爱",
+   "py": "ài",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.4.18#6": {
+   "w": "既",
+   "py": "jì",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.4.18#25": {
+   "w": "爱",
+   "py": "ài",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.5.9#16": {
+   "w": "因",
+   "py": "yīn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.2.1#34": {
+   "w": "义",
+   "py": "yì",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "1JN.3.1#3": {
+   "w": "赐给",
+   "py": "cì gěi",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "2JN.1.11#13": {
+   "w": "分",
+   "py": "fèn",
+   "reviewed": true,
+   "why": "有分: have a share in"
+  },
+  "3JN.1.6#5": {
+   "w": "了",
+   "py": "le",
+   "reviewed": true,
+   "why": "证明了: completed action"
+  },
+  "3JN.1.9#13": {
+   "w": "好",
+   "py": "hào",
+   "reviewed": true,
+   "why": "好为首: loves to be first"
+  },
+  "3JN.1.7#3": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "why": "为主的名: for the Lord's name"
+  },
+  "3JN.1.10#25": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "以此为足: regard this as enough"
+  },
+  "2JN.1.3#18": {
+   "w": "必",
+   "py": "bì",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "2JN.1.3#19": {
+   "w": "常",
+   "py": "cháng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "2JN.1.4#9": {
+   "w": "从",
+   "py": "cóng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "2JN.1.4#10": {
+   "w": "父",
+   "py": "fù",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "2JN.1.10#22": {
+   "w": "安",
+   "py": "ān",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "3JN.1.7#6": {
+   "w": "名",
+   "py": "míng",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "3JN.1.7#7": {
+   "w": "出外",
+   "py": "chū wài",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "3JN.1.11#6": {
+   "w": "效法",
+   "py": "xiào fǎ",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "3JN.1.11#10": {
+   "w": "效法",
+   "py": "xiào fǎ",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "3JN.1.11#11": {
+   "w": "善",
+   "py": "shàn",
+   "reviewed": true,
+   "why": "audio check: force the reviewed reading"
+  },
+  "MRK.14.65#10": {
+   "w": "着",
+   "py": "zhe",
+   "reviewed": true,
+   "why": "蒙着: covering"
+  },
+  "MRK.14.55#17": {
+   "w": "着",
+   "py": "zháo",
+   "reviewed": true,
+   "why": "寻不着: could not find"
+  },
+  "MRK.6.56#38": {
+   "w": "着",
+   "py": "zháo",
+   "reviewed": true,
+   "why": "摸着: managed to touch"
+  },
+  "MRK.2.27#8": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "why": "为人设立: made for man"
+  },
+  "MRK.4.17#12": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "why": "为道: because of the word"
+  },
+  "MRK.9.34#10": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "谁为大: who is greatest"
+  },
+  "MRK.10.42#16": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "尊为君王: regarded as rulers"
+  },
+  "MRK.10.43#13": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "谁愿为大: wants to be great"
+  },
+  "MRK.11.32#18": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "以约翰为先知: held John to be a prophet"
+  },
+  "MRK.12.11#11": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "看为希奇: marvellous in our eyes"
+  },
+  "MRK.13.12#18": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "与父母为敌: rise against parents"
+  },
+  "MRK.13.20#19": {
+   "w": "为",
+   "py": "wèi",
+   "reviewed": true,
+   "why": "为主的选民: for the sake of the elect"
+  },
+  "MRK.15.38#5": {
+   "w": "为",
+   "py": "wéi",
+   "reviewed": true,
+   "why": "裂为两半: torn in two"
+  },
+  "MRK.12.38#14": {
+   "w": "好",
+   "py": "hào",
+   "reviewed": true,
+   "why": "好穿长衣: like to walk in long robes"
+  },
+  "MRK.9.49#4": {
+   "w": "当",
+   "py": "dàng",
+   "reviewed": true,
+   "why": "用火当盐: fire as salt"
+  },
+  "MRK.8.36#3": {
+   "w": "得",
+   "py": "dé",
+   "reviewed": true,
+   "why": "赚得: gain"
+  },
+  "MRK.9.3#15": {
+   "w": "得",
+   "py": "de",
+   "reviewed": true,
+   "why": "漂得那样白: complement"
+  },
+  "MRK.10.30#29": {
+   "w": "得",
+   "py": "dé",
+   "reviewed": true,
+   "why": "必得永生: receive eternal life"
+  },
+  "MRK.12.28#22": {
+   "w": "中",
+   "py": "zhōng",
+   "reviewed": true,
+   "why": "诫命中: among the commandments"
+  },
+  "MRK.12.40#9": {
+   "w": "长",
+   "py": "cháng",
+   "reviewed": true,
+   "why": "很长的祷告: long prayers"
+  },
+  "MRK.4.31#5": {
+   "w": "种",
+   "py": "zhòng",
+   "reviewed": true,
+   "why": "种在地里: sown in the ground"
+  },
+  "MRK.4.32#1": {
+   "w": "种",
+   "py": "zhòng",
+   "reviewed": true,
+   "why": "种上: is sown"
+  },
+  "MRK.4.4#13": {
+   "w": "尽",
+   "py": "jìn",
+   "reviewed": true,
+   "why": "吃尽: devoured"
+  },
+  "MRK.5.26#12": {
+   "w": "尽",
+   "py": "jìn",
+   "reviewed": true,
+   "why": "花尽: spent all"
+  },
+  "MRK.12.33#3": {
+   "w": "尽",
+   "py": "jìn",
+   "reviewed": true,
+   "why": "尽智: with all understanding"
+  },
+  "MRK.14.8#6": {
+   "w": "尽",
+   "py": "jìn",
+   "reviewed": true,
+   "why": "尽她所能: did what she could"
+  },
+  "MRK.8.34#23": {
+   "w": "背",
+   "py": "bēi",
+   "reviewed": true,
+   "why": "背起十字架: take up the cross"
+  },
+  "MRK.5.29#7": {
+   "w": "干",
+   "py": "gān",
+   "reviewed": true,
+   "why": "干了: dried up"
+  },
+  "MRK.4.4#0": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.14#4": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.15#1": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.15#17": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.16#1": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.18#2": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.20#1": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.4.26#10": {
+   "w": "撒",
+   "py": "sǎ",
+   "reviewed": true,
+   "why": "sowing: scatter seed"
+  },
+  "MRK.2.21#5": {
+   "w": "缝",
+   "py": "féng",
+   "reviewed": true,
+   "why": "缝在…上: sew onto"
+  },
+  "MRK.12.1#16": {
+   "w": "圈",
+   "py": "quān",
+   "reviewed": true,
+   "why": "圈上篱笆: put a fence around"
+  },
+  "MRK.9.3#7": {
+   "w": "漂",
+   "py": "piǎo",
+   "reviewed": true,
+   "why": "漂布: bleach cloth"
+  },
+  "MRK.9.3#14": {
+   "w": "漂",
+   "py": "piǎo",
+   "reviewed": true,
+   "why": "漂布: bleach cloth"
+  },
+  "MRK.12.26#17": {
+   "w": "载",
+   "py": "zǎi",
+   "reviewed": true,
+   "why": "所载: what is recorded"
+  },
+  "MRK.11.8#5": {
+   "w": "铺",
+   "py": "pū",
+   "reviewed": true,
+   "why": "铺在路上: spread on the road"
+  },
+  "MRK.11.8#17": {
+   "w": "铺",
+   "py": "pū",
+   "reviewed": true,
+   "why": "铺在路上: spread on the road"
+  },
+  "MRK.4.21#16": {
+   "w": "斗",
+   "py": "dǒu",
+   "reviewed": true,
+   "why": "斗: a bushel measure (found by the audio check)"
+  },
+  "MRK.15.29#12": {
+   "w": "咳",
+   "py": "hāi",
+   "reviewed": true,
+   "why": "interjection ‘Ha!’ (CC-CEDICT hai1), not ké ‘cough’; found by the audio check"
+  }
+ },
+ "review_chars": "着了得地还都为行长重中传应觉那便少好曾尽处差数相当种降分背量难教会只发将乐恶调散间正朝和场似乎干几血落薄露撒缝圈铺漂载斗咳擘省藏塞担称没倒宿强",
+ "rules": {
+  "adverbial_de": "地 is read 'de' when it follows a reduplicated adverb (AA, AABB, ABAB, 一个一个) or an adverb of manner (不住, 无故, 一一, 再三, 何等, 极力, 起誓…), i.e. as the adverb marker; elsewhere dì.",
+  "particle_na": "哪 directly before punctuation (看哪， 民哪，) is the sentence particle na (CC-CEDICT 哪[na5]); found by the audio check.",
+  "measure_zhi": "只 directly after a number or demonstrative (两只手, 一只船) is the measure word zhī, not zhǐ 'only'."
+ },
+ "_audio_note": "钉 as a verb (钉十字架, 钉在…) is dìng; the noun in 钉痕 stays dīng (CC-CEDICT). Several entries were added after the audio check showed the voice misreading them."
+}

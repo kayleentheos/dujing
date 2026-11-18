@@ -1,0 +1,97 @@
+/* Library (home), book contents, search, about */
+.page { max-width: 1040px; margin: 0 auto; padding: var(--space-6) var(--space-5) var(--space-8); }
+@media (max-width: 720px) { .page { padding: var(--space-5) var(--space-4) var(--space-7); } }
+
+.folio { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--ink); padding-bottom: var(--space-2); margin-bottom: var(--space-5); }
+.folio__title { font-family: var(--font-display); font-size: var(--step-3); font-weight: 500; }
+.folio__title .zh { font-size: .8em; margin-left: .4em; letter-spacing: .1em; }
+.folio__meta { font-family: var(--font-display); font-style: italic; color: var(--ink-faint); }
+
+.section { margin-top: var(--space-7); }
+.section__head { display: flex; align-items: baseline; gap: var(--space-3); margin-bottom: var(--space-4); }
+.section__num { font-family: var(--font-display); color: var(--rubric); font-size: var(--step-0); letter-spacing: .1em; }
+.section__title { font-family: var(--font-display); font-size: var(--step-2); }
+.section__title .zh { font-size: .78em; color: var(--ink-faint); margin-left: .5em; letter-spacing: .12em; }
+.section__aside { margin-left: auto; font-size: var(--step--1); color: var(--ink-faint); }
+
+/* Continue reading */
+.continue { display: grid; grid-template-columns: 1.3fr 1fr; gap: var(--space-6); align-items: end; padding: var(--space-5) 0 var(--space-6); border-bottom: 1px solid var(--rule); }
+.continue__book { font-family: var(--font-zh); font-size: clamp(40px, 7vw, 68px); font-weight: 500; letter-spacing: .12em; line-height: 1.1; }
+.continue__ref { font-family: var(--font-display); font-size: var(--step-2); margin-top: var(--space-2); }
+.continue__ref em { color: var(--ink-faint); }
+.continue__verse { font-family: var(--font-zh); color: var(--ink-soft); font-size: 17px; line-height: 1.9; margin-top: var(--space-4); max-width: 30em; }
+.continue__verse .en { display: block; font-family: var(--font-text); font-style: italic; font-size: var(--step-0); color: var(--ink-faint); margin-top: var(--space-1); line-height: 1.5; }
+.continue__side { display: flex; flex-direction: column; gap: var(--space-4); }
+.continue__stats { display: flex; justify-content: space-between; font-size: var(--step--1); color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+@media (max-width: 720px) { .continue { grid-template-columns: 1fr; gap: var(--space-5); } }
+
+/* Library search */
+.searchbar { display: flex; align-items: center; gap: var(--space-2); border-bottom: 1px solid var(--rule-strong); padding: var(--space-2) 0; }
+.searchbar input { flex: 1; border: 0; background: none; font: inherit; font-size: var(--step-1); font-family: var(--font-display); color: var(--ink); padding: 6px 0; outline: none; }
+.searchbar input::placeholder { color: var(--ink-faint); font-style: italic; }
+.searchbar .icon { color: var(--ink-faint); }
+
+/* Browse: two testaments side by side */
+.testaments { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-7); }
+@media (max-width: 820px) { .testaments { grid-template-columns: 1fr; gap: var(--space-6); } }
+.testament__title { font-family: var(--font-display); font-size: var(--step-1); text-align: center; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); padding: var(--space-2) 0; margin-bottom: var(--space-4); }
+.testament__title .zh { margin-left: .6em; letter-spacing: .14em; font-size: .85em; }
+.category { margin-bottom: var(--space-5); }
+.category__name { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-1); }
+.category__name .smallcaps { font-size: var(--step--1); }
+.category__name .zh { font-size: 12px; color: var(--ink-faint); letter-spacing: .14em; }
+.booklist { list-style: none; margin: 0; padding: 0; }
+.bookrow { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: var(--space-3); padding: 7px 0; border-bottom: 1px dotted var(--rule); text-decoration: none; }
+.bookrow__names { display: flex; align-items: baseline; gap: .7em; min-width: 0; }
+.bookrow__zh { font-family: var(--font-zh); font-size: 17px; letter-spacing: .06em; }
+.bookrow__en { font-family: var(--font-display); font-style: italic; color: var(--ink-faint); font-size: var(--step-0); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bookrow__ch { font-size: var(--step--2); color: var(--ink-faint); font-variant-numeric: tabular-nums; letter-spacing: .06em; }
+a.bookrow:hover .bookrow__zh { color: var(--rubric); }
+.bookrow.is-unavailable .bookrow__zh { color: var(--ink-faint); }
+.bookrow.is-available .bookrow__ch { color: var(--rubric); }
+.bookrow__badge { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--rubric); margin-right: .6em; }
+
+/* Plans + notebook: ledger-style rows, not cards */
+.ledger { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--rule); }
+@media (max-width: 720px) { .ledger { grid-template-columns: 1fr; } }
+.ledger__item { display: block; padding: var(--space-4) var(--space-4) var(--space-4) 0; border-bottom: 1px solid var(--rule); text-decoration: none; }
+.ledger__item:nth-child(odd) { border-right: 1px solid var(--rule); }
+.ledger__item:nth-child(even) { padding-left: var(--space-4); }
+@media (max-width: 720px) { .ledger__item:nth-child(odd) { border-right: 0; } .ledger__item:nth-child(even) { padding-left: 0; } }
+.ledger__title { font-family: var(--font-display); font-size: var(--step-1); display: flex; justify-content: space-between; gap: var(--space-3); }
+.ledger__title .count { font-family: var(--font-text); font-size: var(--step--1); color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.ledger__desc { font-size: var(--step--1); color: var(--ink-soft); margin-top: 2px; }
+.ledger__item.is-later .ledger__title { color: var(--ink-faint); }
+.ledger__later { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+a.ledger__item:hover .ledger__title > span:first-child { color: var(--rubric); }
+.plan-days { display: flex; flex-wrap: wrap; gap: 3px; margin-top: var(--space-3); }
+.plan-days i { width: 14px; height: 14px; border: 1px solid var(--rule-strong); display: block; }
+.plan-days i.done { background: var(--sage); border-color: var(--sage); }
+
+/* Book contents: chapter grid */
+.chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 0; border-top: 1px solid var(--rule); border-left: 1px solid var(--rule); }
+.chapters a { aspect-ratio: 1.15; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-decoration: none; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--font-display); font-size: var(--step-2); position: relative; }
+.chapters a:hover { background: var(--paper-sunk); }
+.chapters a small { font-family: var(--font-zh); font-size: 11px; color: var(--ink-faint); }
+.chapters a.is-read::after { content: ""; position: absolute; top: 8px; right: 8px; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
+.chapters a.is-current { color: var(--rubric); }
+
+/* Search results */
+.results { list-style: none; margin: 0; padding: 0; }
+.result { padding: var(--space-3) 0; border-bottom: 1px solid var(--rule); }
+.result a { text-decoration: none; display: block; }
+.result__ref { font-family: var(--font-display); font-size: var(--step--1); color: var(--rubric); letter-spacing: .06em; }
+.result__text { margin-top: 2px; }
+.result__text.zh { font-size: 17px; line-height: 1.85; }
+.result mark { background: var(--gold-wash); color: inherit; padding: 0 1px; }
+
+/* About / sources */
+.prose { max-width: 40em; }
+.prose p, .prose li { line-height: 1.7; margin-bottom: var(--space-3); }
+.prose h3 { font-size: var(--step-1); margin: var(--space-5) 0 var(--space-2); }
+.prose dl { display: grid; grid-template-columns: 9em 1fr; gap: 4px var(--space-4); font-size: var(--step--1); margin: var(--space-3) 0 var(--space-4); }
+.prose dt { color: var(--ink-faint); }
+.prose dd { margin: 0; word-break: break-word; }
+.prose code { font-size: .85em; background: var(--paper-sunk); padding: 0 3px; }
+
+.colophon { margin-top: var(--space-8); padding-top: var(--space-4); border-top: 1px solid var(--rule); font-size: var(--step--1); color: var(--ink-faint); display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-3); }

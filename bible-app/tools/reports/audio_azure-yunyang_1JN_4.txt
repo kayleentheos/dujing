@@ -1,0 +1,21 @@
+1JN.4.1: exact
+1JN.4.2: homophone only 认->任
+1JN.4.3: homophone only 灵->凌
+1JN.4.4: homophone only 哪->啊
+1JN.4.5: homophone only 事->是
+1JN.4.6: homophone only 妄->望
+1JN.4.7: exact
+1JN.4.8: exact
+1JN.4.9: exact
+1JN.4.10: homophone only 差->拆 作->做 祭->记
+1JN.4.11: homophone only 既->迹
+1JN.4.12: exact
+1JN.4.13: exact
+1JN.4.14: FLAG replace: expected 父[fù] heard 夫[fū]
+1JN.4.15: homophone only 认->任
+1JN.4.16: exact
+1JN.4.17: exact
+1JN.4.18: FLAG replace: expected 爱既[ài jì] heard 艾吉[ài jí]
+1JN.4.19: homophone only 先->仙
+1JN.4.20: exact
+1JN.4.21: exact

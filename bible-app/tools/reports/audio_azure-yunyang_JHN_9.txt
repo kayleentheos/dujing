@@ -1,0 +1,41 @@
+JHN.9.1: exact
+JHN.9.2: exact
+JHN.9.3: exact
+JHN.9.4: homophone only 差->拆
+JHN.9.5: exact
+JHN.9.6: exact
+JHN.9.7: FLAG replace: expected 罗[luó] heard 洛[luò]; replace: expected 遣[qiǎn] heard 钱[qián]
+JHN.9.8: exact
+JHN.9.9: exact
+JHN.9.10: exact
+JHN.9.11: homophone only 和->活 泥->尼 抹->摸
+JHN.9.12: exact
+JHN.9.13: exact
+JHN.9.14: homophone only 泥->尼
+JHN.9.15: FLAG replace: expected 泥[ní] heard 你[nǐ]
+JHN.9.16: exact
+JHN.9.17: exact
+JHN.9.18: exact
+JHN.9.19: exact
+JHN.9.20: exact
+JHN.9.21: exact
+JHN.9.22: homophone only 认->任
+JHN.9.23: exact
+JHN.9.24: exact
+JHN.9.25: exact
+JHN.9.26: exact
+JHN.9.27: homophone only 作->做
+JHN.9.28: exact
+JHN.9.29: exact
+JHN.9.30: exact
+JHN.9.31: homophone only 惟->唯 遵->尊
+JHN.9.32: exact
+JHN.9.33: exact
+JHN.9.34: exact
+JHN.9.35: exact
+JHN.9.36: exact
+JHN.9.37: exact
+JHN.9.38: exact
+JHN.9.39: exact
+JHN.9.40: exact
+JHN.9.41: exact

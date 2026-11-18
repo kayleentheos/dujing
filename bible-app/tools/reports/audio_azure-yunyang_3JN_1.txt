@@ -1,0 +1,15 @@
+3JN.1.1: homophone only 作->做 犹->由
+3JN.1.2: exact
+3JN.1.3: homophone only 甚->慎
+3JN.1.4: exact
+3JN.1.5: homophone only 向->像 作->做 忠->中
+3JN.1.6: exact
+3JN.1.7: FLAG replace: expected 名出[míng chū] heard 明除[míng chú]
+3JN.1.8: exact
+3JN.1.9: homophone only 地->的 腓->肥
+3JN.1.10: exact
+3JN.1.11: FLAG replace: expected 效法[xiào fǎ] heard 笑把[xiào bǎ]; replace: expected 善[shàn] heard 晒[shài]
+3JN.1.12: homophone only 作->做 作->做 作->做
+3JN.1.13: homophone only 事->是
+3JN.1.14: homophone only 地->的
+3JN.1.15: exact

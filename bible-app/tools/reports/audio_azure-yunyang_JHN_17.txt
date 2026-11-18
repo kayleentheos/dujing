@@ -1,0 +1,26 @@
+JHN.17.1: exact
+JHN.17.2: homophone only 曾->层 赐->次
+JHN.17.3: homophone only 差->拆
+JHN.17.4: exact
+JHN.17.5: homophone only 父->付 使->时 享->想 以->已
+JHN.17.6: FLAG replace: expected 显明与[xiǎn míng yǔ] heard 写名于[xiě míng yú]
+JHN.17.7: homophone only 你->尼
+JHN.17.8: homophone only 差->拆
+JHN.17.9: exact
+JHN.17.10: exact
+JHN.17.11: FLAG replace: expected 因[yīn] heard 以[yǐ]; replace: expected 而[ér] heard 二[èr]
+JHN.17.12: FLAG replace: expected 因你[yīn nǐ] heard 印尼[yìn ní]
+JHN.17.13: exact
+JHN.17.14: homophone only 不->部 属->署 不->部 属->署
+JHN.17.15: exact
+JHN.17.16: homophone only 不->部 属->署 不->部 属->署
+JHN.17.17: exact
+JHN.17.18: homophone only 差->拆 差->拆
+JHN.17.19: homophone only 叫->教
+JHN.17.20: exact
+JHN.17.21: FLAG replace: expected 而[ér] heard 二[èr]
+JHN.17.22: homophone only 已->以 像->向
+JHN.17.23: FLAG replace: expected 使[shǐ] heard 是[shì]; replace: expected 而[ér] heard 二[èr]
+JHN.17.24: exact
+JHN.17.25: homophone only 义->益 父->富 差->拆
+JHN.17.26: homophone only 示->是 使->是

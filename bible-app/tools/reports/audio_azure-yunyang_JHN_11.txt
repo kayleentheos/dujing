@@ -1,0 +1,57 @@
+JHN.11.1: homophone only 马->玛 她->他 姊->子 姊->子 马->玛
+JHN.11.2: FLAG replace: expected 他[tā] heard 擦[cā]
+JHN.11.3: homophone only 她->他
+JHN.11.4: homophone only 病->并
+JHN.11.5: homophone only 爱->艾 马->玛 她->他
+JHN.11.6: exact
+JHN.11.7: exact
+JHN.11.8: homophone only 近->进
+JHN.11.9: homophone only 至->致
+JHN.11.10: homophone only 他->它
+JHN.11.11: exact
+JHN.11.12: homophone only 必->闭
+JHN.11.13: exact
+JHN.11.14: homophone only 地->的
+JHN.11.15: exact
+JHN.11.16: FLAG replace: expected 低土[dī tǔ] heard 地图[dì tú]
+JHN.11.17: FLAG replace: expected 撒[sā] heard 萨[sà]
+JHN.11.18: exact
+JHN.11.19: homophone only 马->玛 她->他 她->他
+JHN.11.20: homophone only 马->玛
+JHN.11.21: exact
+JHN.11.22: exact
+JHN.11.23: exact
+JHN.11.24: exact
+JHN.11.25: homophone only 她->他
+JHN.11.26: exact
+JHN.11.27: exact
+JHN.11.28: homophone only 地->的 她->他 马->玛
+JHN.11.29: homophone only 马->玛
+JHN.11.30: exact
+JHN.11.31: homophone only 她->他 她->他 她->他 她->他
+JHN.11.32: homophone only 马->玛
+JHN.11.33: homophone only 她->他 她->他
+JHN.11.34: homophone only 他->它
+JHN.11.35: exact
+JHN.11.36: exact
+JHN.11.37: exact
+JHN.11.38: exact
+JHN.11.39: homophone only 姊->子 姊->子
+JHN.11.40: exact
+JHN.11.41: exact
+JHN.11.42: homophone only 差->拆
+JHN.11.43: exact
+JHN.11.44: homophone only 就->救
+JHN.11.45: homophone only 马->玛
+JHN.11.46: exact
+JHN.11.47: FLAG replace: expected 行[háng] heard 形[xíng]
+JHN.11.48: FLAG replace: expected 土[tǔ] heard 图[tú]
+JHN.11.49: FLAG replace: expected 该[gāi] heard 盖[gài]
+JHN.11.50: homophone only 不->步
+JHN.11.51: homophone only 作->做
+JHN.11.52: FLAG replace: expected 并[bìng] heard 必[bì]
+JHN.11.53: exact
+JHN.11.54: exact
+JHN.11.55: homophone only 逾->愉 越->悦 节->竭 近->尽
+JHN.11.56: homophone only 殿->店
+JHN.11.57: homophone only 祭->季 司->思 明->名

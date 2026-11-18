@@ -1,0 +1,13 @@
+2JN.1.1: homophone only 作->做 拣->检 诚->程
+2JN.1.2: exact
+2JN.1.3: FLAG replace: expected 必常[bì cháng] heard 立场[lì chǎng]
+2JN.1.4: FLAG replace: expected 甚[shèn] heard 审[shěn]
+2JN.1.5: exact
+2JN.1.6: exact
+2JN.1.7: exact
+2JN.1.8: exact
+2JN.1.9: exact
+2JN.1.10: FLAG replace: expected 的安[de ān] heard 答案[dá àn]
+2JN.1.11: homophone only 分->份
+2JN.1.12: exact
+2JN.1.13: exact

@@ -1,0 +1,47 @@
+/* Base: reset, page, typography primitives */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--step-0);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+/* faint paper grain, kept almost invisible */
+body::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image: radial-gradient(rgba(120, 100, 70, .035) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+#app { position: relative; z-index: 1; min-height: 100vh; }
+
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 500; margin: 0; letter-spacing: .005em; }
+p { margin: 0; }
+a { color: inherit; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--rubric); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+::selection { background: rgba(154, 59, 42, .16); }
+
+.zh { font-family: var(--font-zh); font-feature-settings: "palt" 0; }
+.smallcaps {
+  font-family: var(--font-display);
+  font-variant: small-caps; text-transform: lowercase;
+  letter-spacing: .12em; font-size: var(--step-0); color: var(--ink-faint);
+}
+.label {
+  font-family: var(--font-text); font-size: var(--step--2); letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+.muted { color: var(--ink-soft); }
+.faint { color: var(--ink-faint); }
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+.rule { border: 0; border-top: 1px solid var(--rule); margin: 0; }

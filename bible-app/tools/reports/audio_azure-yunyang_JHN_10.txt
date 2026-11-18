@@ -1,0 +1,42 @@
+JHN.10.1: FLAG replace: expected 进[jìn] heard 际[jì]
+JHN.10.2: exact
+JHN.10.3: exact
+JHN.10.4: homophone only 羊->阳
+JHN.10.5: homophone only 羊->杨 不->布
+JHN.10.6: exact
+JHN.10.7: homophone only 地->的
+JHN.10.8: exact
+JHN.10.9: exact
+JHN.10.10: homophone only 羊->杨 得->德
+JHN.10.11: homophone only 为->喂
+JHN.10.12: FLAG replace: expected 羊[yáng] heard 养[yǎng]; replace: expected 撇[piē] heard 披[pī]
+JHN.10.13: homophone only 雇->故 工->宫 雇->故 工->宫 羊->阳
+JHN.10.14: exact
+JHN.10.15: FLAG replace: expected 为羊[wèi yáng] heard 未养[wèi yǎng]
+JHN.10.16: exact
+JHN.10.17: homophone only 取->娶
+JHN.10.18: exact
+JHN.10.19: exact
+JHN.10.20: exact
+JHN.10.21: homophone only 附->腹
+JHN.10.22: homophone only 殿->电
+JHN.10.23: homophone only 殿->店
+JHN.10.24: homophone only 地->的
+JHN.10.25: homophone only 作->做
+JHN.10.26: exact
+JHN.10.27: exact
+JHN.10.28: exact
+JHN.10.29: FLAG replace: expected 万[wàn] heard 外[wài]
+JHN.10.30: homophone only 父->复
+JHN.10.31: exact
+JHN.10.32: homophone only 父->复
+JHN.10.33: homophone only 僭->健 妄->忘 作->做
+JHN.10.34: FLAG replace: expected 神吗[shén ma] heard 什么[shén me]
+JHN.10.35: exact
+JHN.10.36: homophone only 父->傅 圣->胜 差->拆 僭->健 妄->忘
+JHN.10.37: homophone only 父->付
+JHN.10.38: FLAG replace: expected 信[xìn] heard 心[xīn]
+JHN.10.39: exact
+JHN.10.40: exact
+JHN.10.41: FLAG replace: expected 迹[jì] heard 器[qì]
+JHN.10.42: exact

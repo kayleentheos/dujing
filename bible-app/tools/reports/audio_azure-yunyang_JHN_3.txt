@@ -1,0 +1,36 @@
+JHN.3.1: homophone only 利->力 哥->歌 慕->木
+JHN.3.2: homophone only 作->做 同->童
+JHN.3.3: homophone only 地->的
+JHN.3.4: FLAG replace: expected 再进[zài jìn] heard 在继[zài jì]
+JHN.3.5: homophone only 地->的
+JHN.3.6: homophone only 灵->零 灵->零
+JHN.3.7: homophone only 希->稀
+JHN.3.8: exact
+JHN.3.9: homophone only 哥->歌 慕->木
+JHN.3.10: exact
+JHN.3.11: homophone only 地->的
+JHN.3.12: exact
+JHN.3.13: exact
+JHN.3.14: homophone only 子->字 也->野
+JHN.3.15: exact
+JHN.3.16: homophone only 致->至
+JHN.3.17: homophone only 降->将 世->士
+JHN.3.18: exact
+JHN.3.19: homophone only 倒->到
+JHN.3.20: homophone only 就->救
+JHN.3.21: exact
+JHN.3.22: homophone only 事->是
+JHN.3.23: FLAG replace: expected 哀嫩[āi nèn] heard 埃内[āi nèi]
+JHN.3.24: homophone only 在->载 里->理
+JHN.3.25: homophone only 洁->捷 净->径
+JHN.3.26: exact
+JHN.3.27: homophone only 赐->刺
+JHN.3.28: homophone only 作->做
+JHN.3.29: homophone only 新->心 妇->腹
+JHN.3.30: exact
+JHN.3.31: homophone only 属->鼠 乎->呼 属->鼠 乎->呼
+JHN.3.32: homophone only 的->地
+JHN.3.33: exact
+JHN.3.34: FLAG replace: expected 赐[cì] heard 自[zì]
+JHN.3.35: exact
+JHN.3.36: exact

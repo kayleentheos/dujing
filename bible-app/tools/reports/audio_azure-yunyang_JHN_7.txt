@@ -1,0 +1,52 @@
+JHN.7.1: homophone only 事->是 利->里 在->再
+JHN.7.2: homophone only 住->祝 棚->朋 节->竭 近->尽
+JHN.7.3: exact
+JHN.7.4: exact
+JHN.7.5: exact
+JHN.7.6: homophone only 常->尝 是->试
+JHN.7.7: exact
+JHN.7.8: exact
+JHN.7.9: exact
+JHN.7.10: FLAG replace: expected 去[qù] heard 确[què]
+JHN.7.11: exact
+JHN.7.12: exact
+JHN.7.13: homophone only 地->的
+JHN.7.14: homophone only 殿->店
+JHN.7.15: homophone only 希->稀
+JHN.7.16: homophone only 差->拆
+JHN.7.17: homophone only 得->的
+JHN.7.18: homophone only 惟->唯 差->拆 义->易
+JHN.7.19: exact
+JHN.7.20: exact
+JHN.7.21: homophone only 希->稀
+JHN.7.22: homophone only 传->船 割->歌 礼->里
+JHN.7.23: exact
+JHN.7.24: exact
+JHN.7.25: exact
+JHN.7.26: homophone only 地->的
+JHN.7.27: exact
+JHN.7.28: FLAG replace: expected 殿里[diàn lǐ] heard 电力[diàn lì]
+JHN.7.29: homophone only 差->拆
+JHN.7.30: exact
+JHN.7.31: exact
+JHN.7.32: FLAG replace: expected 祭司长[jì sī zhǎng] heard 季思常[jì sī cháng]; replace: expected 打[dǎ] heard 大[dà]
+JHN.7.33: homophone only 差->拆
+JHN.7.34: exact
+JHN.7.35: homophone only 住->驻
+JHN.7.36: exact
+JHN.7.37: FLAG replace: expected 期[qī] heard 气[qì]
+JHN.7.38: exact
+JHN.7.39: homophone only 赐->刺
+JHN.7.40: exact
+JHN.7.41: exact
+JHN.7.42: homophone only 经->京
+JHN.7.43: exact
+JHN.7.44: exact
+JHN.7.45: exact
+JHN.7.46: exact
+JHN.7.47: exact
+JHN.7.48: exact
+JHN.7.49: exact
+JHN.7.50: FLAG replace: expected 内中[nèi zhōng] heard 那种[nà zhǒng]
+JHN.7.51: exact
+JHN.7.52: exact

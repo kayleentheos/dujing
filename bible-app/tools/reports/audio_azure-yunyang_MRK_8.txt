@@ -1,0 +1,38 @@
+MRK.8.1: exact
+MRK.8.2: homophone only 众->种
+MRK.8.3: exact
+MRK.8.4: FLAG replace: expected 饼[bǐng] heard 病[bìng]
+MRK.8.5: exact
+MRK.8.6: homophone only 擘->掰
+MRK.8.7: exact
+MRK.8.8: exact
+MRK.8.9: exact
+MRK.8.10: homophone only 船->传 玛->马
+MRK.8.11: exact
+MRK.8.12: homophone only 地->的
+MRK.8.13: homophone only 船->传 往->王
+MRK.8.14: exact
+MRK.8.15: homophone only 利->力 酵->教 酵->教
+MRK.8.16: exact
+MRK.8.17: homophone only 省->醒 愚->鱼 顽->丸
+MRK.8.18: exact
+MRK.8.19: homophone only 擘->掰
+MRK.8.20: homophone only 擘->掰
+MRK.8.21: exact
+MRK.8.22: homophone only 伯->博 赛->塞
+MRK.8.23: exact
+MRK.8.24: exact
+MRK.8.25: homophone only 又->右 按->岸
+MRK.8.26: exact
+MRK.8.27: FLAG replace: expected 撒[sā] heard 萨[sà]
+MRK.8.28: exact
+MRK.8.29: exact
+MRK.8.30: exact
+MRK.8.31: FLAG replace: expected 子[zǐ] heard 字[zì]
+MRK.8.32: homophone only 地->的
+MRK.8.33: homophone only 但->旦 只->指
+MRK.8.34: exact
+MRK.8.35: FLAG replace: expected 凡[fán] heard 反[fǎn]; replace: expected 凡[fán] heard 反[fǎn]
+MRK.8.36: exact
+MRK.8.37: exact
+MRK.8.38: FLAG replace: expected 子[zǐ] heard 字[zì]

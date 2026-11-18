@@ -1,0 +1,33 @@
+MRK.11.1: homophone only 伯->博 其->奇
+MRK.11.2: homophone only 驹->居
+MRK.11.3: FLAG replace: expected 牵[qiān] heard 先[xiān]
+MRK.11.4: homophone only 驹->居
+MRK.11.5: FLAG replace: expected 驴驹[lǘ jū] heard 旅居[lǚ jū]
+MRK.11.6: homophone only 牵->谦
+MRK.11.7: FLAG replace: expected 驴驹牵[lǘ jū qiān] heard 旅居迁[lǚ jū qiān]
+MRK.11.8: exact
+MRK.11.9: homophone only 和->何 那->呐 奉->凤
+MRK.11.10: homophone only 祖->组 那->纳
+MRK.11.11: exact
+MRK.11.12: exact
+MRK.11.13: homophone only 地->的
+MRK.11.14: FLAG replace: expected 永[yǒng] heard 有[yǒu]
+MRK.11.15: homophone only 殿->店
+MRK.11.16: homophone only 殿->店
+MRK.11.17: homophone only 着->者 殿->店 殿->店 它->他
+MRK.11.18: FLAG replace: expected 希奇[xī qí] heard 吸起[xī qǐ]
+MRK.11.19: exact
+MRK.11.20: exact
+MRK.11.21: exact
+MRK.11.22: exact
+MRK.11.23: exact
+MRK.11.24: exact
+MRK.11.25: FLAG replace: expected 叫[jiào] heard 像[xiàng]
+MRK.11.26: homophone only 恕->庶
+MRK.11.27: homophone only 殿->店 进->近
+MRK.11.28: exact
+MRK.11.29: exact
+MRK.11.30: exact
+MRK.11.31: exact
+MRK.11.32: exact
+MRK.11.33: exact

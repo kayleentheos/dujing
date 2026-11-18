@@ -1,0 +1,38 @@
+JHN.13.1: FLAG replace: expected 逾越节[yú yuè jié] heard 于月姐[yú yuè jiě]
+JHN.13.2: FLAG replace: expected 加略[jiā lüè] heard 家里[jiā lǐ]
+JHN.13.3: FLAG replace: expected 父已[fù yǐ] heard 附议[fù yì]
+JHN.13.4: FLAG replace: expected 巾[jīn] heard 机[jī]
+JHN.13.5: homophone only 束->述
+JHN.13.6: homophone only 挨->哀 到->悼 洗->吸
+JHN.13.7: exact
+JHN.13.8: homophone only 分->份
+JHN.13.9: exact
+JHN.13.10: FLAG replace: expected 凡[fán] heard 反[fǎn]
+JHN.13.11: exact
+JHN.13.12: homophone only 向->像
+JHN.13.13: exact
+JHN.13.14: exact
+JHN.13.15: homophone only 作->做
+JHN.13.16: homophone only 地->的 差->拆 差->拆
+JHN.13.17: exact
+JHN.13.18: exact
+JHN.13.19: exact
+JHN.13.20: homophone only 地->的
+JHN.13.21: homophone only 地->的
+JHN.13.22: exact
+JHN.13.23: exact
+JHN.13.24: exact
+JHN.13.25: FLAG replace: expected 啊[a] heard 二[èr]
+JHN.13.26: FLAG replace: expected 略[lüè] heard 利[lì]
+JHN.13.27: homophone only 但->旦
+JHN.13.28: exact
+JHN.13.29: homophone only 钱->潜 周->洲 济->际
+JHN.13.30: exact
+JHN.13.31: FLAG replace: expected 子[zǐ] heard 自[zì]; replace: expected 子[zǐ] heard 字[zì]
+JHN.13.32: homophone only 要->药 地->的
+JHN.13.33: exact
+JHN.13.34: exact
+JHN.13.35: exact
+JHN.13.36: exact
+JHN.13.37: exact
+JHN.13.38: homophone only 地->的 以->已

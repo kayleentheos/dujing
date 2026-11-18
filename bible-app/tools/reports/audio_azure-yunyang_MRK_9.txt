@@ -1,0 +1,50 @@
+MRK.9.1: FLAG replace: expected 没尝[méi cháng] heard 每场[měi chǎng]
+MRK.9.2: homophone only 地->递
+MRK.9.3: homophone only 得->的
+MRK.9.4: homophone only 有->由
+MRK.9.5: FLAG replace: expected 为你[wèi nǐ] heard 位米[wèi mǐ]
+MRK.9.6: exact
+MRK.9.7: homophone only 他->它 他->它
+MRK.9.8: exact
+MRK.9.9: FLAG replace: expected 子[zǐ] heard 字[zì]
+MRK.9.10: exact
+MRK.9.11: exact
+MRK.9.12: FLAG replace: expected 子[zǐ] heard 字[zì]
+MRK.9.13: homophone only 待->带
+MRK.9.14: exact
+MRK.9.15: homophone only 希->稀
+MRK.9.16: exact
+MRK.9.17: exact
+MRK.9.18: homophone only 沫->墨
+MRK.9.19: FLAG replace: expected 嗳[āi] heard 爱[ài]
+MRK.9.20: homophone only 地->的 沫->墨
+MRK.9.21: exact
+MRK.9.22: exact
+MRK.9.23: homophone only 在->再
+MRK.9.24: FLAG replace: expected 信[xìn] heard 心[xīn]
+MRK.9.25: homophone only 污->乌
+MRK.9.26: homophone only 地->的 以->已 致->知
+MRK.9.27: exact
+MRK.9.28: homophone only 地->的
+MRK.9.29: exact
+MRK.9.30: exact
+MRK.9.31: FLAG replace: expected 教训[jiào xun] heard 叫去[jiào qù]; replace: expected 子[zǐ] heard 字[zì]
+MRK.9.32: exact
+MRK.9.33: homophone only 迦->加
+MRK.9.34: exact
+MRK.9.35: FLAG replace: expected 末[mò] heard 幕[mù]
+MRK.9.36: exact
+MRK.9.37: FLAG replace: expected 凡[fán] heard 反[fǎn]; replace: expected 名[míng] heard 民[mín]
+MRK.9.38: FLAG replace: expected 名赶[míng gǎn] heard 敏感[mǐn gǎn]
+MRK.9.39: FLAG replace: expected 名[míng] heard 民[mín]
+MRK.9.40: FLAG replace: expected 敌[dí] heard 抵[dǐ]
+MRK.9.41: FLAG replace: expected 凡因[fán yīn] heard 反以[fǎn yǐ]
+MRK.9.42: FLAG replace: expected 使[shǐ] heard 是[shì]; replace: expected 信[xìn] heard 些[xiē]; replace: expected 磨石[mó shí] heard 漠时[mò shí]
+MRK.9.43: exact
+MRK.9.44: exact
+MRK.9.45: exact
+MRK.9.46: exact
+MRK.9.47: exact
+MRK.9.48: exact
+MRK.9.49: FLAG replace: expected 盐腌各[yán yān gè] heard 炎炎个[yán yán gè]
+MRK.9.50: FLAG replace: expected 盐[yán] heard 演[yǎn]; replace: expected 它再咸呢[tā zài xián ne] heard 他在闲的[tā zài xián de]

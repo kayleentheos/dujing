@@ -1,0 +1,41 @@
+MRK.4.1: exact
+MRK.4.2: exact
+MRK.4.3: exact
+MRK.4.4: exact
+MRK.4.5: FLAG replace: expected 既[jì] heard 地[dì]
+MRK.4.6: homophone only 枯->哭
+MRK.4.7: exact
+MRK.4.8: homophone only 土->图
+MRK.4.9: homophone only 耳->儿
+MRK.4.10: exact
+MRK.4.11: exact
+MRK.4.12: exact
+MRK.4.13: exact
+MRK.4.14: exact
+MRK.4.15: homophone only 道->到 但->旦
+MRK.4.16: homophone only 道->到
+MRK.4.17: homophone only 及->极 至->致 为->味
+MRK.4.18: exact
+MRK.4.19: homophone only 世->事
+MRK.4.20: homophone only 道->到
+MRK.4.21: exact
+MRK.4.22: homophone only 事->是 事->是
+MRK.4.23: exact
+MRK.4.24: homophone only 器->气 器->气
+MRK.4.25: exact
+MRK.4.26: exact
+MRK.4.27: homophone only 渐->见
+MRK.4.28: homophone only 再->在 子->籽
+MRK.4.29: FLAG replace: expected 谷既[gǔ jì] heard 估计[gū jì]; replace: expected 因为[yīn wèi] heard 异味[yì wèi]
+MRK.4.30: exact
+MRK.4.31: homophone only 百->白
+MRK.4.32: FLAG replace: expected 荫下[yīn xià] heard 音响[yīn xiǎng]
+MRK.4.33: exact
+MRK.4.34: exact
+MRK.4.35: exact
+MRK.4.36: exact
+MRK.4.37: exact
+MRK.4.38: exact
+MRK.4.39: homophone only 静->敬 地->的
+MRK.4.40: exact
+MRK.4.41: homophone only 地->的 连->联 风->峰

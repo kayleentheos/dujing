@@ -1,0 +1,1420 @@
+{
+ "categories": [
+  {
+   "id": "pentateuch",
+   "name": {
+    "en": "Pentateuch",
+    "zh": "摩西五经"
+   },
+   "testament": "OT",
+   "books": [
+    "GEN",
+    "EXO",
+    "LEV",
+    "NUM",
+    "DEU"
+   ]
+  },
+  {
+   "id": "history-ot",
+   "name": {
+    "en": "Historical Books",
+    "zh": "历史书"
+   },
+   "testament": "OT",
+   "books": [
+    "JOS",
+    "JDG",
+    "RUT",
+    "1SA",
+    "2SA",
+    "1KI",
+    "2KI",
+    "1CH",
+    "2CH",
+    "EZR",
+    "NEH",
+    "EST"
+   ]
+  },
+  {
+   "id": "wisdom",
+   "name": {
+    "en": "Poetry and Wisdom",
+    "zh": "诗歌智慧书"
+   },
+   "testament": "OT",
+   "books": [
+    "JOB",
+    "PSA",
+    "PRO",
+    "ECC",
+    "SNG"
+   ]
+  },
+  {
+   "id": "major-prophets",
+   "name": {
+    "en": "Major Prophets",
+    "zh": "大先知书"
+   },
+   "testament": "OT",
+   "books": [
+    "ISA",
+    "JER",
+    "LAM",
+    "EZK",
+    "DAN"
+   ]
+  },
+  {
+   "id": "minor-prophets",
+   "name": {
+    "en": "Minor Prophets",
+    "zh": "小先知书"
+   },
+   "testament": "OT",
+   "books": [
+    "HOS",
+    "JOL",
+    "AMO",
+    "OBA",
+    "JON",
+    "MIC",
+    "NAM",
+    "HAB",
+    "ZEP",
+    "HAG",
+    "ZEC",
+    "MAL"
+   ]
+  },
+  {
+   "id": "gospels",
+   "name": {
+    "en": "Gospels",
+    "zh": "福音书"
+   },
+   "testament": "NT",
+   "books": [
+    "MAT",
+    "MRK",
+    "LUK",
+    "JHN"
+   ]
+  },
+  {
+   "id": "history-nt",
+   "name": {
+    "en": "History",
+    "zh": "历史书"
+   },
+   "testament": "NT",
+   "books": [
+    "ACT"
+   ]
+  },
+  {
+   "id": "pauline",
+   "name": {
+    "en": "Pauline Epistles",
+    "zh": "保罗书信"
+   },
+   "testament": "NT",
+   "books": [
+    "ROM",
+    "1CO",
+    "2CO",
+    "GAL",
+    "EPH",
+    "PHP",
+    "COL",
+    "1TH",
+    "2TH",
+    "1TI",
+    "2TI",
+    "TIT",
+    "PHM"
+   ]
+  },
+  {
+   "id": "general",
+   "name": {
+    "en": "General Epistles",
+    "zh": "普通书信"
+   },
+   "testament": "NT",
+   "books": [
+    "HEB",
+    "JAS",
+    "1PE",
+    "2PE",
+    "1JN",
+    "2JN",
+    "3JN",
+    "JUD"
+   ]
+  },
+  {
+   "id": "prophecy",
+   "name": {
+    "en": "Prophecy",
+    "zh": "预言书"
+   },
+   "testament": "NT",
+   "books": [
+    "REV"
+   ]
+  }
+ ],
+ "books": [
+  {
+   "code": "GEN",
+   "testament": "OT",
+   "category": "pentateuch",
+   "name": {
+    "zh": "创世记",
+    "en": "Genesis"
+   },
+   "longName": {
+    "zh": "创世记",
+    "en": "The First Book of Moses, Commonly Called Genesis"
+   },
+   "chapters": 50,
+   "abbr": [
+    "创",
+    "创世记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "EXO",
+   "testament": "OT",
+   "category": "pentateuch",
+   "name": {
+    "zh": "出埃及记",
+    "en": "Exodus"
+   },
+   "longName": {
+    "zh": "出埃及记",
+    "en": "The Second Book of Mosis, Commonly Called Exodus"
+   },
+   "chapters": 40,
+   "abbr": [
+    "出",
+    "出埃及记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "LEV",
+   "testament": "OT",
+   "category": "pentateuch",
+   "name": {
+    "zh": "利未记",
+    "en": "Leviticus"
+   },
+   "longName": {
+    "zh": "利未记",
+    "en": "The Third Book of Mosis, Commonly Called Leviticus"
+   },
+   "chapters": 27,
+   "abbr": [
+    "利",
+    "利未记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "NUM",
+   "testament": "OT",
+   "category": "pentateuch",
+   "name": {
+    "zh": "民数记",
+    "en": "Numbers"
+   },
+   "longName": {
+    "zh": "民数记",
+    "en": "The Fourth Book of Moses, Commonly Called Numbers"
+   },
+   "chapters": 36,
+   "abbr": [
+    "民",
+    "民数记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "DEU",
+   "testament": "OT",
+   "category": "pentateuch",
+   "name": {
+    "zh": "申命记",
+    "en": "Deuteronomy"
+   },
+   "longName": {
+    "zh": "申命记",
+    "en": "The Fifth Book of Moses, Commonly Called Deuteronomy"
+   },
+   "chapters": 34,
+   "abbr": [
+    "申",
+    "申命记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JOS",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "约书亚记",
+    "en": "Joshua"
+   },
+   "longName": {
+    "zh": "约书亚记",
+    "en": "The Book of Joshua"
+   },
+   "chapters": 24,
+   "abbr": [
+    "书",
+    "约书亚记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JDG",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "士师记",
+    "en": "Judges"
+   },
+   "longName": {
+    "zh": "士师记",
+    "en": "The Book of Judges"
+   },
+   "chapters": 21,
+   "abbr": [
+    "士",
+    "士师记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "RUT",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "路得记",
+    "en": "Ruth"
+   },
+   "longName": {
+    "zh": "路得记",
+    "en": "The Book of Ruth"
+   },
+   "chapters": 4,
+   "abbr": [
+    "得",
+    "路得记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1SA",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "撒母耳记上",
+    "en": "1 Samuel"
+   },
+   "longName": {
+    "zh": "撒母耳记上",
+    "en": "The First Book of Samuel"
+   },
+   "chapters": 31,
+   "abbr": [
+    "撒上"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2SA",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "撒母耳记下",
+    "en": "2 Samuel"
+   },
+   "longName": {
+    "zh": "撒母耳记下",
+    "en": "The Second Book of Samuel"
+   },
+   "chapters": 24,
+   "abbr": [
+    "撒下"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1KI",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "列王纪上",
+    "en": "1 Kings"
+   },
+   "longName": {
+    "zh": "列王纪上",
+    "en": "The First Book of Kings"
+   },
+   "chapters": 22,
+   "abbr": [
+    "王上"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2KI",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "列王纪下",
+    "en": "2 Kings"
+   },
+   "longName": {
+    "zh": "列王纪下",
+    "en": "The Second Book of Kings"
+   },
+   "chapters": 25,
+   "abbr": [
+    "王下"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1CH",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "历代志上",
+    "en": "1 Chronicles"
+   },
+   "longName": {
+    "zh": "历代志上",
+    "en": "The First Book of Chronicles"
+   },
+   "chapters": 29,
+   "abbr": [
+    "代上"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2CH",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "历代志下",
+    "en": "2 Chronicles"
+   },
+   "longName": {
+    "zh": "历代志下",
+    "en": "The Second Book of Chronicles"
+   },
+   "chapters": 36,
+   "abbr": [
+    "代下"
+   ],
+   "imported": false
+  },
+  {
+   "code": "EZR",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "以斯拉记",
+    "en": "Ezra"
+   },
+   "longName": {
+    "zh": "以斯拉记",
+    "en": "The Book of Ezra"
+   },
+   "chapters": 10,
+   "abbr": [
+    "拉",
+    "以斯拉记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "NEH",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "尼希米记",
+    "en": "Nehemiah"
+   },
+   "longName": {
+    "zh": "尼希米记",
+    "en": "The Book of Nehemiah"
+   },
+   "chapters": 13,
+   "abbr": [
+    "尼",
+    "尼希米记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "EST",
+   "testament": "OT",
+   "category": "history-ot",
+   "name": {
+    "zh": "以斯帖记",
+    "en": "Esther"
+   },
+   "longName": {
+    "zh": "以斯帖记",
+    "en": "The Book of Esther"
+   },
+   "chapters": 10,
+   "abbr": [
+    "斯",
+    "以斯帖记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JOB",
+   "testament": "OT",
+   "category": "wisdom",
+   "name": {
+    "zh": "约伯记",
+    "en": "Job"
+   },
+   "longName": {
+    "zh": "约伯记",
+    "en": "The Book of Job"
+   },
+   "chapters": 42,
+   "abbr": [
+    "伯",
+    "约伯记"
+   ],
+   "imported": false
+  },
+  {
+   "code": "PSA",
+   "testament": "OT",
+   "category": "wisdom",
+   "name": {
+    "zh": "诗篇",
+    "en": "Psalms"
+   },
+   "longName": {
+    "zh": "诗篇",
+    "en": "The Psalms"
+   },
+   "chapters": 150,
+   "abbr": [
+    "诗",
+    "诗篇"
+   ],
+   "imported": false
+  },
+  {
+   "code": "PRO",
+   "testament": "OT",
+   "category": "wisdom",
+   "name": {
+    "zh": "箴言",
+    "en": "Proverbs"
+   },
+   "longName": {
+    "zh": "箴言",
+    "en": "The Proverbs"
+   },
+   "chapters": 31,
+   "abbr": [
+    "箴",
+    "箴言"
+   ],
+   "imported": false
+  },
+  {
+   "code": "ECC",
+   "testament": "OT",
+   "category": "wisdom",
+   "name": {
+    "zh": "传道书",
+    "en": "Ecclesiastes"
+   },
+   "longName": {
+    "zh": "传道书",
+    "en": "Ecclesiates or, The Preacher"
+   },
+   "chapters": 12,
+   "abbr": [
+    "传",
+    "传道书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "SNG",
+   "testament": "OT",
+   "category": "wisdom",
+   "name": {
+    "zh": "雅歌",
+    "en": "Song of Solomon"
+   },
+   "longName": {
+    "zh": "雅歌",
+    "en": "The Song of Solomon"
+   },
+   "chapters": 8,
+   "abbr": [
+    "歌",
+    "雅歌"
+   ],
+   "imported": false
+  },
+  {
+   "code": "ISA",
+   "testament": "OT",
+   "category": "major-prophets",
+   "name": {
+    "zh": "以赛亚书",
+    "en": "Isaiah"
+   },
+   "longName": {
+    "zh": "以赛亚书",
+    "en": "The Book of Isaiah"
+   },
+   "chapters": 66,
+   "abbr": [
+    "赛",
+    "以赛亚书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JER",
+   "testament": "OT",
+   "category": "major-prophets",
+   "name": {
+    "zh": "耶利米书",
+    "en": "Jeremiah"
+   },
+   "longName": {
+    "zh": "耶利米书",
+    "en": "The Book of Jeremiah"
+   },
+   "chapters": 52,
+   "abbr": [
+    "耶",
+    "耶利米书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "LAM",
+   "testament": "OT",
+   "category": "major-prophets",
+   "name": {
+    "zh": "耶利米哀歌",
+    "en": "Lamentations"
+   },
+   "longName": {
+    "zh": "耶利米哀歌",
+    "en": "The Lamentations of Jeremiah"
+   },
+   "chapters": 5,
+   "abbr": [
+    "哀",
+    "耶利米哀歌"
+   ],
+   "imported": false
+  },
+  {
+   "code": "EZK",
+   "testament": "OT",
+   "category": "major-prophets",
+   "name": {
+    "zh": "以西结书",
+    "en": "Ezekiel"
+   },
+   "longName": {
+    "zh": "以西结书",
+    "en": "The Book of Ezekiel"
+   },
+   "chapters": 48,
+   "abbr": [
+    "结",
+    "以西结书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "DAN",
+   "testament": "OT",
+   "category": "major-prophets",
+   "name": {
+    "zh": "但以理书",
+    "en": "Daniel"
+   },
+   "longName": {
+    "zh": "但以理书",
+    "en": "The Book of Daniel"
+   },
+   "chapters": 12,
+   "abbr": [
+    "但",
+    "但以理书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "HOS",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "何西阿书",
+    "en": "Hosea"
+   },
+   "longName": {
+    "zh": "何西阿书",
+    "en": "The Book of Hosea"
+   },
+   "chapters": 14,
+   "abbr": [
+    "何",
+    "何西阿书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JOL",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "约珥书",
+    "en": "Joel"
+   },
+   "longName": {
+    "zh": "约珥书",
+    "en": "The Book of Joel"
+   },
+   "chapters": 3,
+   "abbr": [
+    "珥",
+    "约珥书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "AMO",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "阿摩司书",
+    "en": "Amos"
+   },
+   "longName": {
+    "zh": "阿摩司书",
+    "en": "The Book of Amos"
+   },
+   "chapters": 9,
+   "abbr": [
+    "摩",
+    "阿摩司书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "OBA",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "俄巴底亚书",
+    "en": "Obadiah"
+   },
+   "longName": {
+    "zh": "俄巴底亚书",
+    "en": "The Book of Obadiah"
+   },
+   "chapters": 1,
+   "abbr": [
+    "俄",
+    "俄巴底亚书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JON",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "约拿书",
+    "en": "Jonah"
+   },
+   "longName": {
+    "zh": "约拿书",
+    "en": "The Book of Jonah"
+   },
+   "chapters": 4,
+   "abbr": [
+    "拿",
+    "约拿书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "MIC",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "弥迦书",
+    "en": "Micah"
+   },
+   "longName": {
+    "zh": "弥迦书",
+    "en": "The Book of Micah"
+   },
+   "chapters": 7,
+   "abbr": [
+    "弥",
+    "弥迦书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "NAM",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "那鸿书",
+    "en": "Nahum"
+   },
+   "longName": {
+    "zh": "那鸿书",
+    "en": "The Book of Nahum"
+   },
+   "chapters": 3,
+   "abbr": [
+    "鸿",
+    "那鸿书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "HAB",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "哈巴谷书",
+    "en": "Habakkuk"
+   },
+   "longName": {
+    "zh": "哈巴谷书",
+    "en": "The Book of Habakkuk"
+   },
+   "chapters": 3,
+   "abbr": [
+    "哈",
+    "哈巴谷书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "ZEP",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "西番雅书",
+    "en": "Zephaniah"
+   },
+   "longName": {
+    "zh": "西番雅书",
+    "en": "The Book of Zephaniah"
+   },
+   "chapters": 3,
+   "abbr": [
+    "番",
+    "西番雅书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "HAG",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "哈该书",
+    "en": "Haggai"
+   },
+   "longName": {
+    "zh": "哈该书",
+    "en": "The Book of Haggai"
+   },
+   "chapters": 2,
+   "abbr": [
+    "该",
+    "哈该书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "ZEC",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "撒迦利亚书",
+    "en": "Zechariah"
+   },
+   "longName": {
+    "zh": "撒迦利亚书",
+    "en": "The Book of Zechariah"
+   },
+   "chapters": 14,
+   "abbr": [
+    "亚",
+    "撒迦利亚书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "MAL",
+   "testament": "OT",
+   "category": "minor-prophets",
+   "name": {
+    "zh": "玛拉基书",
+    "en": "Malachi"
+   },
+   "longName": {
+    "zh": "玛拉基书",
+    "en": "The Book of Malachi"
+   },
+   "chapters": 4,
+   "abbr": [
+    "玛",
+    "玛拉基书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "MAT",
+   "testament": "NT",
+   "category": "gospels",
+   "name": {
+    "zh": "马太福音",
+    "en": "Matthew"
+   },
+   "longName": {
+    "zh": "马太福音",
+    "en": "The Good News According to Matthew"
+   },
+   "chapters": 28,
+   "abbr": [
+    "太",
+    "马太",
+    "马太福音"
+   ],
+   "imported": false
+  },
+  {
+   "code": "MRK",
+   "testament": "NT",
+   "category": "gospels",
+   "name": {
+    "zh": "马可福音",
+    "en": "Mark"
+   },
+   "longName": {
+    "zh": "马可福音",
+    "en": "The Good News According to Mark"
+   },
+   "chapters": 16,
+   "abbr": [
+    "可",
+    "马可",
+    "马可福音"
+   ],
+   "imported": true
+  },
+  {
+   "code": "LUK",
+   "testament": "NT",
+   "category": "gospels",
+   "name": {
+    "zh": "路加福音",
+    "en": "Luke"
+   },
+   "longName": {
+    "zh": "路加福音",
+    "en": "The Good News According to Luke"
+   },
+   "chapters": 24,
+   "abbr": [
+    "路",
+    "路加",
+    "路加福音"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JHN",
+   "testament": "NT",
+   "category": "gospels",
+   "name": {
+    "zh": "约翰福音",
+    "en": "John"
+   },
+   "longName": {
+    "zh": "约翰福音",
+    "en": "The Good News According to John"
+   },
+   "chapters": 21,
+   "abbr": [
+    "约",
+    "约翰",
+    "约翰福音",
+    "约翰福音书"
+   ],
+   "imported": true
+  },
+  {
+   "code": "ACT",
+   "testament": "NT",
+   "category": "history-nt",
+   "name": {
+    "zh": "使徒行传",
+    "en": "Acts"
+   },
+   "longName": {
+    "zh": "使徒行传",
+    "en": "The Acts of the Apostles"
+   },
+   "chapters": 28,
+   "abbr": [
+    "徒",
+    "使徒行传"
+   ],
+   "imported": false
+  },
+  {
+   "code": "ROM",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "罗马书",
+    "en": "Romans"
+   },
+   "longName": {
+    "zh": "罗马书",
+    "en": "Paul’s Letter to the Romans"
+   },
+   "chapters": 16,
+   "abbr": [
+    "罗",
+    "罗马书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1CO",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "哥林多前书",
+    "en": "1 Corinthians"
+   },
+   "longName": {
+    "zh": "哥林多前书",
+    "en": "Paul’s First Letter to the Corinthians"
+   },
+   "chapters": 16,
+   "abbr": [
+    "林前"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2CO",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "哥林多后书",
+    "en": "2 Corinthians"
+   },
+   "longName": {
+    "zh": "哥林多后书",
+    "en": "Paul’s Second Letter to the Corinthians"
+   },
+   "chapters": 13,
+   "abbr": [
+    "林后"
+   ],
+   "imported": false
+  },
+  {
+   "code": "GAL",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "加拉太书",
+    "en": "Galatians"
+   },
+   "longName": {
+    "zh": "加拉太书",
+    "en": "Paul’s Letter to the Galatians"
+   },
+   "chapters": 6,
+   "abbr": [
+    "加",
+    "加拉太书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "EPH",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "以弗所书",
+    "en": "Ephesians"
+   },
+   "longName": {
+    "zh": "以弗所书",
+    "en": "Paul’s Letter to the Ephesians"
+   },
+   "chapters": 6,
+   "abbr": [
+    "弗",
+    "以弗所书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "PHP",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "腓立比书",
+    "en": "Philippians"
+   },
+   "longName": {
+    "zh": "腓立比书",
+    "en": "Paul’s Letter to the Philippians"
+   },
+   "chapters": 4,
+   "abbr": [
+    "腓",
+    "腓立比书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "COL",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "歌罗西书",
+    "en": "Colossians"
+   },
+   "longName": {
+    "zh": "歌罗西书",
+    "en": "Paul’s Letter to the Colossians"
+   },
+   "chapters": 4,
+   "abbr": [
+    "西",
+    "歌罗西书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1TH",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "帖撒罗尼迦前书",
+    "en": "1 Thessalonians"
+   },
+   "longName": {
+    "zh": "帖撒罗尼迦前书",
+    "en": "Paul’s First Letter to the Thessalonians"
+   },
+   "chapters": 5,
+   "abbr": [
+    "帖前"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2TH",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "帖撒罗尼迦后书",
+    "en": "2 Thessalonians"
+   },
+   "longName": {
+    "zh": "帖撒罗尼迦后书",
+    "en": "Paul’s Second Letter to the Thessalonians"
+   },
+   "chapters": 3,
+   "abbr": [
+    "帖后"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1TI",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "提摩太前书",
+    "en": "1 Timothy"
+   },
+   "longName": {
+    "zh": "提摩太前书",
+    "en": "Paul’s First Letter to Timothy"
+   },
+   "chapters": 6,
+   "abbr": [
+    "提前"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2TI",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "提摩太后书",
+    "en": "2 Timothy"
+   },
+   "longName": {
+    "zh": "提摩太后书",
+    "en": "Paul’s Second Letter to Timothy"
+   },
+   "chapters": 4,
+   "abbr": [
+    "提后"
+   ],
+   "imported": false
+  },
+  {
+   "code": "TIT",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "提多书",
+    "en": "Titus"
+   },
+   "longName": {
+    "zh": "提多书",
+    "en": "Paul’s Letter to Titus"
+   },
+   "chapters": 3,
+   "abbr": [
+    "多",
+    "提多书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "PHM",
+   "testament": "NT",
+   "category": "pauline",
+   "name": {
+    "zh": "腓利门书",
+    "en": "Philemon"
+   },
+   "longName": {
+    "zh": "腓利门书",
+    "en": "Paul’s Letter to Philemon"
+   },
+   "chapters": 1,
+   "abbr": [
+    "门",
+    "腓利门书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "HEB",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "希伯来书",
+    "en": "Hebrews"
+   },
+   "longName": {
+    "zh": "希伯来书",
+    "en": "The Letter to the Hebrews"
+   },
+   "chapters": 13,
+   "abbr": [
+    "来",
+    "希伯来书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "JAS",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "雅各书",
+    "en": "James"
+   },
+   "longName": {
+    "zh": "雅各书",
+    "en": "The Letter from James"
+   },
+   "chapters": 5,
+   "abbr": [
+    "雅",
+    "雅各书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1PE",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "彼得前书",
+    "en": "1 Peter"
+   },
+   "longName": {
+    "zh": "彼得前书",
+    "en": "Peter’s First Letter"
+   },
+   "chapters": 5,
+   "abbr": [
+    "彼前"
+   ],
+   "imported": false
+  },
+  {
+   "code": "2PE",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "彼得后书",
+    "en": "2 Peter"
+   },
+   "longName": {
+    "zh": "彼得后书",
+    "en": "Peter’s Second Letter"
+   },
+   "chapters": 3,
+   "abbr": [
+    "彼后"
+   ],
+   "imported": false
+  },
+  {
+   "code": "1JN",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "约翰一书",
+    "en": "1 John"
+   },
+   "longName": {
+    "zh": "约翰一书",
+    "en": "John’s First Letter"
+   },
+   "chapters": 5,
+   "abbr": [
+    "约一",
+    "约壹",
+    "约翰一书"
+   ],
+   "imported": true
+  },
+  {
+   "code": "2JN",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "约翰二书",
+    "en": "2 John"
+   },
+   "longName": {
+    "zh": "约翰二书",
+    "en": "John’s Second Letter"
+   },
+   "chapters": 1,
+   "abbr": [
+    "约二",
+    "约贰",
+    "约翰二书"
+   ],
+   "imported": true
+  },
+  {
+   "code": "3JN",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "约翰三书",
+    "en": "3 John"
+   },
+   "longName": {
+    "zh": "约翰三书",
+    "en": "John’s Third Letter"
+   },
+   "chapters": 1,
+   "abbr": [
+    "约三",
+    "约叁",
+    "约翰三书"
+   ],
+   "imported": true
+  },
+  {
+   "code": "JUD",
+   "testament": "NT",
+   "category": "general",
+   "name": {
+    "zh": "犹大书",
+    "en": "Jude"
+   },
+   "longName": {
+    "zh": "犹大书",
+    "en": "The Letter from Jude"
+   },
+   "chapters": 1,
+   "abbr": [
+    "犹",
+    "犹大书"
+   ],
+   "imported": false
+  },
+  {
+   "code": "REV",
+   "testament": "NT",
+   "category": "prophecy",
+   "name": {
+    "zh": "启示录",
+    "en": "Revelation"
+   },
+   "longName": {
+    "zh": "启示录",
+    "en": "The Revelation to John"
+   },
+   "chapters": 22,
+   "abbr": [
+    "启",
+    "启示录"
+   ],
+   "imported": false
+  }
+ ]
+}

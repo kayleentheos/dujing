@@ -1,0 +1,27 @@
+JHN.15.1: homophone only 父->富 是->士
+JHN.15.2: homophone only 他->它 剪->减 他->它
+JHN.15.3: exact
+JHN.15.4: homophone only 枝->知
+JHN.15.5: homophone only 他->它
+JHN.15.6: exact
+JHN.15.7: exact
+JHN.15.8: exact
+JHN.15.9: exact
+JHN.15.10: exact
+JHN.15.11: homophone only 事->是
+JHN.15.12: exact
+JHN.15.13: exact
+JHN.15.14: exact
+JHN.15.15: exact
+JHN.15.16: FLAG replace: expected 结[jié] heard 接[jiē]
+JHN.15.17: exact
+JHN.15.18: homophone only 以->乙 先->酰
+JHN.15.19: homophone only 属->数
+JHN.15.20: homophone only 记->纪
+JHN.15.21: homophone only 差->拆
+JHN.15.22: exact
+JHN.15.23: exact
+JHN.15.24: exact
+JHN.15.25: homophone only 地->的
+JHN.15.26: FLAG replace: expected 父[fù] heard 夫[fū]
+JHN.15.27: homophone only 作->做

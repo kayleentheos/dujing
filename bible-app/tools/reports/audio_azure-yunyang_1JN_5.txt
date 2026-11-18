@@ -1,0 +1,21 @@
+1JN.5.1: exact
+1JN.5.2: exact
+1JN.5.3: exact
+1JN.5.4: exact
+1JN.5.5: exact
+1JN.5.6: exact
+1JN.5.7: homophone only 作->做
+1JN.5.8: homophone only 作->做
+1JN.5.9: FLAG replace: expected 因[yīn] heard 一[yī]
+1JN.5.10: homophone only 作->做 作->做
+1JN.5.11: exact
+1JN.5.12: exact
+1JN.5.13: exact
+1JN.5.14: exact
+1JN.5.15: exact
+1JN.5.16: homophone only 至->志
+1JN.5.17: homophone only 义->易
+1JN.5.18: exact
+1JN.5.19: homophone only 卧->握
+1JN.5.20: exact
+1JN.5.21: homophone only 哪->啊 守->首

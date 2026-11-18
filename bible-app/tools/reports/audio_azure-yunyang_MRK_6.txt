@@ -1,0 +1,56 @@
+MRK.6.1: exact
+MRK.6.2: FLAG replace: expected 所赐[suǒ cì] heard 索斯[suǒ sī]
+MRK.6.3: homophone only 马->玛
+MRK.6.4: exact
+MRK.6.5: exact
+MRK.6.6: exact
+MRK.6.7: FLAG replace: expected 伏污鬼[fú wū guǐ] heard 服乌龟[fú wū guī]
+MRK.6.8: homophone only 袋->带
+MRK.6.9: exact
+MRK.6.10: exact
+MRK.6.11: homophone only 跺->剁 作->做
+MRK.6.12: exact
+MRK.6.13: exact
+MRK.6.14: exact
+MRK.6.15: homophone only 像->向
+MRK.6.16: FLAG replace: expected 希律[xī lǜ] heard 心率[xīn lǜ]
+MRK.6.17: homophone only 希->西
+MRK.6.18: exact
+MRK.6.19: homophone only 希->西
+MRK.6.20: FLAG replace: expected 义[yì] heard 一[yī]
+MRK.6.21: homophone only 利->莉 利->莉 作->做
+MRK.6.22: FLAG replace: expected 使[shǐ] heard 是[shì]
+MRK.6.23: homophone only 她->他
+MRK.6.24: homophone only 她->他 她->他 她->他
+MRK.6.25: FLAG replace: expected 立时[lì shí] heard 历史[lì shǐ]
+MRK.6.26: homophone only 誓->事
+MRK.6.27: homophone only 差->拆
+MRK.6.28: exact
+MRK.6.29: exact
+MRK.6.30: homophone only 全->权
+MRK.6.31: homophone only 地->的 工->功
+MRK.6.32: homophone only 地->的
+MRK.6.33: exact
+MRK.6.34: FLAG replace: expected 见[jiàn] heard 借[jiè]
+MRK.6.35: homophone only 进->近
+MRK.6.36: homophone only 叫->教
+MRK.6.37: exact
+MRK.6.38: exact
+MRK.6.39: exact
+MRK.6.40: homophone only 地->的
+MRK.6.41: homophone only 擘->掰
+MRK.6.42: exact
+MRK.6.43: exact
+MRK.6.44: exact
+MRK.6.45: FLAG replace: expected 伯赛大[bó sài dà] heard 博塞纳[bó sāi nà]
+MRK.6.46: exact
+MRK.6.47: exact
+MRK.6.48: homophone only 因->阴
+MRK.6.49: exact
+MRK.6.50: exact
+MRK.6.51: exact
+MRK.6.52: homophone only 愚->鱼 顽->丸
+MRK.6.53: FLAG replace: expected 撒[sā] heard 萨[sà]
+MRK.6.54: homophone only 得->的
+MRK.6.55: exact
+MRK.6.56: exact

@@ -1,0 +1,500 @@
+{
+ "_about": "Editorial study notes for key words in John, written for this app and shown labelled 'Study note'. Every Chinese phrase quoted in ‘…’ is checked by build_lexicon.py to occur in the CUV text of John; every English rendering cited as WEB is checked against the WEB text. 'pos' gives a reviewed part of speech for words whose dictionary tag is missing or wrong. Each note belongs to one book (\"book\") and is verified against that book's CUV and WEB text.",
+ "notes": {
+  "道": {
+   "pos": "noun",
+   "note": "In John, 道 renders the Greek logos. In 1:1–14 it is ‘the Word’, a title for Christ; elsewhere it is the word or message Jesus speaks (WEB “word”).",
+   "verses": {
+    "JHN.1.1": "Here 道 is ‘the Word’ (WEB “the Word”): the eternal Word who was with God and was God — a title for Christ, not the everyday sense ‘way’ or ‘road’.",
+    "JHN.1.2": "‘The Word’ (WEB “The same”), continuing 1:1: the Word who was with God in the beginning.",
+    "JHN.1.14": "‘The Word became flesh’ (WEB “The Word became flesh”): the Word of 1:1 takes on human nature."
+   },
+   "book": "JHN"
+  },
+  "太初": {
+   "pos": "noun (time)",
+   "note": "‘In the very beginning’ — a literary word for the beginning of all things; WEB “In the beginning”. It echoes the first words of Genesis.",
+   "book": "JHN"
+  },
+  "生命": {
+   "pos": "noun",
+   "note": "Life (Greek zōē): in John, the life that comes from God through Christ; WEB “life”. Closely tied to 永生 ‘eternal life’.",
+   "book": "JHN"
+  },
+  "光": {
+   "pos": "noun",
+   "note": "Light — John’s image for Christ and God’s revelation, set against 黑暗 ‘darkness’ (1:4–9; 8:12 ‘我是世界的光’).",
+   "book": "JHN"
+  },
+  "信": {
+   "pos": "verb",
+   "note": "In John, 信 is almost always the verb ‘to believe’ (Greek pisteuō), often in ‘信他’ ‘believe in him’ — not the noun ‘letter’ listed in dictionaries.",
+   "book": "JHN"
+  },
+  "恩典": {
+   "pos": "noun",
+   "note": "Grace — God’s undeserved favour (Greek charis); WEB “grace”. In John it appears only in 1:14–17.",
+   "book": "JHN"
+  },
+  "真理": {
+   "pos": "noun",
+   "note": "Truth (Greek alētheia). In John truth is personal: ‘我就是道路、真理、生命’ (14:6).",
+   "book": "JHN"
+  },
+  "荣耀": {
+   "pos": "noun / verb",
+   "note": "Glory, or as a verb ‘to glorify’ (Greek doxa, doxazō). In John, Jesus’ glorification points to his death and resurrection (12:23).",
+   "book": "JHN"
+  },
+  "荣光": {
+   "pos": "noun",
+   "note": "Glory, radiance: ‘我们也见过他的荣光’ (1:14), WEB “We saw his glory”.",
+   "book": "JHN"
+  },
+  "救恩": {
+   "pos": "noun",
+   "note": "Salvation. In John it occurs only at 4:22, ‘救恩是从犹太人出来的’ (WEB “salvation is from the Jews”).",
+   "book": "JHN"
+  },
+  "世界": {
+   "pos": "noun",
+   "note": "The world (Greek kosmos): sometimes the created world (1:10), often humanity turned away from God (15:18–19).",
+   "book": "JHN"
+  },
+  "世人": {
+   "pos": "noun",
+   "note": "People of the world, humankind. In 3:16, ‘神爱世人’ — WEB “God so loved the world”.",
+   "book": "JHN"
+  },
+  "爱": {
+   "pos": "verb",
+   "note": "To love. In John, often the love between the Father, the Son and the disciples — ‘彼此相爱’ ‘love one another’ (13:34).",
+   "book": "JHN"
+  },
+  "圣灵": {
+   "pos": "proper noun",
+   "note": "The Holy Spirit. John also calls him 保惠师 ‘the Counselor’ and ‘真理的圣灵’ ‘the Spirit of truth’.",
+   "book": "JHN"
+  },
+  "永生": {
+   "pos": "noun",
+   "note": "Eternal life — in John a present gift as well as a future hope: ‘信子的人有永生’ (3:36).",
+   "book": "JHN"
+  },
+  "常在": {
+   "pos": "verb",
+   "note": "To remain, to abide (Greek menō) — the key word of John 15; WEB “remain”.",
+   "book": "JHN"
+  },
+  "神迹": {
+   "pos": "noun",
+   "note": "Sign, miracle. John calls Jesus’ miracles ‘signs’ (WEB “signs”) because they point to who he is (2:11; 20:30).",
+   "book": "JHN"
+  },
+  "人子": {
+   "pos": "noun (title)",
+   "note": "‘The Son of Man’ — the title Jesus uses for himself; WEB “the Son of Man”.",
+   "book": "JHN"
+  },
+  "保惠师": {
+   "pos": "noun (title)",
+   "note": "The Counselor or Helper (Greek paraklētos), the Holy Spirit; WEB “Counselor” (14:16, 26).",
+   "book": "JHN"
+  },
+  "实实在在": {
+   "pos": "adverb",
+   "note": "‘Truly, truly’ — the CUV’s rendering of Jesus’ double ‘Amen, amen’; WEB “Most certainly”.",
+   "book": "JHN"
+  },
+  "肉身": {
+   "pos": "noun",
+   "note": "Flesh, a human body: ‘道成了肉身’ (1:14), WEB “The Word became flesh”.",
+   "book": "JHN"
+  },
+  "见证": {
+   "pos": "noun / verb",
+   "note": "Testimony, witness; 作见证 ‘to testify’. Witness is a major theme of John (WEB “testify”, “testimony”).",
+   "book": "JHN"
+  },
+  "作见证": {
+   "pos": "verb",
+   "note": "To testify, to bear witness (WEB “testify”) — said of John the Baptist, of the Father, of Jesus’ works and of the Spirit.",
+   "book": "JHN"
+  },
+  "重生": {
+   "pos": "verb",
+   "note": "To be born again; WEB “born anew” (3:3). The Greek anōthen can also mean ‘from above’.",
+   "book": "JHN"
+  },
+  "羔羊": {
+   "pos": "noun",
+   "note": "Lamb: ‘神的羔羊’ ‘the Lamb of God’ (1:29), echoing the Passover lamb.",
+   "book": "JHN"
+  },
+  "独生子": {
+   "pos": "noun",
+   "note": "Only son. Of Jesus: the ‘one and only Son’ (Greek monogenēs; WEB “only born Son”).",
+   "book": "JHN"
+  },
+  "父": {
+   "pos": "noun",
+   "note": "Father; in John usually ‘the Father’ — God, as Jesus speaks of him (WEB “the Father”).",
+   "book": "JHN"
+  },
+  "罪": {
+   "pos": "noun",
+   "note": "Sin; in some phrases ‘guilt’ or ‘crime’ (e.g. 定罪 ‘to condemn’).",
+   "book": "JHN"
+  },
+  "神": {
+   "pos": "noun",
+   "note": "God. In this edition (神版) 神 is preceded by a respectful blank space, as in printed CUV Bibles.",
+   "book": "JHN"
+  },
+  "弥赛亚": {
+   "pos": "proper noun",
+   "note": "Messiah (Hebrew ‘anointed one’); 1:41 explains it as 基督.",
+   "book": "JHN"
+  },
+  "基督": {
+   "pos": "proper noun",
+   "note": "Christ (Greek ‘anointed one’) — the Messiah.",
+   "book": "JHN"
+  },
+  "拉比": {
+   "pos": "noun (title)",
+   "note": "Rabbi, ‘teacher’; 1:38 explains it: ‘拉比翻出来就是夫子’.",
+   "book": "JHN"
+  },
+  "哪哒": {
+   "pos": "noun (transliteration)",
+   "translit": true,
+   "note": "Nard (spikenard), a costly perfumed ointment — a transliteration of Greek nardos; WEB “nard” (12:3). Not listed in CC-CEDICT.",
+   "book": "JHN"
+  },
+  "道@1JN": {
+   "w": "道",
+   "book": "1JN",
+   "pos": "noun",
+   "note": "In 1 John, 道 renders the Greek logos: ‘the word’ or message of God (WEB “word”), and in 1:1 ‘the Word of life’. Not the everyday sense ‘road’ or ‘way’.",
+   "verses": {
+    "1JN.1.1": "‘生命之道’ is ‘the Word of life’ (WEB “the Word of life”): the message about — and the person of — the eternal life that was revealed.",
+    "1JN.3.9": "Here the CUV has 道 ‘word’ where the WEB has “his seed”; the Greek word means seed, and the CUV takes it as God’s word remaining in the believer."
+   }
+  },
+  "相交": {
+   "book": "1JN",
+   "pos": "verb",
+   "note": "To have fellowship, to share life together (WEB “fellowship”). The dictionary’s first sense, ‘to intersect’, is for lines and roads; in 1 John it is the shared life of believers with God and with one another."
+  },
+  "挽回祭": {
+   "book": "1JN",
+   "pos": "noun",
+   "note": "‘Atoning sacrifice’ (WEB “atoning sacrifice”): a sacrifice that turns away God’s anger at sin. Literally 祭 a sacrifice that 挽回 wins back. Older English Bibles say “propitiation”."
+  },
+  "敌基督": {
+   "book": "1JN",
+   "pos": "noun",
+   "note": "‘Antichrist’ (WEB “Antichrist”, “antichrists”): one who opposes Christ, denying the Father and the Son (2:22). In the CUV it is usually followed by 的 or 者 ‘the one who…’."
+  },
+  "中保": {
+   "book": "1JN",
+   "pos": "noun",
+   "note": "Here ‘one who speaks for us’ before the Father (WEB “Counselor”); the Greek is paraklētos, an advocate. The dictionary gloss ‘middleman and guarantor’ is the general modern sense."
+  },
+  "坦然无惧": {
+   "book": "1JN",
+   "pos": "set phrase",
+   "note": "‘With confidence and without fear’ (WEB “boldness”): 坦然 ‘calm, at ease’ + 无惧 ‘without fear’."
+  },
+  "太太@2JN": {
+   "w": "太太",
+   "book": "2JN",
+   "pos": "noun",
+   "note": "Here ‘lady’ (WEB “the chosen lady”, “dear lady”): a respectful way of addressing the letter’s reader — a Christian woman, or, as many readers take it, a church and its members (‘her children’). Not the modern ‘Mrs.’ or ‘wife’."
+  },
+  "长老@2JN": {
+   "w": "长老",
+   "book": "2JN",
+   "pos": "noun",
+   "note": "‘The elder’ (WEB “The elder”): the writer names himself by his role as a senior church leader; traditionally the apostle John."
+  },
+  "长老@3JN": {
+   "w": "长老",
+   "book": "3JN",
+   "pos": "noun",
+   "note": "‘The elder’ (WEB “The elder”): the writer names himself by his role as a senior church leader; traditionally the apostle John."
+  },
+  "客旅": {
+   "book": "3JN",
+   "pos": "noun",
+   "note": "‘Strangers, travellers’ (WEB “strangers”): believers travelling from church to church to preach, who depended on hospitality. 客 guest + 旅 travel."
+  },
+  "提说": {
+   "book": "3JN",
+   "pos": "verb",
+   "note": "‘To bring up, call attention to’ (WEB “I will call attention to his deeds”)."
+  },
+  "一无所取": {
+   "book": "3JN",
+   "pos": "set phrase",
+   "note": "‘Taking nothing at all’ (WEB “taking nothing from the Gentiles”): 一无 not a single thing + 所取 that is taken."
+  },
+  "该犹": {
+   "book": "3JN",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Gaius — a personal name, the man this letter is written to; WEB “Gaius” (1:1). A transliteration, not listed in CC-CEDICT."
+  },
+  "丢特腓": {
+   "book": "3JN",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Diotrephes — a church leader who ‘loves to be first’; WEB “Diotrephes” (1:9). A transliteration, not listed in CC-CEDICT."
+  },
+  "低米丢": {
+   "book": "3JN",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Demetrius — a believer the elder commends; WEB “Demetrius” (1:12). A transliteration, not listed in CC-CEDICT."
+  },
+  "亚勒腓": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Alphaeus — father of Levi and of James; WEB “Alphaeus” (2:14). A transliteration, not listed in CC-CEDICT."
+  },
+  "半尼其": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Boanerges — the name Jesus gave James and John, explained as ‘sons of thunder’ (雷子); WEB “Boanerges” (3:17). A transliteration, not listed in CC-CEDICT."
+  },
+  "巴多罗买": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Bartholomew — one of the twelve apostles; WEB “Bartholomew” (3:18). A transliteration, not listed in CC-CEDICT."
+  },
+  "达太": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Thaddaeus — one of the twelve apostles; WEB “Thaddaeus” (3:18). A transliteration, not listed in CC-CEDICT."
+  },
+  "格拉森": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Gerasenes — the people of a region east of the Sea of Galilee; the CUV follows manuscripts reading ‘Gerasenes’ where the WEB has; WEB “Gadarenes” (5:1). A transliteration, not listed in CC-CEDICT."
+  },
+  "睚鲁": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Jairus — a ruler of the synagogue whose daughter Jesus raised; WEB “Jairus” (5:22). A transliteration, not listed in CC-CEDICT."
+  },
+  "约西": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Joses — a brother of Jesus; WEB “Joses” (6:3). A transliteration, not listed in CC-CEDICT."
+  },
+  "低加坡里": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Decapolis — the ‘Ten Cities’ region east of the Jordan; WEB “Decapolis” (5:20). A transliteration, not listed in CC-CEDICT."
+  },
+  "叙利腓尼基": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Syrophoenician — from Phoenicia in the province of Syria; WEB “Syrophoenician” (7:26). A transliteration, not listed in CC-CEDICT."
+  },
+  "革尼撒勒": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Gennesaret — a plain and town on the west shore of the Sea of Galilee; WEB “Gennesaret” (6:53). A transliteration, not listed in CC-CEDICT."
+  },
+  "大玛努他": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Dalmanutha — a place by the Sea of Galilee; WEB “Dalmanutha” (8:10). A transliteration, not listed in CC-CEDICT."
+  },
+  "底买": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Timaeus — father of the blind man Bartimaeus; WEB “Timaeus” (10:46). A transliteration, not listed in CC-CEDICT."
+  },
+  "巴底买": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Bartimaeus — the blind beggar of Jericho; the name means ‘son of Timaeus’; WEB “Bartimaeus” (10:46). A transliteration, not listed in CC-CEDICT."
+  },
+  "伯法其": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Bethphage — a village near the Mount of Olives (WEB spelling; WEB “Bethsphage” (11:1). A transliteration, not listed in CC-CEDICT."
+  },
+  "客西马尼": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Gethsemane — the garden where Jesus prayed before his arrest; WEB “Gethsemane” (14:32). A transliteration, not listed in CC-CEDICT."
+  },
+  "古利奈": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Cyrene — a city in North Africa; Simon of Cyrene carried the cross; WEB “Cyrene” (15:21). A transliteration, not listed in CC-CEDICT."
+  },
+  "鲁孚": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Rufus — a son of Simon of Cyrene; WEB “Rufus” (15:21). A transliteration, not listed in CC-CEDICT."
+  },
+  "撒罗米": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Salome — one of the women who watched at the cross; WEB “Salome” (15:40). A transliteration, not listed in CC-CEDICT."
+  },
+  "亚利马太": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Arimathaea — home town of Joseph, who buried Jesus; WEB “Arimathaea” (15:43). A transliteration, not listed in CC-CEDICT."
+  },
+  "以土买": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Idumaea — the region south of Judea (Edom); WEB “Idumaea” (3:8). A transliteration, not listed in CC-CEDICT."
+  },
+  "亚比亚他": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Abiathar — a high priest in King David’s time; WEB “Abiathar” (2:26). A transliteration, not listed in CC-CEDICT."
+  },
+  "希罗底": {
+   "book": "MRK",
+   "pos": "proper name",
+   "translit": true,
+   "note": "Herodias — wife of Herod Antipas, formerly his brother Philip’s wife — not the place Herodium that the dictionary lists; WEB “Herodias” (6:17).",
+   "override_dictionary": true
+  },
+  "大利大": {
+   "book": "MRK",
+   "pos": "Aramaic word",
+   "translit": true,
+   "note": "Talitha — Aramaic, ‘girl’; WEB “Talitha cumi” (5:41). The Gospel itself gives the meaning (翻出来就是…)."
+  },
+  "古米": {
+   "book": "MRK",
+   "pos": "Aramaic word",
+   "translit": true,
+   "note": "cumi — Aramaic, ‘get up’; WEB “Talitha cumi” (5:41). The Gospel itself gives the meaning (翻出来就是…)."
+  },
+  "以法大": {
+   "book": "MRK",
+   "pos": "Aramaic word",
+   "translit": true,
+   "note": "Ephphatha — Aramaic, ‘be opened’; WEB “Ephphatha” (7:34). The Gospel itself gives the meaning (翻出来就是…)."
+  },
+  "以罗伊": {
+   "book": "MRK",
+   "pos": "Aramaic word",
+   "translit": true,
+   "note": "Eloi — Aramaic, ‘my God’; WEB “Eloi, Eloi” (15:34). The Gospel itself gives the meaning (翻出来就是…)."
+  },
+  "拉马撒巴各大尼": {
+   "book": "MRK",
+   "pos": "Aramaic word",
+   "translit": true,
+   "note": "lama sabachthani — Aramaic, ‘why have you forsaken me?’; WEB “lama sabachthani” (15:34). The Gospel itself gives the meaning (翻出来就是…)."
+  },
+  "各耳板": {
+   "book": "MRK",
+   "pos": "noun (transliteration)",
+   "translit": true,
+   "note": "Corban — a Hebrew word for an offering dedicated to God; WEB “Corban” (7:11). Mark explains it: 各耳板就是供献的意思. A transliteration, not listed in CC-CEDICT."
+  },
+  "阿爸": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "‘Abba’, the Aramaic word for ‘father’, used by Jesus in prayer; WEB “Abba, Father” (14:36). The dictionary’s ‘(dialect) father’ is the modern colloquial use."
+  },
+  "宣传": {
+   "book": "MRK",
+   "pos": "verb",
+   "note": "Here ‘to proclaim, preach’ (WEB “preaching the Good News”, 1:14). In modern Chinese 宣传 also means ‘publicity, propaganda’ — not the sense in the CUV."
+  },
+  "异能": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "‘Mighty works, miracles’ (WEB “mighty works”, 6:2). The dictionary sense ‘different function’ is modern and technical."
+  },
+  "方言": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "Here ‘languages, tongues’ (WEB “new languages”, 16:17). In modern Chinese 方言 usually means a regional dialect."
+  },
+  "选民": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "‘The chosen ones, the elect’ — those God has chosen (WEB “chosen ones”, 13:20). The modern meaning ‘voters’ is not the sense here."
+  },
+  "圣人": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "‘A holy man’ (WEB “holy man”, 6:20), said of John the Baptist. In Chinese tradition 圣人 also means a sage such as Confucius."
+  },
+  "巡抚": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "Here the Roman governor, Pilate. The CUV borrows the title of a Ming–Qing provincial governor."
+  },
+  "抽风": {
+   "book": "MRK",
+   "pos": "verb",
+   "note": "‘To go into convulsions, have a fit’, as the boy does in 9:20 (WEB “convulsed”). Not the modern sense ‘to ventilate’."
+  },
+  "风@MRK": {
+   "w": "风",
+   "book": "MRK",
+   "pos": "noun",
+   "note": "Wind (WEB “wind”).",
+   "verses": {
+    "MRK.1.26": "In 抽了一阵风 the phrase means ‘threw him into a convulsion’ (WEB “convulsing him”), not ‘a gust of wind’.",
+    "MRK.9.26": "In 抽了一阵风 the phrase means ‘convulsed him greatly’, not ‘a gust of wind’."
+   }
+  },
+  "只@MRK": {
+   "w": "只",
+   "book": "MRK",
+   "pos": "measure word",
+   "note": "Read zhī after a number (两只手 ‘two hands’, 一只船 ‘a boat’): the measure word for hands, feet, eyes, boats and animals. Read zhǐ it means ‘only’.",
+   "prefer_senses": [
+    "classifier"
+   ]
+  },
+  "擘": {
+   "book": "MRK",
+   "pos": "verb",
+   "note": "‘To break (bread)’ (WEB “broke the loaves”, 6:41). Churches read it bāi, as in 擘饼 ‘breaking of bread’; dictionaries list it as bò."
+  },
+  "百夫长": {
+   "book": "MRK",
+   "pos": "noun",
+   "note": "‘Centurion’ (WEB “centurion”, 15:39): a Roman officer over about a hundred soldiers. 百 hundred + 夫 men + 长 head."
+  }
+ }
+}

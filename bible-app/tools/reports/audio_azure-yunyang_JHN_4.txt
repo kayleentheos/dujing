@@ -1,0 +1,54 @@
+JHN.4.1: FLAG replace: expected 知[zhī] heard 治[zhì]
+JHN.4.2: exact
+JHN.4.3: exact
+JHN.4.4: homophone only 马->玛
+JHN.4.5: homophone only 马->玛 加->家
+JHN.4.6: homophone only 午->五 正->证
+JHN.4.7: homophone only 马->玛 妇->富 她->他
+JHN.4.8: exact
+JHN.4.9: homophone only 马->玛 他->她 向->像 马->玛 马->玛
+JHN.4.10: exact
+JHN.4.11: homophone only 妇->富 又->右
+JHN.4.12: homophone only 井->景 牲->生 畜->处
+JHN.4.13: exact
+JHN.4.14: homophone only 渴->可 他->它 泉->全 源->员 直->指 涌->永
+JHN.4.15: FLAG replace: expected 妇[fù] heard 夫[fū]
+JHN.4.16: exact
+JHN.4.17: homophone only 妇->富
+JHN.4.18: exact
+JHN.4.19: FLAG replace: expected 妇[fù] heard 夫[fū]
+JHN.4.20: exact
+JHN.4.21: homophone only 妇->富 到->道 父->富
+JHN.4.22: homophone only 拜->败 拜->败
+JHN.4.23: FLAG replace: expected 时候将到[shí hou jiāng dào] heard 事后江道[shì hòu jiāng dào]
+JHN.4.24: homophone only 灵->零
+JHN.4.25: homophone only 妇->富
+JHN.4.26: exact
+JHN.4.27: homophone only 希->稀 她->他
+JHN.4.28: exact
+JHN.4.29: exact
+JHN.4.30: exact
+JHN.4.31: FLAG replace: expected 其[qí] heard 期[qī]
+JHN.4.32: exact
+JHN.4.33: exact
+JHN.4.34: homophone only 差->拆
+JHN.4.35: FLAG replace: expected 田[tián] heard 前[qián]
+JHN.4.36: exact
+JHN.4.37: exact
+JHN.4.38: homophone only 差->拆
+JHN.4.39: homophone only 马->玛 作->做 他->她
+JHN.4.40: homophone only 马->玛
+JHN.4.41: exact
+JHN.4.42: homophone only 妇->富
+JHN.4.43: exact
+JHN.4.44: homophone only 作->做
+JHN.4.45: exact
+JHN.4.46: homophone only 迦->加 迦->加
+JHN.4.47: exact
+JHN.4.48: homophone only 奇->骑 事->士
+JHN.4.49: homophone only 就->救
+JHN.4.50: exact
+JHN.4.51: exact
+JHN.4.52: homophone only 见->建 未->胃 时->食
+JHN.4.53: exact
+JHN.4.54: FLAG replace: expected 迹[jì] heard 器[qì]

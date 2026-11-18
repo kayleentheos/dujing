@@ -1,0 +1,28 @@
+MRK.2.1: homophone only 迦->加
+MRK.2.2: exact
+MRK.2.3: homophone only 瘫->摊
+MRK.2.4: homophone only 瘫->摊 所->锁 缒->坠
+MRK.2.5: homophone only 瘫->摊 赦->社
+MRK.2.6: exact
+MRK.2.7: homophone only 僭->健 妄->忘 赦->涉
+MRK.2.8: exact
+MRK.2.9: homophone only 瘫->摊 赦->社
+MRK.2.10: FLAG replace: expected 子[zǐ] heard 字[zì]
+MRK.2.11: exact
+MRK.2.12: exact
+MRK.2.13: homophone only 就->救
+MRK.2.14: homophone only 腓->肥 利->立 未->位 关->官
+MRK.2.15: homophone only 未->卫 吏->利
+MRK.2.16: FLAG replace: expected 税吏[shuì lì] heard 顺利[shùn lì]
+MRK.2.17: homophone only 召->赵 义->异 召->赵
+MRK.2.18: homophone only 禁->进 禁->进 禁->进
+MRK.2.19: homophone only 禁->进 禁->进
+MRK.2.20: homophone only 禁->进
+MRK.2.21: homophone only 新->心 布->不 新->心 带->袋
+MRK.2.22: homophone only 惟->为
+MRK.2.23: FLAG replace: expected 麦[mài] heard 外[wài]
+MRK.2.24: FLAG insert: expected [] heard 个[gè]
+MRK.2.25: exact
+MRK.2.26: homophone only 作->做
+MRK.2.27: exact
+MRK.2.28: homophone only 子->字

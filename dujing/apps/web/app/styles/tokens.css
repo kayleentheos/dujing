@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Design tokens — 读经 · Learn Chinese through Scripture
+   Quiet, literary, printed-Bible feel: ivory paper, charcoal ink, one muted
+   rubric red (as in printed Bibles), thin rules, generous margins.
+   ========================================================================== */
+:root {
+  /* Paper & ink */
+  --paper: #f6f1e6;          /* warm ivory page */
+  --paper-raised: #fbf8f1;   /* sheets, popovers */
+  --paper-sunk: #efe8d9;     /* wells, selected rows */
+  --ink: #2b2825;            /* body text, charcoal */
+  --ink-soft: #5d5750;       /* secondary text */
+  --ink-faint: #8f877c;      /* labels, verse numbers, page furniture */
+  --rule: #d9cfbd;           /* hairlines */
+  --rule-strong: #bfb39d;
+
+  /* Restrained colour */
+  --rubric: #9a3b2a;         /* rubric red: accents, words of Jesus */
+  --rubric-soft: #c98f7f;
+  --sage: #5f6f5c;           /* secondary accent: progress, "known" */
+  --gold-wash: #efe1b8;      /* highlight wash (default highlight) */
+  --rose-wash: #f0d6cc;
+  --sage-wash: #dbe3d3;
+  --sky-wash: #d6dfe6;
+  --focus: #9a3b2a;
+
+  /* Type families (Google Fonts, see index.html) */
+  --font-zh: "Noto Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", "SimSun", serif;
+  --font-display: "EB Garamond", "Garamond", "Times New Roman", serif;
+  --font-text: "Source Serif 4", "Georgia", serif;
+  --font-pinyin: "Source Serif 4", "Georgia", serif;
+
+  /* Reader settings (overridden live from preferences) */
+  --zh-size: 22px;
+  --py-size: 11px;
+  --en-size: 17px;
+  --leading: 2.05;           /* Chinese line height multiplier */
+  --measure: 34em;           /* reading column width (Chinese) */
+
+  /* Scale */
+  --step--2: 11px;
+  --step--1: 13px;
+  --step-0: 15px;
+  --step-1: 18px;
+  --step-2: 23px;
+  --step-3: 30px;
+  --step-4: 40px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 36px;
+  --space-7: 56px;
+  --space-8: 88px;
+
+  --radius: 3px;             /* nearly square: print, not app */
+  --shadow-sheet: 0 1px 0 rgba(43, 40, 37, .04), 0 12px 32px -12px rgba(43, 40, 37, .28);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --header-h: 52px;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --zh-size: 20px;
+    --en-size: 16px;
+    --header-h: 48px;
+  }
+}

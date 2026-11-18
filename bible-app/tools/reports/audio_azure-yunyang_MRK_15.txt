@@ -1,0 +1,46 @@
+MRK.15.1: homophone only 士->氏 彼->比
+MRK.15.2: homophone only 彼->比
+MRK.15.3: exact
+MRK.15.4: homophone only 彼->比
+MRK.15.5: homophone only 彼->比 希->稀
+MRK.15.6: exact
+MRK.15.7: exact
+MRK.15.8: homophone only 照->赵 常->长 例->利
+MRK.15.9: homophone only 彼->比
+MRK.15.10: FLAG replace: expected 原晓得[yuán xiǎo de] heard 远小的[yuǎn xiǎo de]; replace: expected 解[jiě] heard 捡[jiǎn]
+MRK.15.11: exact
+MRK.15.12: homophone only 彼->比
+MRK.15.13: homophone only 钉->定
+MRK.15.14: homophone only 彼->比 地->的 钉->定
+MRK.15.15: homophone only 彼->比 钉->定
+MRK.15.16: FLAG replace: expected 兵[bīng] heard 丁[dīng]
+MRK.15.17: homophone only 做->作
+MRK.15.18: exact
+MRK.15.19: homophone only 吐->土
+MRK.15.20: homophone only 钉->定
+MRK.15.21: homophone only 利->力 孚->弗
+MRK.15.22: homophone only 各->个 各->个 髑->独 髅->楼
+MRK.15.23: FLAG replace: expected 没药[mò yào] heard 木要[mù yào]
+MRK.15.24: FLAG replace: expected 拈阄[niān jiū] heard 研究[yán jiū]
+MRK.15.25: homophone only 钉->定 巳->四 初->出
+MRK.15.26: exact
+MRK.15.27: homophone only 钉->订
+MRK.15.29: homophone only 咳->嗨
+MRK.15.30: homophone only 救->就
+MRK.15.31: FLAG replace: expected 和[hé] heard 贺[hè]
+MRK.15.32: FLAG replace: expected 诮[qiào] heard 笑[xiào]
+MRK.15.33: homophone only 午->五 正->证 申->深 初->出
+MRK.15.34: FLAG replace: expected 撒[sā] heard 萨[sà]
+MRK.15.35: homophone only 哪->啊
+MRK.15.36: homophone only 绒->蓉 他->她 他->她
+MRK.15.37: exact
+MRK.15.38: homophone only 殿->店 幔->慢 裂->列
+MRK.15.39: exact
+MRK.15.40: homophone only 马->玛 马->玛
+MRK.15.41: homophone only 事->侍
+MRK.15.42: exact
+MRK.15.43: homophone only 利->历 太->泰 议->义
+MRK.15.44: homophone only 彼->比
+MRK.15.45: exact
+MRK.15.46: homophone only 墓->木
+MRK.15.47: FLAG replace: expected 抹大[mǒ dà] heard 摩哒[mó dá]

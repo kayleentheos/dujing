@@ -1,0 +1,24 @@
+1JN.3.1: homophone only 父->副 赐->次
+1JN.3.2: FLAG replace: expected 体[tǐ] heard 题[tí]
+1JN.3.3: FLAG replace: expected 洁净[jié jìng] heard 结晶[jié jīng]
+1JN.3.4: exact
+1JN.3.5: homophone only 曾->层
+1JN.3.6: homophone only 他->它 他->它 他->它
+1JN.3.7: homophone only 哪->啊 行->形 义->意 义->艺 义->艺
+1JN.3.8: exact
+1JN.3.9: exact
+1JN.3.10: FLAG replace: expected 显[xiǎn] heard 选[xuǎn]
+1JN.3.11: exact
+1JN.3.12: homophone only 像->向
+1JN.3.13: homophone only 希->稀
+1JN.3.14: exact
+1JN.3.15: FLAG replace: expected 凡[fán] heard 反[fǎn]; replace: expected 凡[fán] heard 反[fǎn]
+1JN.3.16: exact
+1JN.3.17: homophone only 怜->连 恤->旭
+1JN.3.18: homophone only 哪->啊
+1JN.3.19: exact
+1JN.3.20: homophone only 事->是
+1JN.3.21: exact
+1JN.3.22: exact
+1JN.3.23: exact
+1JN.3.24: exact

@@ -1,0 +1,72 @@
+MRK.14.1: homophone only 逾->于 越->月 酵->教 士->世 想->祥
+MRK.14.2: exact
+MRK.14.3: FLAG replace: expected 哪哒[nǎ dá] heard 打达[dǎ dá]
+MRK.14.4: homophone only 香->相 膏->高
+MRK.14.5: homophone only 香->箱 膏->糕 周->洲 济->际
+MRK.14.6: homophone only 她->他 她->他 她->他
+MRK.14.7: exact
+MRK.14.8: homophone only 她->他 她->他 她->他 膏->高 浇->交
+MRK.14.9: homophone only 记->纪
+MRK.14.10: FLAG replace: expected 加略[jiā lüè] heard 伽律[gā lǜ]
+MRK.14.11: exact
+MRK.14.12: FLAG replace: expected 宰逾越[zǎi yú yuè] heard 在鱼跃[zài yú yuè]
+MRK.14.13: exact
+MRK.14.14: homophone only 逾->鱼 越->月
+MRK.14.15: homophone only 必->壁 指->纸
+MRK.14.16: exact
+MRK.14.17: exact
+MRK.14.18: FLAG replace: expected 坐席[zuò xí] heard 作息[zuò xī]
+MRK.14.19: homophone only 地->的
+MRK.14.20: homophone only 蘸->站 手->守
+MRK.14.21: FLAG replace: expected 子[zǐ] heard 自[zì]; replace: expected 子[zǐ] heard 字[zì]
+MRK.14.22: homophone only 擘->掰
+MRK.14.23: exact
+MRK.14.24: exact
+MRK.14.25: homophone only 新->心
+MRK.14.26: homophone only 就->救
+MRK.14.27: homophone only 着->者
+MRK.14.28: exact
+MRK.14.29: exact
+MRK.14.30: homophone only 以->乙 先->酰
+MRK.14.31: exact
+MRK.14.32: homophone only 客->克
+MRK.14.33: exact
+MRK.14.34: exact
+MRK.14.35: exact
+MRK.14.36: homophone only 啊->阿
+MRK.14.37: exact
+MRK.14.38: exact
+MRK.14.39: exact
+MRK.14.40: exact
+MRK.14.41: FLAG replace: expected 子[zǐ] heard 字[zì]
+MRK.14.42: homophone only 哪->啊 近->进
+MRK.14.43: homophone only 士->氏
+MRK.14.44: exact
+MRK.14.45: exact
+MRK.14.46: homophone only 他->它
+MRK.14.47: exact
+MRK.14.48: exact
+MRK.14.49: homophone only 殿->店 事->是
+MRK.14.50: exact
+MRK.14.51: exact
+MRK.14.52: exact
+MRK.14.53: homophone only 众->重
+MRK.14.54: homophone only 地->的
+MRK.14.55: homophone only 公->工
+MRK.14.56: exact
+MRK.14.57: exact
+MRK.14.58: homophone only 殿->电
+MRK.14.59: homophone only 作->做
+MRK.14.60: homophone only 作->做
+MRK.14.61: exact
+MRK.14.62: homophone only 权->全 驾->架
+MRK.14.63: exact
+MRK.14.64: FLAG replace: expected 僭妄[jiàn wàng] heard 剑网[jiàn wǎng]
+MRK.14.65: exact
+MRK.14.66: exact
+MRK.14.67: homophone only 撒->洒 勒->乐
+MRK.14.68: exact
+MRK.14.69: homophone only 使->石
+MRK.14.70: exact
+MRK.14.71: exact
+MRK.14.72: homophone only 立->历

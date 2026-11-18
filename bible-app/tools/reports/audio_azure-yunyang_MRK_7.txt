@@ -1,0 +1,36 @@
+MRK.7.1: homophone only 有->由
+MRK.7.2: exact
+MRK.7.3: homophone only 拘->居
+MRK.7.4: homophone only 市->事 拘->居 守->首
+MRK.7.5: exact
+MRK.7.6: exact
+MRK.7.7: homophone only 作->做
+MRK.7.8: homophone only 弃->气 拘->居 守->首
+MRK.7.9: exact
+MRK.7.10: exact
+MRK.7.11: homophone only 作->做 各->个 耳->儿 板->版 各->个 耳->儿 板->版 供->攻 献->陷
+MRK.7.12: exact
+MRK.7.13: homophone only 废->费
+MRK.7.14: exact
+MRK.7.15: homophone only 惟->唯 乃->奶
+MRK.7.17: exact
+MRK.7.18: homophone only 岂->起 晓->小 得->的
+MRK.7.19: exact
+MRK.7.20: exact
+MRK.7.21: exact
+MRK.7.22: homophone only 诡->鬼 谤->棒
+MRK.7.23: exact
+MRK.7.24: exact
+MRK.7.25: homophone only 妇->富 她->他 污->巫
+MRK.7.26: homophone only 她->他 那->纳 她->他
+MRK.7.27: homophone only 她->他
+MRK.7.28: FLAG delete: expected 儿[ér] heard []
+MRK.7.29: homophone only 她->他
+MRK.7.30: homophone only 她->他
+MRK.7.31: FLAG replace: expected 低加[dī jiā] heard 迪迦[dí jiā]
+MRK.7.32: homophone only 舌->蛇
+MRK.7.33: exact
+MRK.7.34: homophone only 以->疑
+MRK.7.35: homophone only 结->节
+MRK.7.36: exact
+MRK.7.37: homophone only 希->稀 聋->笼

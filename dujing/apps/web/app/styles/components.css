@@ -1,0 +1,135 @@
+/* Reusable components: header, buttons, segmented control, sheets, toast */
+
+/* ---- App header (page furniture) ---- */
+.masthead {
+  position: sticky; top: 0; z-index: 30;
+  height: var(--header-h);
+  display: flex; align-items: center; gap: var(--space-3);
+  padding: 0 var(--space-5);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: saturate(1.1) blur(6px);
+  -webkit-backdrop-filter: saturate(1.1) blur(6px);
+  border-bottom: 1px solid var(--rule);
+}
+.masthead__title { flex: 1; min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.masthead__side { display: flex; align-items: center; gap: var(--space-1); min-width: 0; }
+.masthead__side--end { justify-content: flex-end; }
+@media (max-width: 720px) { .masthead { padding: 0 var(--space-2); gap: var(--space-1); } }
+
+.wordmark { display: inline-flex; align-items: baseline; gap: .5em; text-decoration: none; }
+.wordmark__zh { font-family: var(--font-zh); font-weight: 600; font-size: 19px; letter-spacing: .08em; }
+.wordmark__en { font-family: var(--font-display); font-style: italic; color: var(--ink-faint); font-size: 15px; }
+
+/* ---- Buttons: text-first, no pills ---- */
+.btn {
+  appearance: none; border: 1px solid transparent; background: none; cursor: pointer; text-decoration: none;
+  display: inline-flex; align-items: center; justify-content: center; gap: .45em;
+  min-height: 36px; padding: 0 var(--space-3);
+  border-radius: var(--radius);
+  font-family: var(--font-text); font-size: var(--step--1); letter-spacing: .02em;
+  color: var(--ink-soft);
+  transition: color .15s var(--ease), background .15s var(--ease), border-color .15s var(--ease);
+}
+.btn:hover { color: var(--ink); background: var(--paper-sunk); }
+.btn[aria-pressed="true"], .btn.is-active { color: var(--ink); }
+.btn--primary {
+  color: var(--paper-raised); background: var(--ink); border-color: var(--ink);
+  font-family: var(--font-display); font-size: var(--step-1); letter-spacing: .03em;
+  min-height: 44px; padding: 0 var(--space-5);
+}
+.btn--primary:hover { background: #3a3632; color: var(--paper-raised); }
+.btn--outline { border-color: var(--rule-strong); color: var(--ink); }
+.btn--outline:hover { border-color: var(--ink-soft); background: transparent; }
+.btn--icon { width: 40px; padding: 0; }
+.btn--small { min-height: 30px; padding: 0 var(--space-2); font-size: var(--step--2); letter-spacing: .08em; text-transform: uppercase; }
+.btn:disabled { opacity: .35; cursor: default; background: none; }
+.icon { width: 19px; height: 19px; stroke: currentColor; fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+
+/* ---- Segmented control (reading modes etc.) ---- */
+.segmented {
+  display: inline-flex; border: 1px solid var(--rule-strong); border-radius: var(--radius);
+  overflow: hidden; background: var(--paper-raised);
+}
+.segmented button {
+  appearance: none; border: 0; background: none; cursor: pointer;
+  padding: 6px 12px; min-height: 32px;
+  font-family: var(--font-text); font-size: var(--step--1); color: var(--ink-soft);
+}
+.segmented button + button { border-left: 1px solid var(--rule); }
+.segmented button[aria-checked="true"] { background: var(--ink); color: var(--paper-raised); }
+.segmented .zh { font-size: 14px; }
+
+/* ---- Sheet: bottom sheet on phones, anchored panel on desktop ---- */
+.scrim {
+  position: fixed; inset: 0; z-index: 60; background: rgba(43, 40, 37, .18);
+  opacity: 0; transition: opacity .2s var(--ease);
+}
+.scrim.is-open { opacity: 1; }
+.sheet {
+  position: fixed; z-index: 61; background: var(--paper-raised);
+  border: 1px solid var(--rule); box-shadow: var(--shadow-sheet);
+  max-height: min(78vh, 680px); overflow: auto; overscroll-behavior: contain;
+  transition: transform .22s var(--ease), opacity .22s var(--ease);
+}
+.sheet--panel { top: calc(var(--header-h) + 8px); right: 16px; width: 360px; border-radius: var(--radius); opacity: 0; transform: translateY(-6px); }
+.sheet--panel.is-open { opacity: 1; transform: none; }
+@media (max-width: 720px) {
+  .sheet--panel, .sheet--bottom {
+    left: 0; right: 0; bottom: 0; top: auto; width: auto;
+    border-radius: 10px 10px 0 0; border-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    transform: translateY(100%); opacity: 1;
+  }
+  .sheet--panel.is-open, .sheet--bottom.is-open { transform: none; }
+}
+.sheet--bottom { left: 50%; bottom: 16px; width: min(560px, calc(100vw - 32px)); transform: translate(-50%, 12px); opacity: 0; border-radius: var(--radius); }
+.sheet--bottom.is-open { transform: translate(-50%, 0); opacity: 1; }
+@media (max-width: 720px) { .sheet--bottom.is-open { transform: none; } }
+.sheet__head { display: flex; align-items: baseline; justify-content: space-between; padding: var(--space-4) var(--space-5) var(--space-2); }
+.sheet__title { font-family: var(--font-display); font-size: var(--step-1); }
+.sheet__body { padding: 0 var(--space-5) var(--space-5); }
+.sheet__grabber { display: none; }
+@media (max-width: 720px) {
+  .sheet__grabber { display: block; width: 36px; height: 4px; border-radius: 2px; background: var(--rule-strong); margin: 8px auto 0; }
+}
+
+/* ---- Setting rows ---- */
+.setting { padding: var(--space-3) 0; border-top: 1px solid var(--rule); }
+.setting:first-child { border-top: 0; }
+.setting__label { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-2); }
+.setting__label span:first-child { font-family: var(--font-display); font-size: var(--step-0); }
+.setting__value { font-size: var(--step--1); color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.setting .segmented { width: 100%; }
+.setting .segmented button { flex: 1; }
+.range {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 20px; background: transparent; margin: 0;
+}
+.range::-webkit-slider-runnable-track { height: 1px; background: var(--rule-strong); }
+.range::-moz-range-track { height: 1px; background: var(--rule-strong); }
+.range::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--ink); margin-top: -7px; border: 0; }
+.range::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--ink); border: 0; }
+.switch { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); cursor: pointer; }
+.switch input { appearance: none; -webkit-appearance: none; width: 34px; height: 20px; border-radius: 10px; background: var(--rule-strong); position: relative; cursor: pointer; transition: background .15s; flex: none; margin: 0; }
+.switch input::after { content: ""; position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; border-radius: 50%; background: var(--paper-raised); transition: transform .15s var(--ease); }
+.switch input:checked { background: var(--ink); }
+.switch input:checked::after { transform: translateX(14px); }
+
+/* ---- Toast ---- */
+.toast {
+  position: fixed; left: 50%; bottom: 24px; z-index: 80; transform: translate(-50%, 20px);
+  background: var(--ink); color: var(--paper-raised); padding: 10px 16px; border-radius: var(--radius);
+  font-size: var(--step--1); opacity: 0; pointer-events: none; transition: all .2s var(--ease);
+}
+.toast.is-open { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.toast__action { margin-left: 14px; border: 0; background: none; color: #f0c9a8; font: inherit; font-weight: 600; cursor: pointer; padding: 0; }
+
+/* ---- Thin progress line ---- */
+.progress { height: 2px; background: var(--rule); position: relative; overflow: hidden; }
+.progress > i { position: absolute; inset: 0 auto 0 0; background: var(--sage); }
+
+/* ---- Notices ---- */
+.notice {
+  border-left: 2px solid var(--rubric-soft); padding: var(--space-2) var(--space-4);
+  font-size: var(--step--1); color: var(--ink-soft); background: color-mix(in srgb, var(--paper-sunk) 50%, transparent);
+}
+.loading { padding: var(--space-8) var(--space-5); text-align: center; color: var(--ink-faint); font-family: var(--font-display); font-style: italic; }

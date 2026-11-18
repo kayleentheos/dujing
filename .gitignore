@@ -1,0 +1,20 @@
+# generated / heavy
+**/build/
+**/node_modules/
+**/.next/
+**/dist/
+**/*.tsbuildinfo
+**/__pycache__/
+**/test-results/
+dujing/apps/web/public/content/
+# secrets & personal data — never commit
+.env
+.env.*
+!.env.example
+**/.secrets*
+**/backups/
+*backup*.json
+# misc
+.DS_Store
+*.log
+tmp/

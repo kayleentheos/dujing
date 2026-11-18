@@ -1,0 +1,51 @@
+JHN.1.1: exact
+JHN.1.2: exact
+JHN.1.3: homophone only 他->它 他->它
+JHN.1.4: homophone only 他->它
+JHN.1.5: exact
+JHN.1.6: homophone only 差->拆
+JHN.1.7: homophone only 作->做 作->做
+JHN.1.8: homophone only 作->做
+JHN.1.9: exact
+JHN.1.10: exact
+JHN.1.11: exact
+JHN.1.12: homophone only 作->做
+JHN.1.13: FLAG replace: expected 意[yì] heard 一[yī]
+JHN.1.14: homophone only 道->倒 地->的 父->复 独->读
+JHN.1.15: homophone only 作->做
+JHN.1.16: exact
+JHN.1.17: exact
+JHN.1.18: homophone only 父->腹 他->它
+JHN.1.19: homophone only 作->做 差->拆 未->卫
+JHN.1.20: exact
+JHN.1.21: exact
+JHN.1.22: homophone only 差->拆
+JHN.1.23: homophone only 直->指
+JHN.1.24: homophone only 差->拆
+JHN.1.25: FLAG replace: expected 施洗[shī xǐ] heard 是喜[shì xǐ]
+JHN.1.26: exact
+JHN.1.27: exact
+JHN.1.28: homophone only 作->做
+JHN.1.29: FLAG replace: expected 次[cì] heard 四[sì]
+JHN.1.30: homophone only 反->返
+JHN.1.31: exact
+JHN.1.32: homophone only 作->做
+JHN.1.33: exact
+JHN.1.34: exact
+JHN.1.35: exact
+JHN.1.36: homophone only 哪->啊
+JHN.1.37: exact
+JHN.1.38: exact
+JHN.1.39: homophone only 申->身 正->症
+JHN.1.40: homophone only 得->德
+JHN.1.41: exact
+JHN.1.42: homophone only 矶->基 矶->基
+JHN.1.43: exact
+JHN.1.44: homophone only 腓->肥 伯->博 赛->塞 得->德
+JHN.1.45: FLAG replace: expected 撒[sǎ] heard 萨[sà]
+JHN.1.46: homophone only 但->蛋 业->液
+JHN.1.47: homophone only 但->蛋 业->液 哪->啊
+JHN.1.48: homophone only 但->蛋 业->液
+JHN.1.49: homophone only 但->蛋 业->液
+JHN.1.50: exact
+JHN.1.51: FLAG replace: expected 子[zǐ] heard 字[zì]

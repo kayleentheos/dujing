@@ -1,0 +1,31 @@
+JHN.14.1: exact
+JHN.14.2: homophone only 原->源 是->氏
+JHN.14.3: exact
+JHN.14.4: exact
+JHN.14.5: homophone only 马->玛
+JHN.14.6: exact
+JHN.14.7: exact
+JHN.14.8: homophone only 父->富
+JHN.14.9: exact
+JHN.14.10: homophone only 父->附 父->附
+JHN.14.11: homophone only 父->腹 父->腹
+JHN.14.12: homophone only 地->的 事->是
+JHN.14.13: FLAG replace: expected 奉[fèng] heard 封[fēng]
+JHN.14.14: exact
+JHN.14.15: exact
+JHN.14.16: FLAG replace: expected 惠[huì] heard 护[hù]
+JHN.14.17: homophone only 世->是
+JHN.14.18: exact
+JHN.14.19: exact
+JHN.14.20: homophone only 父->腹
+JHN.14.21: homophone only 必->闭
+JHN.14.22: FLAG replace: expected 加略[jiā lüè] heard 家里[jiā lǐ]
+JHN.14.23: exact
+JHN.14.24: homophone only 差->拆 之->支 父->付
+JHN.14.25: exact
+JHN.14.26: homophone only 父->福 因->音 差->拆
+JHN.14.27: exact
+JHN.14.28: homophone only 父->富 父->富 是->士
+JHN.14.29: exact
+JHN.14.30: homophone only 将->江 到->道
+JHN.14.31: exact

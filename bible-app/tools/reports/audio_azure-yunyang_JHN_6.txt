@@ -1,0 +1,71 @@
+JHN.6.1: homophone only 事->是 渡->度 哩->里
+JHN.6.2: exact
+JHN.6.3: exact
+JHN.6.4: FLAG replace: expected 时[shí] heard 是[shì]
+JHN.6.5: exact
+JHN.6.6: homophone only 腓->肥
+JHN.6.7: homophone only 各->个
+JHN.6.8: homophone only 得->德
+JHN.6.9: exact
+JHN.6.10: exact
+JHN.6.11: exact
+JHN.6.12: exact
+JHN.6.13: exact
+JHN.6.14: exact
+JHN.6.15: homophone only 作->做
+JHN.6.16: exact
+JHN.6.17: homophone only 迦->加 百->摆
+JHN.6.18: exact
+JHN.6.19: FLAG replace: expected 摇橹[yáo lǔ] heard 窑炉[yáo lú]
+JHN.6.20: exact
+JHN.6.21: homophone only 立->历
+JHN.6.22: exact
+JHN.6.23: FLAG replace: expected 祝谢[zhù xiè] heard 助线[zhù xiàn]
+JHN.6.24: homophone only 迦->家 百->摆
+JHN.6.25: homophone only 时->十 到->道
+JHN.6.26: FLAG replace: expected 因见了[yīn jiàn le] heard 阴间的[yīn jiān de]
+JHN.6.27: FLAG replace: expected 子[zǐ] heard 字[zì]; replace: expected 子[zǐ] heard 字[zì]
+JHN.6.28: homophone only 做->作 工->功
+JHN.6.29: homophone only 差->拆 工->功
+JHN.6.30: exact
+JHN.6.31: FLAG replace: expected 吗哪[mǎ nǎ] heard 马了[mǎ le]
+JHN.6.32: homophone only 地->的
+JHN.6.33: homophone only 粮->良
+JHN.6.34: homophone only 常->长 将->江
+JHN.6.35: homophone only 粮->良 渴->可
+JHN.6.36: exact
+JHN.6.37: FLAG replace: expected 凡父[fán fù] heard 反复[fǎn fù]
+JHN.6.38: homophone only 差->拆
+JHN.6.39: homophone only 差->拆
+JHN.6.40: homophone only 人->仁 得->德
+JHN.6.41: exact
+JHN.6.42: exact
+JHN.6.43: exact
+JHN.6.44: homophone only 差->拆 父->复
+JHN.6.45: homophone only 蒙->萌
+JHN.6.46: homophone only 惟->唯
+JHN.6.47: homophone only 地->的
+JHN.6.48: homophone only 粮->良
+JHN.6.49: FLAG replace: expected 哪[nǎ] heard 啊[a]
+JHN.6.50: exact
+JHN.6.51: FLAG replace: expected 赐[cì] heard 吃[chī]
+JHN.6.52: exact
+JHN.6.53: FLAG replace: expected 子[zǐ] heard 字[zì]; replace: expected 子[zǐ] heard 字[zì]
+JHN.6.54: exact
+JHN.6.55: exact
+JHN.6.56: homophone only 他->它
+JHN.6.57: homophone only 差->拆
+JHN.6.58: exact
+JHN.6.59: homophone only 迦->加
+JHN.6.60: exact
+JHN.6.61: homophone only 厌->咽 弃->气
+JHN.6.62: FLAG replace: expected 子[zǐ] heard 字[zì]
+JHN.6.63: homophone only 益->意
+JHN.6.64: exact
+JHN.6.65: exact
+JHN.6.66: exact
+JHN.6.67: exact
+JHN.6.68: exact
+JHN.6.69: exact
+JHN.6.70: exact
+JHN.6.71: FLAG replace: expected 加略[jiā lüè] heard 家里[jiā lǐ]

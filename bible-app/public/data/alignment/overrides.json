@@ -1,0 +1,93 @@
+{
+ "_about": "Explicit, documented exceptions to 1:1 verse pairing between the CUV (cmn-cu89s) and the WEB (eng-web). Each entry lists the WEB verse ids and the CUV verse ids that cover the same text.",
+ "JHN": [
+  {
+   "web": [
+    "JHN.5.4"
+   ],
+   "cuv": [],
+   "note": {
+    "en": "Textual variant. The CUV main text has no verse 4; its footnote at 5:3 gives the reading found in some ancient manuscripts. The WEB includes verse 4 and notes that the NU critical text omits it.",
+    "zh": "此节在和合本正文中从缺；和合本在5:3的小注中列出“有古卷加”的读法。"
+   }
+  },
+  {
+   "web": [
+    "JHN.7.53",
+    "JHN.8.1"
+   ],
+   "cuv": [
+    "JHN.8.1"
+   ],
+   "note": {
+    "en": "Versification difference, no text missing. The CUV numbers “于是各人都回家去了” as the start of 8:1; the WEB numbers it 7:53. So CUV John 7 has 52 verses.",
+    "zh": "经节划分不同，并无缺文：和合本把“于是各人都回家去了”归入8:1；WEB将此句编为7:53。"
+   }
+  }
+ ],
+ "3JN": [
+  {
+   "web": [
+    "3JN.1.14"
+   ],
+   "cuv": [
+    "3JN.1.14",
+    "3JN.1.15"
+   ],
+   "note": {
+    "en": "Versification difference, no text missing. The CUV numbers the closing greeting “Peace be to you. The friends greet you…” as verse 15; the WEB includes it at the end of verse 14.",
+    "zh": "节数划分不同，经文没有缺漏。和合本把结尾的问安“愿你平安……”列为第15节；WEB把它并入第14节。"
+   }
+  }
+ ],
+ "MRK": [
+  {
+   "web": [
+    "MRK.7.16"
+   ],
+   "cuv": [],
+   "note": {
+    "en": "Textual variant. The CUV main text has no verse 16; its footnote at 7:15 gives the reading found in some ancient manuscripts (“If anyone has ears to hear, let him hear!”). The WEB includes verse 16 and notes that the NU critical text omits it.",
+    "zh": "此节在和合本正文中从缺；和合本在7:15的小注中列出“有古卷加：〔16〕有耳可听的，就应当听！”"
+   }
+  },
+  {
+   "web": [
+    "MRK.9.43",
+    "MRK.9.44"
+   ],
+   "cuv": [
+    "MRK.9.43",
+    "MRK.9.44"
+   ],
+   "note": {
+    "en": "Different verse division. The CUV splits the saying about the hand over its verses 43–44. The WEB gives it as verse 43 and adds verse 44, “where their worm doesn’t die, and the fire is not quenched” — a line some manuscripts repeat here, which the CUV has only at verse 48.",
+    "zh": "分节不同。和合本把论手的话分作43、44两节；WEB作43节，并有第44节“在那里，虫是不死的，火是不灭的”（有古卷在此重复此句，和合本只在48节有）。"
+   }
+  },
+  {
+   "web": [
+    "MRK.9.45",
+    "MRK.9.46"
+   ],
+   "cuv": [
+    "MRK.9.45",
+    "MRK.9.46"
+   ],
+   "note": {
+    "en": "Different verse division. The CUV splits the saying about the foot over its verses 45–46. The WEB gives it as verse 45 and adds verse 46, the repeated line “where their worm doesn’t die…”, which the CUV has only at verse 48.",
+    "zh": "分节不同。和合本把论脚的话分作45、46两节；WEB作45节，并有第46节重复“虫是不死的……”一句（和合本只在48节有）。"
+   }
+  },
+  {
+   "web": [
+    "MRK.15.28"
+   ],
+   "cuv": [],
+   "note": {
+    "en": "Textual variant. The CUV main text has no verse 28; its footnote at 15:27 gives the reading found in some ancient manuscripts (“The Scripture was fulfilled which says, ‘He was counted with transgressors’”). The WEB includes verse 28 and notes that the NU critical text omits it.",
+    "zh": "此节在和合本正文中从缺；和合本在15:27的小注中列出“有古卷加：〔28〕这就应了经上的话说：他被列在罪犯之中。”"
+   }
+  }
+ ]
+}
