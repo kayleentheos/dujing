@@ -121,30 +121,46 @@
 .sess-top { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3); font-size: 13px; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
 .sess-progress { flex: 1; height: 2px; background: var(--rule); }
 .sess-progress i { display: block; height: 100%; width: 0; background: var(--rubric); transition: width .3s var(--ease); }
-.scard { position: relative; min-height: 360px; background: var(--paper-raised); border: 1px solid var(--rule-strong); box-shadow: 0 1px 0 rgba(43,40,37,.04), 0 18px 40px -26px rgba(43,40,37,.35); padding: var(--space-6) var(--space-5) var(--space-5); text-align: center; cursor: pointer; outline: none; touch-action: pan-y; user-select: none; transition: transform .18s var(--ease), opacity .18s; }
-.scard::before { content: ""; position: absolute; inset: 8px; border: 1px solid var(--rule); pointer-events: none; }
-.scard:focus-visible { box-shadow: 0 0 0 2px var(--focus); }
+/* ---- flashcard: word on the front, answer on the back ---- */
+.scard { position: relative; cursor: pointer; outline: none; touch-action: pan-y; user-select: none; -webkit-tap-highlight-color: transparent; transition: transform .18s var(--ease), opacity .18s; }
+.scard__inner { display: grid; transform-style: preserve-3d; transition: transform .45s var(--ease); }
+.scard.is-flipped .scard__inner { transform: rotateY(180deg); }
+.scard__face {
+  grid-area: 1 / 1; min-height: 380px; position: relative;
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  background: var(--paper-raised); border: 1px solid var(--rule-strong);
+  box-shadow: 0 1px 0 rgba(43,40,37,.04), 0 18px 40px -26px rgba(43,40,37,.35);
+  padding: var(--space-6) var(--space-5) var(--space-5); text-align: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-3);
+}
+.scard__face::before { content: ""; position: absolute; inset: 8px; border: 1px solid var(--rule); pointer-events: none; }
+.scard__back { transform: rotateY(180deg); justify-content: flex-start; }
+.scard:focus-visible .scard__face { box-shadow: 0 0 0 2px var(--focus); }
 .scard__badge { position: absolute; top: 18px; left: 20px; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--sage); }
-.scard__word { font-size: clamp(56px, 14vw, 84px); line-height: 1.15; letter-spacing: .08em; padding-left: .08em; }
-.scard__reveal { margin-top: var(--space-4); display: flex; flex-direction: column; align-items: center; gap: var(--space-3); }
-.scard__row { display: flex; gap: 8px; align-items: center; }
-.scard__py { font-family: var(--font-pinyin); font-size: 24px; color: var(--rubric); display: flex; align-items: center; gap: 6px; }
+.scard__word { font-size: clamp(64px, 16vw, 96px); line-height: 1.15; letter-spacing: .08em; padding-left: .08em; }
+.scard__tap { position: absolute; bottom: 22px; left: 0; right: 0; font-family: var(--font-display); font-style: italic; font-size: 13px; color: var(--ink-faint); letter-spacing: .04em; }
+.scard__head { display: flex; flex-direction: column; align-items: center; gap: 2px; padding-bottom: var(--space-2); }
+.scard__word--small { font-size: 40px; }
+.scard__py { font-family: var(--font-pinyin); font-size: 22px; color: var(--rubric); display: flex; align-items: center; gap: 6px; }
 .scard__meaning { max-width: 30em; }
 .scard__pos { font-family: var(--font-display); font-style: italic; color: var(--ink-faint); font-size: 14px; }
-.scard__def { font-size: 17px; line-height: 1.5; }
+.scard__def { font-size: 18px; line-height: 1.5; }
 .scard__ctx { font-size: 13.5px; color: var(--ink-soft); margin-top: 6px; }
 .scard__ctx .label { color: var(--rubric); font-size: 9.5px; }
-.scard__verse { border-top: 1px solid var(--rule); padding-top: var(--space-3); max-width: 32em; text-align: left; }
+.scard__verse { border-top: 1px solid var(--rule); padding-top: var(--space-3); max-width: 32em; width: 100%; text-align: left; }
 .scard__verse .zh { font-size: 18px; line-height: 1.9; }
 .scard__verse mark { background: none; color: var(--rubric); border-bottom: 1px solid var(--rubric-soft); }
 .scard__en { font-style: italic; color: var(--ink-soft); font-size: 14.5px; line-height: 1.55; margin-top: 4px; }
 .scard__links { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 8px; font-size: 13px; }
 .scard__ref { color: var(--rubric); font-family: var(--font-display); }
-.scard[data-swipe="got"] { box-shadow: 0 0 0 2px rgba(110,140,100,calc(var(--swipe, 0) * .8)); }
-.scard[data-swipe="forgot"] { box-shadow: 0 0 0 2px rgba(150,50,40,calc(var(--swipe, 0) * .8)); }
+.scard[data-swipe="got"] .scard__face { box-shadow: 0 0 0 2px rgba(110,140,100,calc(var(--swipe, 0) * .8)); }
+.scard[data-swipe="forgot"] .scard__face { box-shadow: 0 0 0 2px rgba(150,50,40,calc(var(--swipe, 0) * .8)); }
 .scard.fly-right { transform: translateX(60%) rotate(6deg); opacity: 0; }
 .scard.fly-left { transform: translateX(-60%) rotate(-6deg); opacity: 0; }
 .scard.fly-down { transform: translateY(30px); opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .scard__inner { transition: none; } }
+.answer-bar.is-front { grid-template-columns: 1fr; }
+.ans--flip b { color: var(--ink); }
 .answer-bar { position: sticky; bottom: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: var(--space-3) 0 calc(var(--space-3) + env(safe-area-inset-bottom)); background: linear-gradient(transparent, var(--paper) 30%); margin-top: var(--space-3); z-index: 5; }
 .ans { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 10px 6px; border: 1px solid var(--rule-strong); background: var(--paper-raised); font: inherit; cursor: pointer; color: var(--ink); }
 .ans b { font-family: var(--font-display); font-weight: 500; font-size: 17px; }
@@ -172,7 +188,7 @@
   .vocab-entry__actions { flex-direction: row; justify-content: flex-start; }
   .sum-row { grid-template-columns: 3.5em 1fr; }
   .sum-row__def, .sum-row .vstatus { grid-column: 2; }
-  .scard { min-height: 320px; padding: var(--space-5) var(--space-4); }
+  .scard__face { min-height: 340px; padding: var(--space-5) var(--space-4); }
 }
 .backup-page { max-width: 640px; }
 .lede-small { color: var(--ink-soft); line-height: 1.6; margin-bottom: var(--space-4); }

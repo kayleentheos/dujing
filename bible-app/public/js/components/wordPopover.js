@@ -68,9 +68,9 @@ function render() {
 
   // ----- save / attach button
   let action;
-  if (!rec) action = h("button.btn.wordpop__save", { type: "button", onclick: doSave }, icon("bookmark"), "Add to Vocabulary");
+  if (!rec) action = h("button.btn.wordpop__save", { type: "button", onclick: doSave }, icon("bookmark"), "Add to Flashcards");
   else if (!vocab.hasRef(rec, verse.id)) action = h("button.btn.wordpop__save", { type: "button", onclick: doSave }, icon("bookmark"), `Add ${c}:${v} to this word`);
-  else action = h("a.btn.wordpop__save.is-saved", { href: `#word-${hexId(rec.id)}` }, "✓ In your vocabulary");
+  else action = h("a.btn.wordpop__save.is-saved", { href: `#word-${hexId(rec.id)}` }, "✓ In your flashcards");
 
   const savedLine = rec ? h("p.wordpop__saved", `Saved · ${rec.refs.length} verse${rec.refs.length > 1 ? "s" : ""}: `,
     rec.refs.map((r, i) => [i ? ", " : "", h("a", { href: `#read-${r.book}-${r.chapter}-${r.verse}` }, `${r.chapter}:${r.verse}`)])) : null;
@@ -142,7 +142,7 @@ async function doSave() {
     entry,
     ref: { verseId: verse.id, book, bookZh, bookEn, chapter: +chapter, verse: +v, zh: verse.zh, en: verse.en, contextual },
   });
-  toast(res.status === "created" ? `Saved ${entry.w} to your vocabulary` : res.status === "attached" ? `Added ${chapter}:${v} to ${entry.w}` : `${entry.w} is already saved`);
+  toast(res.status === "created" ? `Saved ${entry.w} to your flashcards` : res.status === "attached" ? `Added ${chapter}:${v} to ${entry.w}` : `${entry.w} is already saved`);
   pinned = true;
   if (pop) { pop.classList.add("is-pinned"); render(); place(); }
 }

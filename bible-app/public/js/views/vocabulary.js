@@ -63,11 +63,11 @@ export async function renderVocab(root) {
   const list = h("div.vocab-list");
   const count = h("span.folio__meta");
   const undoBar = h("div.undo", { hidden: true });
-  const tabs = h("nav.vtabs", { role: "tablist", "aria-label": "Vocabulary categories" });
+  const tabs = h("nav.vtabs", { role: "tablist", "aria-label": "Flashcard categories" });
   let selecting = false;
   const selected = new Set();
 
-  const search = h("input", { type: "search", value: f.q, placeholder: "Search 汉字, pinyin or English", "aria-label": "Search vocabulary" });
+  const search = h("input", { type: "search", value: f.q, placeholder: "Search 汉字, pinyin or English", "aria-label": "Search flashcards" });
   const sort = h("select", { "aria-label": "Sort" },
     [["recent", "Recently added"], ["oldest", "First added"], ["pinyin", "Pinyin A–Z"], ["due", "Next review"], ["verses", "Most verses"]].map(([v, t]) => h("option", { value: v, selected: f.sort === v }, t)));
   const books = h("select", { "aria-label": "Filter by book" });
@@ -76,7 +76,7 @@ export async function renderVocab(root) {
   const bulkBar = h("div.bulkbar", { hidden: true });
 
   root.replaceChildren(h("main.page.vocab-page",
-    h("div.folio", h("h1.folio__title", "Vocabulary", h("span.zh", "生词本")), count),
+    h("div.folio", h("h1.folio__title", "Flashcards", h("span.zh", "生词卡")), count),
     h("div.study-hero", h("div.study-hero__text"), studyBtn),
     tabs,
     h("div.vocab-tools",
@@ -92,7 +92,7 @@ export async function renderVocab(root) {
     const nDue = sess.cards.length - sess.newIds.length;
     $(".study-hero__text", root).replaceChildren(
       h("div.study-hero__big", all.length ? `${sess.cards.length} card${sess.cards.length === 1 ? "" : "s"} ready` : "No saved words yet"),
-      h("div.study-hero__small", all.length ? `${nDue} due for review · ${sess.newIds.length} new · ${counts.notStudied} not yet studied` : "Tap a word while reading and choose Add to Vocabulary."));
+      h("div.study-hero__small", all.length ? `${nDue} due for review · ${sess.newIds.length} new · ${counts.notStudied} not yet studied` : "Tap a word while reading and choose Add to Flashcards."));
     studyBtn.classList.toggle("is-disabled", !sess.cards.length);
     tabs.replaceChildren(...TABS.map(t => h("button.vtab", { type: "button", role: "tab", "aria-selected": String(f.tab === t), "data-tab": t,
       onclick: () => { f.tab = t; setFilter(f); update(); } }, h("span", srs.LABEL[t]), h("span.zh", srs.LABEL_ZH[t]), h("b", String(counts[t])))));
@@ -111,7 +111,7 @@ export async function renderVocab(root) {
     if (!all.length) {
       list.replaceChildren(h("div.vocab-empty",
         h("p.zh", "生词本还是空的。"),
-        h("p", "Your vocabulary is empty. While reading, tap any Chinese word and choose ", h("em", "Add to Vocabulary"), ". It will appear here with the verse where you found it."),
+        h("p", "You have no flashcards yet. While reading, tap any Chinese word and choose ", h("em", "Add to Flashcards"), ". It will appear here with the verse where you found it."),
         h("a.btn.btn--outline", { href: "#read-JHN-1" }, "Open John 1")));
       return;
     }
@@ -166,7 +166,7 @@ export async function renderWord(root, hex) {
   const id = fromHexId(hex);
   const r = vocab.get(id);
   if (!r) {
-    root.replaceChildren(h("main.page", h("p.notice", "This word is not in your vocabulary (it may have been removed). ", h("a", { href: "#vocab" }, "Back to Vocabulary"), ".")));
+    root.replaceChildren(h("main.page", h("p.notice", "This word is not in your flashcards (it may have been removed). ", h("a", { href: "#vocab" }, "Back to Flashcards"), ".")));
     return;
   }
   let entry = null;
@@ -185,7 +185,7 @@ export async function renderWord(root, hex) {
       r.refs.length > 1 ? h("button.linkish", { type: "button", onclick: async () => { await vocab.detachRef(r.id, x.verseId); renderWord(root, hex); } }, "Detach this verse") : null))));
 
   root.replaceChildren(h("main.page.word-page",
-    h("div.folio", h("a.folio__meta", { href: "#vocab" }, "← Vocabulary"), h("span.folio__meta", `Saved ${fmtDate(r.addedAt)}`)),
+    h("div.folio", h("a.folio__meta", { href: "#vocab" }, "← Flashcards"), h("span.folio__meta", `Saved ${fmtDate(r.addedAt)}`)),
     h("header.word-head",
       h("div.word-head__word.zh", r.word),
       h("div.word-head__py", r.pinyin, r.trad && r.trad !== r.word ? h("span.zh.faint", `  ${r.trad}`) : null),
@@ -203,7 +203,7 @@ export async function renderWord(root, hex) {
       verses),
     h("div.word-actions",
       h("a.btn.btn--outline", { href: "#study-session", onclick: () => sessionStorage.setItem("dujing:studyOnly", r.id) }, "Study this word now"),
-      h("button.btn", { type: "button", onclick: async () => { await vocab.removeMany([r.id]); go({ name: "vocab" }); } }, "Remove from vocabulary")),
+      h("button.btn", { type: "button", onclick: async () => { await vocab.removeMany([r.id]); go({ name: "vocab" }); } }, "Remove from flashcards")),
     h("p.word-src", (entry && entry.kind === "dictionary") ? "Definitions: CC-CEDICT (CC BY-SA 4.0)." : "")));
   scrollTo(0, 0);
 }
@@ -215,81 +215,88 @@ export async function renderStudy(root) {
   const all = vocab.all();
   const plan = only && vocab.get(only) ? { cards: [only], newIds: vocab.get(only).srs && vocab.get(only).srs.reps ? [] : [only] } : srs.buildSession(all);
   if (!plan.cards.length) {
-    root.replaceChildren(h("main.page.cards-page", h("div.folio", h("h1.folio__title", "Study", h("span.zh", "复习")), h("a.folio__meta", { href: "#vocab" }, "← Vocabulary")),
-      h("p.notice", all.length ? "Nothing is due right now — every word is scheduled for later. Come back tomorrow, or add new words while reading." : "No saved words yet. Tap a word while reading and choose “Add to Vocabulary”.")));
+    root.replaceChildren(h("main.page.cards-page", h("div.folio", h("h1.folio__title", "Study", h("span.zh", "复习")), h("a.folio__meta", { href: "#vocab" }, "← Flashcards")),
+      h("p.notice", all.length ? "Nothing is due right now — every word is scheduled for later. Come back tomorrow, or add new words while reading." : "No saved words yet. Tap a word while reading and choose “Add to Flashcards”.")));
     return;
   }
   const queue = [...plan.cards];
   const results = new Map();          // id -> first answer this session
   const requeued = new Set();
-  let step = 0, current = null;
+  let current = null;
 
   const progress = h("div.sess-progress", h("i"));
   const counter = h("span.sess-count");
   const stage = h("div.card-stage");
-  const answers = h("div.answer-bar",
+  const grades = [
     h("button.ans.ans--forgot", { type: "button", onclick: () => respond("forgot"), title: "1 · or swipe left" }, h("b", "Forgot"), h("span.zh", "忘了")),
     h("button.ans.ans--almost", { type: "button", onclick: () => respond("almost"), title: "2" }, h("b", "Almost"), h("span.zh", "差不多")),
-    h("button.ans.ans--got", { type: "button", onclick: () => respond("got"), title: "3 · or swipe right" }, h("b", "Got it!"), h("span.zh", "记得")));
+    h("button.ans.ans--got", { type: "button", onclick: () => respond("got"), title: "3 · or swipe right" }, h("b", "Got it!"), h("span.zh", "记得"))];
+  const flipBtn = h("button.ans.ans--flip", { type: "button", onclick: () => flip(), title: "Space" }, h("b", "Flip card"), h("span.zh", "翻卡"));
+  const answers = h("div.answer-bar");
+  let flipped = false;
   root.replaceChildren(h("main.page.cards-page.study-page",
     h("div.folio", h("h1.folio__title", "Study", h("span.zh", "复习")), h("a.folio__meta", { href: "#vocab" }, "End session")),
     h("div.sess-top", counter, progress),
     stage, answers,
-    h("p.card-hint.faint", "Tap the card to reveal step by step · 1 Forgot · 2 Almost · 3 Got it · swipe left / right on a phone")));
+    h("p.card-hint.faint", "Tap the card (or Space) to flip it · then 1 Forgot · 2 Almost · 3 Got it · on a phone, swipe left or right")));
 
   function show() {
     const id = queue[0];
     current = vocab.get(id);
     if (!current) { queue.shift(); return queue.length ? show() : finish(); }
-    step = 0;
+    flipped = false;
+    paintAnswers();
     const done = plan.cards.length - queue.filter(x => plan.cards.includes(x) && !results.has(x)).length;
     counter.textContent = `${Math.min(done + 1, plan.cards.length)} / ${plan.cards.length}${requeued.size ? ` · ${[...requeued].filter(x => queue.includes(x)).length} to repeat` : ""}`;
     $("i", progress).style.width = `${(results.size / plan.cards.length) * 100}%`;
     stage.replaceChildren(card(current));
   }
 
+  // A two-sided flashcard: the word on the front; pinyin, meaning and the verse on the back.
   function card(r) {
     const ref = r.refs.find(x => x.verseId === r.firstRef) || r.refs[0];
     const isNew = plan.newIds.includes(r.id) && !results.has(r.id);
-    const el = h("div.scard", { tabindex: "0", role: "group", "aria-label": `Flashcard ${r.word}` },
+    const front = h("div.scard__face.scard__front", { "aria-hidden": "false" },
       isNew ? h("span.scard__badge", "New") : null,
       h("div.scard__word.zh", r.word),
-      h("div.scard__reveal"));
-    el.addEventListener("click", e => { if (e.target.closest("a, button")) return; reveal(); });
-    attachSwipe(el);
-    paintReveal(el, r, ref);
-    return el;
-  }
-
-  function paintReveal(el, r, ref) {
-    const box = $(".scard__reveal", el);
-    const parts = [];
-    parts.push(step >= 1
-      ? h("div.scard__py", r.pinyin, " ", speakBtn(r, { label: false }))
-      : h("div.scard__row", h("button.btn.btn--outline.reveal-step", { type: "button", onclick: reveal }, "Show pinyin"), speakBtn(r, { label: false })));
-    if (step >= 2) {
-      parts.push(h("div.scard__meaning",
+      h("div.scard__tap", "Tap to flip"));
+    const back = h("div.scard__face.scard__back", { "aria-hidden": "true" },
+      h("div.scard__head",
+        h("div.scard__word.scard__word--small.zh", r.word),
+        h("div.scard__py", r.pinyin, " ", speakBtn(r, { label: false }))),
+      h("div.scard__meaning",
         r.pos ? h("div.scard__pos", r.pos) : null,
         h("p.scard__def", r.definition),
-        ref && ref.contextual ? h("p.scard__ctx", h("span.label", `In ${ref.bookZh} ${ref.chapter}:${ref.verse} `), ref.contextual) : null));
-    } else if (step >= 1) parts.push(h("button.btn.btn--outline.reveal-step", { type: "button", onclick: reveal }, "Show meaning"));
-    if (step >= 3 && ref) {
-      parts.push(h("div.scard__verse",
+        ref && ref.contextual ? h("p.scard__ctx", h("span.label", `In ${ref.bookZh} ${ref.chapter}:${ref.verse} `), ref.contextual) : null),
+      ref ? h("div.scard__verse",
         h("p.zh", highlight(ref.zh, r.word)),
         h("p.scard__en", ref.en),
         h("div.scard__links",
           h("a.scard__ref", { href: `#read-${ref.book}-${ref.chapter}-${ref.verse}`, onclick: () => sessionStorage.setItem("dujing:focusWord", r.id) }, `${ref.bookZh} ${ref.chapter}:${ref.verse} · ${ref.bookEn} ${ref.chapter}:${ref.verse}`),
           h("a.linkish", { href: `#word-${hexId(r.id)}` }, "Dictionary entry")),
-        r.refs.length > 1 ? h("p.faint", { style: { fontSize: "12px", marginTop: "4px" } }, `+ ${r.refs.length - 1} more verse${r.refs.length > 2 ? "s" : ""}`) : null));
-    } else if (step >= 2) parts.push(h("button.btn.btn--outline.reveal-step", { type: "button", onclick: reveal }, "Show verse"));
-    box.replaceChildren(...parts);
+        r.refs.length > 1 ? h("p.faint", { style: { fontSize: "12px", marginTop: "4px" } }, `+ ${r.refs.length - 1} more verse${r.refs.length > 2 ? "s" : ""}`) : null) : null);
+    const el = h("div.scard", { tabindex: "0", role: "button", "aria-label": `Flashcard ${r.word}. Press to flip.`, "aria-pressed": "false" },
+      h("div.scard__inner", front, back));
+    el.addEventListener("click", e => { if (e.target.closest("a, button")) return; flip(); });
+    attachSwipe(el);
+    return el;
   }
 
-  function reveal() {
-    if (!current || step >= 3) return;
-    step++;
+  function flip() {
+    if (!current) return;
+    flipped = !flipped;
     const el = $(".scard", stage);
-    paintReveal(el, current, current.refs.find(x => x.verseId === current.firstRef) || current.refs[0]);
+    el.classList.toggle("is-flipped", flipped);
+    el.setAttribute("aria-pressed", String(flipped));
+    $(".scard__front", el).setAttribute("aria-hidden", String(flipped));
+    $(".scard__back", el).setAttribute("aria-hidden", String(!flipped));
+    paintAnswers();
+  }
+
+  // before the flip: one Flip button; after: Forgot / Almost / Got it
+  function paintAnswers() {
+    answers.classList.toggle("is-front", !flipped);
+    answers.replaceChildren(...(flipped ? grades : [flipBtn]));
   }
 
   async function respond(result) {
@@ -306,7 +313,7 @@ export async function renderStudy(root) {
 
   function attachSwipe(el) {
     let x0 = null, dx = 0, pid = null;
-    el.addEventListener("pointerdown", e => { if (e.pointerType === "mouse" || e.target.closest("a, button")) return; x0 = e.clientX; dx = 0; pid = e.pointerId; });
+    el.addEventListener("pointerdown", e => { if (!flipped || e.pointerType === "mouse" || e.target.closest("a, button")) return; x0 = e.clientX; dx = 0; pid = e.pointerId; });
     el.addEventListener("pointermove", e => {
       if (x0 == null || e.pointerId !== pid) return;
       dx = e.clientX - x0;
@@ -330,7 +337,8 @@ export async function renderStudy(root) {
 
   const onKey = e => {
     if (e.target.closest("input, textarea, select") || !current) return;
-    if (e.key === " " || e.key === "Enter") { e.preventDefault(); reveal(); }
+    if (e.key === " " || e.key === "Enter") { if (e.target.closest("a, button:not(.scard)")) return; e.preventDefault(); flip(); }
+    if (!flipped) return;
     if (e.key === "1") respond("forgot");
     if (e.key === "2") respond("almost");
     if (e.key === "3") respond("got");
@@ -369,12 +377,12 @@ export function renderSummary(root, initial = "all-session") {
   const reviewed = last ? last.got.length + last.almost.length + last.forgot.length : 0;
   const again = srs.buildSession(all).cards.length;
   root.replaceChildren(h("main.page.summary-page",
-    h("div.folio", h("h1.folio__title", "Session complete", h("span.zh", "复习完成")), h("a.folio__meta", { href: "#vocab" }, "← Vocabulary")),
+    h("div.folio", h("h1.folio__title", "Session complete", h("span.zh", "复习完成")), h("a.folio__meta", { href: "#vocab" }, "← Flashcards")),
     h("p.sum-lede", last ? `You reviewed ${reviewed} word${reviewed === 1 ? "" : "s"}${last.newIds.length ? `, ${last.newIds.length} of them new` : ""}. Forgotten words are on your Review list and will come back soon.` : "No session yet."),
     chips, list,
     h("div.word-actions",
       again ? h("a.btn.btn--primary", { href: "#study-session" }, `Study ${again} more`) : null,
-      h("a.btn.btn--outline", { href: "#vocab" }, "Back to Vocabulary"),
+      h("a.btn.btn--outline", { href: "#vocab" }, "Back to Flashcards"),
       h("a.btn", { href: "#read-JHN-1" }, "Keep reading"))));
   scrollTo(0, 0);
 }

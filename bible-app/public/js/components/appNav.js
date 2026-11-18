@@ -8,8 +8,8 @@ import * as store from "../core/store.js";
 
 const ITEMS = [
   { id: "bible", href: "#home", icon: "bible", en: "Bible", short: "Bible", zh: "圣经" },
-  { id: "plans", href: "#plans", icon: "plans", en: "Reading Plans", short: "Plans", zh: "计划" },
   { id: "notebook", href: "#notebook", icon: "notebook", en: "My Notebook", short: "Notebook", zh: "笔记本" },
+  { id: "plans", href: "#plans", icon: "plans", en: "Reading Plans", short: "Plans", zh: "计划" },
 ];
 // which destination each route belongs to
 const SECTION = {

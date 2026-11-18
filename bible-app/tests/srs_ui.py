@@ -28,19 +28,24 @@ async def main():
 
         await page.click(".study-btn"); await page.wait_for_selector(".scard")
         order = []
-        # progressive reveal on first card
-        await page.click(".scard__word"); s1 = await page.inner_text(".scard__reveal")
-        await page.click(".scard__word"); s2 = await page.inner_text(".scard__reveal")
-        await page.click(".scard__word"); s3 = await page.inner_text(".scard__reveal")
-        check("Show meaning" in s1 and "Show verse" in s2 and "Dictionary entry" in s3, "progressive reveal: pinyin → meaning → verse → dictionary link")
-        check(await page.is_visible(".ans--forgot") and await page.is_visible(".ans--got"), "answer buttons always visible")
+        # flashcard: front = word; one flip shows everything; grades only after flipping
+        check(await page.is_visible(".ans--flip") and not await page.is_visible(".ans--got"), "front: Flip button, no grades yet")
+        await page.click(".scard"); await page.wait_for_timeout(500)
+        back = await page.inner_text(".scard__back")
+        check("Dictionary entry" in back and await page.is_visible(".ans--forgot") and await page.is_visible(".ans--got") and not await page.is_visible(".ans--flip"),
+              "one flip shows pinyin, meaning, verse and dictionary link, then Forgot / Almost / Got it")
+        await page.click(".scard"); await page.wait_for_timeout(500)
+        check(await page.get_attribute(".scard", "aria-pressed") == "false" and await page.is_visible(".ans--flip"), "tap again flips back to the front")
+        await page.keyboard.press("3"); await page.wait_for_timeout(200)
+        check(await page.get_attribute(".scard", "aria-pressed") == "false", "grading keys do nothing before the card is flipped")
         answers = ["forgot", "almost", "got", "got"]
         for a in answers:
-            order.append(await page.inner_text(".scard__word"))
+            order.append(await page.inner_text(".scard__front .scard__word"))
+            await page.keyboard.press(" "); await page.wait_for_timeout(120)
             await page.click(f".ans--{a}"); await page.wait_for_timeout(260)
         # forgotten word comes back once
-        check(await page.is_visible(".scard") and await page.inner_text(".scard__word") == order[0], f"forgotten word {order[0]} returns before the session ends")
-        await page.keyboard.press("3"); await page.wait_for_timeout(300)
+        check(await page.is_visible(".scard") and await page.inner_text(".scard__front .scard__word") == order[0], f"forgotten word {order[0]} returns before the session ends")
+        await page.keyboard.press(" "); await page.wait_for_timeout(120); await page.keyboard.press("3"); await page.wait_for_timeout(300)
         check("study-summary" in page.url, "summary after the last card")
         chips = await page.evaluate("Object.fromEntries([...document.querySelectorAll('.sum-chip')].map(c=>[c.dataset.cat, +c.querySelector('b').textContent]))")
         check(chips == {"new": 4, "got": 2, "almost": 1, "forgot": 1, "notStudied": 0, "all": 4}, f"summary counts {chips}")
@@ -77,17 +82,20 @@ async def main():
         w, _ = await word_el(mp, "JHN.1.4", "生命"); await w.tap(); await mp.click(".wordpop__save"); await mp.wait_for_timeout(100)
         w, _ = await word_el(mp, "JHN.1.14", "恩典"); await mp.keyboard.press("Escape"); await w.tap(); await mp.click(".wordpop__save"); await mp.wait_for_timeout(100)
         await mp.goto(f"{BASE}#study-session"); await mp.wait_for_selector(".scard")
+        await mp.tap(".scard"); await mp.wait_for_timeout(500)
         vis = await mp.evaluate("(() => { const r = document.querySelector('.ans--got').getBoundingClientRect(); return r.bottom <= innerHeight && r.top >= 0; })()")
-        check(vis, "mobile: answer buttons visible without scrolling")
+        check(vis, "mobile: after a tap flips the card, answer buttons visible without scrolling")
         async def swipe(dx):
             box = await mp.locator(".scard").bounding_box(); x, y = box["x"] + box["width"] / 2, box["y"] + 80
             await mp.evaluate("""([x,y,dx]) => { const el = document.querySelector('.scard');
               const ev = (t, cx) => el.dispatchEvent(new PointerEvent(t, {pointerId: 7, pointerType: 'touch', clientX: cx, clientY: y, bubbles: true}));
               ev('pointerdown', x); for (let i = 1; i <= 6; i++) ev('pointermove', x + dx * i / 6); ev('pointerup', x + dx); }""", [x, y, dx])
             await mp.wait_for_timeout(350)
-        first = await mp.inner_text(".scard__word"); await swipe(-160)
-        second = await mp.inner_text(".scard__word"); await swipe(160)
-        again = await mp.inner_text(".scard__word")
+        first = await mp.inner_text(".scard__front .scard__word"); await swipe(-160)
+        second = await mp.inner_text(".scard__front .scard__word"); await swipe(160)
+        check(await mp.inner_text(".scard__front .scard__word") == second, "mobile: no swiping away a card you haven't flipped")
+        await mp.tap(".scard"); await mp.wait_for_timeout(500); await swipe(160)
+        again = await mp.inner_text(".scard__front .scard__word")
         check(first != second and again == first, f"mobile: swipe left = Forgot (word repeats), swipe right = Got it ({first},{second},{again})")
         recs = {r["word"]: r for r in await mp.evaluate(vocab_js)}
         check(recs[first]["srs"]["history"][0]["result"] == "forgot" and recs[second]["srs"]["history"][0]["result"] == "got", "mobile: swipes recorded")

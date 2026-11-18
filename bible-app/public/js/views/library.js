@@ -6,6 +6,8 @@ import * as store from "../core/store.js";
 import { go } from "../core/router.js";
 import * as vocab from "../data/vocab.js";
 import * as highlights from "../data/highlights.js";
+import * as srs from "../data/srs.js";
+import { hexId } from "../components/wordPopover.js";
 
 const PLANS = [
   { id: "john21", title: "The Gospel of John in 21 days", zh: "二十一天读约翰福音", desc: "One chapter a day, 约翰福音 1–21.", book: "JHN", days: 21 },
@@ -120,27 +122,50 @@ function plansPage(page, canon, progress) {
 
 function notebookPage(page) {
   page.append(h("div.folio", h("h1.folio__title", "My Notebook", h("span.zh", "我的笔记本")), h("span.folio__meta", "Your words, highlights and data")));
-  const nb = h("div.ledger",
-    vocabItem(),
-    nbItem("Bookmarked verses", "书签", "Verses you mark to return to.", "#study", "phase-4"),
-    nbItem("Personal annotations", "笔记", "Reflections attached to verses, searchable by book.", "#study", "phase-4"),
-    hlItem(),
-    h("a.ledger__item", { href: "#backup" }, h("div.ledger__title", h("span", "Back up my data")), h("p.ledger__desc", h("span.zh", "备份"), " · Download a complete copy of your words, review history, highlights, settings and progress.")));
-
-  page.append(nb);
+  page.append(flashcardsPanel());
+  page.append(h("section.section.nb-more", head("", "More in your notebook", "更多笔记"),
+    h("div.ledger",
+      hlItem(),
+      nbItem("Bookmarked verses", "书签", "Verses you mark to return to.", "#study", "phase-4"),
+      nbItem("Personal annotations", "笔记", "Reflections attached to verses, searchable by book.", "#study", "phase-4"),
+      h("a.ledger__item", { href: "#backup" }, h("div.ledger__title", h("span", "Back up my data")), h("p.ledger__desc", h("span.zh", "备份"), " · Download a complete copy of your words, review history, highlights, settings and progress.")))));
   return page;
 }
 
-function head(num, title, zh, aside) {
-  return h("div.section__head", h("span.section__num", num), h("h2.section__title", title, h("span.zh", zh)), aside ? h("span.section__aside", aside) : null);
+// The heart of the notebook: today's flashcards.
+function flashcardsPanel() {
+  const all = vocab.all(), now = Date.now();
+  const sess = srs.buildSession(all, { now });
+  const nNew = sess.newIds.length, nDue = sess.cards.length - nNew;
+  const count = k => all.filter(r => srs.categories(r, now).has(k)).length;
+  const recent = [...all].sort((a, b) => (b.addedAt || "").localeCompare(a.addedAt || "")).slice(0, 8);
+  const title = h("div.fc-panel__title", h("h2", "Flashcards"), h("span.zh", "生词卡"));
+  if (!all.length) {
+    return h("section.fc-panel.is-empty", title,
+      h("div.fc-panel__big", "No flashcards yet"),
+      h("p.fc-panel__lede", "While reading, tap any Chinese word and choose ", h("em", "Add to Flashcards"), ". Each card keeps the verse where you found it."),
+      h("div.fc-panel__actions", h("a.btn.btn--primary", { href: "#home" }, "Start reading")));
+  }
+  return h("section.fc-panel", title,
+    h("div.fc-panel__body",
+      h("div.fc-panel__summary",
+        h("div.fc-panel__big", sess.cards.length ? `${sess.cards.length} card${sess.cards.length === 1 ? "" : "s"} ready` : "All caught up"),
+        h("p.fc-panel__lede", sess.cards.length ? `${nDue} due for review · ${nNew} new` : "Nothing is due right now. New reviews appear as words come due."),
+        h("div.fc-panel__stats",
+          stat(all.length, "words", "生词"), stat(count("strong"), "strong", "已掌握"), stat(count("weak") + count("review"), "need work", "不熟"), stat(count("notStudied"), "not studied", "未学习")),
+        h("div.fc-panel__actions",
+          h("a.btn.btn--primary.fc-study", { href: "#study-session", class: sess.cards.length ? "" : "is-disabled" }, "Study now"),
+          h("a.btn.btn--outline", { href: "#vocab" }, "All flashcards"))),
+      h("div.fc-panel__deck", { "aria-label": "Recently added" },
+        h("div.fc-panel__decklabel.smallcaps", "Recently added"),
+        h("div.fc-minis", recent.map(r => h("a.fc-mini", { href: `#word-${hexId(r.id)}`, title: r.definition },
+          h("span.fc-mini__word.zh", r.word), h("span.fc-mini__py", r.pinyin)))))));
 }
 
-function vocabItem() {
-  const all = vocab.all();
-  const links = all.reduce((n, r) => n + r.refs.length, 0);
-  return h("a.ledger__item", { href: "#vocab" },
-    h("div.ledger__title", h("span", "Saved vocabulary"), h("span.count", all.length ? `${all.length} words` : "")),
-    h("p.ledger__desc", h("span.zh", "生词本"), " · ", all.length ? `${links} verse links · review with flashcards.` : "Tap any word while reading and choose Add to Vocabulary."));
+function stat(n, en, zh) { return h("div.fc-stat", h("b", String(n)), h("span", en), h("span.zh", zh)); }
+
+function head(num, title, zh, aside) {
+  return h("div.section__head", h("span.section__num", num), h("h2.section__title", title, h("span.zh", zh)), aside ? h("span.section__aside", aside) : null);
 }
 
 function hlItem() {

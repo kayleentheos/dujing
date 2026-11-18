@@ -53,7 +53,7 @@ export async function renderReader(root, header, route) {
       h("a.btn.btn--icon", { href: "#home", "aria-label": "Library" }, icon("book"))),
     h("div.masthead__title", titleBtn),
     h("div.masthead__side.masthead__side--end", listenBtn, revealBtn,
-      h("a.btn.btn--icon", { href: "#vocab", "aria-label": "Vocabulary" }, icon("notebook")),
+      h("a.btn.btn--icon", { href: "#vocab", "aria-label": "Flashcards", title: "Flashcards" }, icon("notebook")),
       h("button.btn.btn--icon", { type: "button", onclick: openSettings, "aria-label": "Reading settings" }, icon("type"))));
 
   // ---------------- body

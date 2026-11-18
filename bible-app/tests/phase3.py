@@ -117,12 +117,12 @@ async def main():
         w2, _ = await word_el(page, "JHN.1.4", "生命")
         await w2.click(); await page.wait_for_timeout(100)
         btn = await page.inner_text(".wordpop__save")
-        check("In your vocabulary" in btn, "already-saved word shows 'In your vocabulary', not a second Add")
+        check("In your flashcards" in btn, "already-saved word shows 'In your flashcards', not a second Add")
         await page.keyboard.press("Escape")
         # 5 navigate away; 6 open vocabulary; 7 still there
         await page.goto(f"{BASE}#home"); await page.wait_for_selector(".continue__book")
         await page.reload(); await page.wait_for_selector(".continue__book")
-        await page.click('.appnav__item[data-id="notebook"]'); await page.click('a.ledger__item[href="#vocab"]'); await page.wait_for_selector(".vocab-entry")
+        await page.click('.appnav__item[data-id="notebook"]'); await page.click('.fc-panel a[href="#vocab"]'); await page.wait_for_selector(".vocab-entry")
         entries = await page.evaluate("[...document.querySelectorAll('.vocab-entry__word')].map(e=>e.textContent)")
         check(entries == ["生命"], f"Vocabulary lists the word after leaving and reloading: {entries}")
         txt = await page.inner_text(".vocab-entry")
@@ -155,12 +155,14 @@ async def main():
 
         # 8-9 flashcards (spaced-repetition session with progressive reveal)
         await page.goto(f"{BASE}#study-session"); await page.wait_for_selector(".scard")
-        front = await page.inner_text(".scard")
+        front = await page.inner_text(".scard__front")
         check("生命" in front and "shēng" not in front and "life" not in front, "card front: word only, no answer")
-        for _ in range(3): await page.click(".scard__word"); await page.wait_for_timeout(60)
-        back = await page.inner_text(".scard")
+        check(await page.is_visible(".ans--flip") and not await page.is_visible(".ans--got"), "before flipping: only the Flip button")
+        await page.click(".scard__front .scard__word"); await page.wait_for_timeout(500)
+        check(await page.get_attribute(".scard", "aria-pressed") == "true", "one tap flips the card")
+        back = await page.inner_text(".scard__back")
         check("shēng mìng" in back and "life" in back and "noun" in back and "生命在他里头" in back and "In him was life" in back and "1:4" in back,
-              "card fully revealed: pinyin, definition, part of speech, verse and reference")
+              "back of the card: pinyin, definition, part of speech, verse and reference, all at once")
         await page.click(".ans--got"); await page.wait_for_timeout(400)
         check("study-summary" in page.url, "session ends with a summary")
         # 10 back to the Bible: still saved
