@@ -24,7 +24,7 @@ bible-app/          the live app (vanilla JS, published as a Claude artifact)
 dujing/             the future web app (Next.js + TypeScript, npm workspaces) — Phase 1 done, Phase 2 (accounts) not started
 ```
 Live website: **https://dujing-public.vercel.app** — Vercel project `dujing-public`, Root Directory `bible-app/public`, preset Other, no build; every push to `main` redeploys automatically (saves to the browser; no accounts yet).
-Claude artifact (private, synced to Kayleen's Claude account; updated only by hand) slug: `c0ef4150-c2f3-4cfa-8fbb-28a276ac63bf` (multi-file; publish with `publish_files`; last published version 1795023423-b68f).
+Claude artifact (private, synced to Kayleen's Claude account; updated only by hand) slug: `c0ef4150-c2f3-4cfa-8fbb-28a276ac63bf` (multi-file; publish with `publish_files`; last published version 1795327516-d422).
 
 ## Status (2026-11-18)
 | Book | Text + words + dictionary | Audio |
