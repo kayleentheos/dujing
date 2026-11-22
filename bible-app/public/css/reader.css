@@ -300,3 +300,4 @@ rt {
 .hl-row { display: grid; grid-template-columns: 1fr auto auto; gap: 14px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--rule); }
 .hl-row__text { font-size: 19px; line-height: 1.8; text-decoration: none; color: var(--ink); }
 .hl-row__ref { font-size: 13px; color: var(--rubric); font-variant-numeric: tabular-nums; }
+.abar__btn svg, .abar__btn * { pointer-events: none; }

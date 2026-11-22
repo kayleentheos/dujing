@@ -57,6 +57,9 @@ async def main():
         check(mism == 0 and len(seen) >= 3, f"highlight follows the audio verse by verse (seen {seen}, mismatches {mism})")
 
         # pause keeps highlight; resume continues from the same point
+        stable = await page.evaluate("""(async () => { const b = document.querySelector('.abar__play'); const a = b.firstElementChild;
+          await new Promise(r => setTimeout(r, 600)); return window.__dujingAudio.snapshot().playing && b.firstElementChild === a; })()""")
+        check(stable, "while playing, the pause button is not redrawn (a tap on a phone isn't lost)")
         await page.click(".abar__play"); await page.wait_for_timeout(300)
         a = await page.evaluate(SNAP); await page.wait_for_timeout(800); a2 = await page.evaluate(SNAP)
         check(not a["playing"] and a["hl"] == [a["id"]] and abs(a2["t"] - a["t"]) < 0.01, f"pause freezes time and keeps the highlight {a['id']}")

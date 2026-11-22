@@ -39,6 +39,10 @@ export function createAudioBar({ bookZh, bookEn, onClose, onFollowEnglish }) {
       h("div.abar__side.abar__side--end", rateBtn)),
     note);
 
+  // Only touch the DOM when something visible changed: the player reports ~60×/s
+  // while playing, and replacing the button's icon under a finger makes iPhone
+  // Safari drop the tap (the pause button then seems dead).
+  let shownPlaying = null, shownNote = null;
   const unsub = player.subscribe(s => {
     const seg = s.segment;
     const [, c, v] = seg ? seg.verseId.split(".") : [];
@@ -46,13 +50,20 @@ export function createAudioBar({ bookZh, bookEn, onClose, onFollowEnglish }) {
     time.textContent = s.track ? `${fmt(s.elapsed)} / ${fmt(s.track.total)}` : "";
     fill.style.width = (s.progress * 100).toFixed(2) + "%";
     progress.setAttribute("aria-valuenow", String(Math.round(s.progress * 100)));
-    playBtn.replaceChildren(ico(s.playing ? "pause" : "play", 24));
-    playBtn.setAttribute("aria-label", s.playing ? "Pause" : "Play");
+    const busy = s.playing || !!s.loading;
+    if (busy !== shownPlaying) {
+      shownPlaying = busy;
+      playBtn.replaceChildren(ico(busy ? "pause" : "play", 24));
+      playBtn.setAttribute("aria-label", busy ? "Pause" : "Play");
+    }
     playBtn.classList.toggle("is-loading", !!s.loading);
     rateBtn.textContent = `${s.rate}×`;
     modeBtn.textContent = s.mode === "chapter" ? "Chapter" : "One verse";
     modeBtn.title = s.mode === "chapter" ? "Plays on through the chapter (tap for one verse at a time)" : "Stops after each verse (tap to play the whole chapter)";
     const m = s.track && s.track.meta;
+    const noteKey = `${s.error}|${m && m.kind}|${m && m.checked}|${m && m.review && m.review.status}`;
+    if (noteKey === shownNote) return;
+    shownNote = noteKey;
     note.replaceChildren(h("span",
       s.error ? h("span.abar__err", s.error + " ") : null,
       m ? (m.kind === "synthesized"

@@ -78,8 +78,11 @@ export async function play() {
     emit();
   } else startSegment(state.index);
 }
-export function pause() { audio.pause(); state.playing = false; emit(); }
-export function toggle() { state.playing ? pause() : play(); }
+export function pause() {
+  if (state.loading) { loadToken++; state.loading = false; }   // cancel a verse that is still starting
+  audio.pause(); state.playing = false; emit();
+}
+export function toggle() { (state.playing || state.loading) ? pause() : play(); }
 export function stop() { loadToken++; audio.pause(); state.playing = false; state.time = 0; }
 export function next() { if (state.track) startSegment(Math.min(state.index + 1, state.track.segments.length - 1), { autoplay: true }); }
 export function prev() {
